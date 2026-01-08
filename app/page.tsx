@@ -1,7 +1,11 @@
 export default function Home() {
     return (
         <section>
-            <h2>Home page</h2>
+            <div className="container">
+                <div>
+                    <h2 className="">Home page</h2>
+                </div>
+            </div>
         </section>
     );
 }

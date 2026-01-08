@@ -1,4 +1,23 @@
 @import "tailwindcss";
+@theme {
+
+    /* ============= breakpoint =============== */
+    --breakpoint-1xl: 82rem; /* 1312px */
+    /* =============== color =============== */
+    --color-body: #262626;
+    --color-title: #0A0A0A;
+    --color-gray: #737373;
+    --color-gray-dark: #D9D9D9;
+    --color-red: #A71E22;
+}
+
+@utility container {
+    @apply mx-auto px-4;
+
+    @media (width >=82rem) {
+        max-width: var(--breakpoint-1xl);
+    }
+}
 
 body {
     font-family: var(--font-noto-serif-bengali), serif;
