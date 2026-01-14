@@ -1,9 +1,6 @@
 @import "tailwindcss";
 @theme {
-
-    /* ============= breakpoint =============== */
-    --breakpoint-1xl: 82rem; /* 1312px */
-    /* =============== color =============== */
+    --breakpoint-1xl: 82rem;
     --color-body: #262626;
     --color-title: #0A0A0A;
     --color-gray: #737373;
@@ -19,6 +16,54 @@
     }
 }
 
+
+html {
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+  overflow-x: hidden;
+}
+
+html::-webkit-scrollbar {
+  display: none; 
+}
+ 
+@layer utilities {
+
+  .scrollbar-hide::-webkit-scrollbar {
+      display: none;
+  }
+  .scrollbar-hide {
+      -ms-overflow-style: none; 
+      scrollbar-width: none;   
+  }
+}
+
+
 body {
     font-family: var(--font-noto-serif-bengali), serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--color-body);
+    font-weight: 400;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--font-noto-serif-bengali), serif;
+    @apply text-title
+}
+
+h1{
+    @apply text-4xl leading-12 font-bold 
+}
+h2{
+    @apply text-[32px] leading-10 font-semibold 
+}
+h3{
+    @apply text-2xl leading-8 font-semibold 
+}
+h4{
+    @apply text-xl leading-7 font-semibold 
+}
+h5{
+    @apply text-base leading-6 font-semibold
 }
