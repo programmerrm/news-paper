@@ -1,6 +1,6 @@
 import HeroSideberImage from "../../assets/image/hero-sidebar.png";
 import BanarImage from "../../assets/image/banner-image.jpg";
-import NewsItem from "../../components/news-items/newsItem";
+import NewsItem from "../news-items/newsItem";
 import HeroTopNews from "./HeroTopNews";
 
 
@@ -52,6 +52,7 @@ export default function HeroSection() {
                                 image={HeroSideberImage}
                                 title={"ইতিহাস গড়ল ভারত! দক্ষিণ আফ্রিকাকে হারিয়ে নারী বিশ্বকাপ জয়"}
                                 time={"1 min ago"}
+                                href="#"
                                 />
                         </div>
                         <div className="flex gap-3 pb-5">
@@ -92,7 +93,7 @@ export default function HeroSection() {
                                 />
                         <div className="flex flex-col xl:flex-row py-6 divide-y xl:divide-y-0 xl:divide-x divide-[#D4D4D4] first:pt-0 last:pb-0">
                             <div className="w-full xl:max-w-1/2 xl:pr-4">
-                                <div className="flex gap-3 pb-2">
+                                <div className="pb-2">
                                     <NewsItem
                                         image={HeroSideberImage}
                                         imageWidth={96}
@@ -100,7 +101,7 @@ export default function HeroSection() {
                                         title={"চূড়ান্ত প্রার্থী তালিকা সময়মতো জানাবে জামায়াত: আমির ডা. শফিকুর রহমান"}
                                         />
                                 </div>
-                                <div className="flex gap-3 pb-5">
+                                <div className=" pb-5">
                                     <NewsItem
                                         content={"সংবাদ পরিবেশনায় পক্ষপাত ও নানা বিতর্কের জেরে পদত্যাগ করলেন ব্রিটিশ গণমাধ্যম বিবিসি'র মহাপরিচালক টিম ডেভি এবং বার্তাপ্রধান ডেবোরাহ টারনেস। রোববার (৯ নভেম্বর) তাঁরা"}
                                         time="1 min ago"
@@ -108,7 +109,7 @@ export default function HeroSection() {
                                 </div>
                             </div>
                             <div className="w-full xl:max-w-1/2 xl:pl-4 xl:mt-0 mt-5">
-                                <div className="flex gap-3 pb-2">
+                                <div className=" pb-2">
                                     <NewsItem
                                         image={HeroSideberImage}
                                         imageWidth={96}
@@ -116,7 +117,7 @@ export default function HeroSection() {
                                         title="চূড়ান্ত প্রার্থী তালিকা সময়মতো জানাবে জামায়াত: আমির ডা. শফিকুর রহমান"
                                         />
                                 </div>
-                                <div className="flex gap-3 xl:pb-5">
+                                <div className=" xl:pb-5">
                                     <NewsItem
                                         content={"সংবাদ পরিবেশনায় পক্ষপাত ও নানা বিতর্কের জেরে পদত্যাগ করলেন ব্রিটিশ গণমাধ্যম বিবিসি'র মহাপরিচালক টিম ডেভি এবং বার্তাপ্রধান ডেবোরাহ টারনেস। রোববার (৯ নভেম্বর) তাঁরা"}
                                         time="1 min ago"

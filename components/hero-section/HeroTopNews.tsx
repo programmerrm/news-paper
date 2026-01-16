@@ -22,12 +22,14 @@ export default function HeroTopNews({
       {/* Content */}
       <div className="w-full sm:max-w-[51.700%] order-2 sm:order-1">
         <h2 className="text-[26px]! leading-8!">
-          {title}
+          <a href="#" className="transition-all hover:text-blue-600">
+            {title}
+          </a>
         </h2>
 
-        <p className="text-xs sm:text-sm leading-5.5 mt-3">
+        <a href="#" className="text-xs sm:text-sm leading-5.5 mt-3">
           {description}
-        </p>
+        </a>
 
         <span className="text-xs sm:text-[13px] text-black/50 mt-4 block">
           {time}
@@ -35,7 +37,7 @@ export default function HeroTopNews({
       </div>
 
       {/* Image */}
-      <figure className="w-full sm:max-w-[45.579%] order-1 sm:order-2">
+      <a href="#" className="w-full sm:max-w-[45.579%] order-1 sm:order-2">
         <Image
           src={image}
           alt={imageAlt}
@@ -50,7 +52,7 @@ export default function HeroTopNews({
             {caption}
           </figcaption>
         )}
-      </figure>
+      </a>
     </div>
   );
 }

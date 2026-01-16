@@ -64,3 +64,15 @@ h4{
 h5{
     @apply text-sm lg:text-base lg:leading-6 font-semibold
 }
+
+.home-slider .swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+  @apply -bottom-1 sm:-bottom-2
+}
+.home-slider .swiper-pagination-bullet-active{
+    @apply bg-red!
+}
+.home-slider .swiper-pagination-bullet{
+    @apply bg-[#FDCBCC] w-2.5 md:w-3.5 h-2.5 md:h-3.5 opacity-100
+}
+

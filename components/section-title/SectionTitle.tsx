@@ -12,7 +12,7 @@ export default function SectionTitle({
 }: SectionTitleProps) {
   return (
         <div className="pb-6 border-b-2 border-[#A1A1A1] flex gap-3 items-center">
-            <h4 className="font-semibold font-inter">{title}</h4>
+            <h4 className="text-xl! lg:text-2xl! font-semibold font-inter">{title}</h4>
             <span className="bg-red w-px h-4" />
             <a
                 href={href}

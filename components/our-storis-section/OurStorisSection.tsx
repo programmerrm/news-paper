@@ -44,7 +44,7 @@ const storisData = [
 
 export default function OurStorisSection() {
   return (
-    <div className="bg-linear-to-b from-[#F0F5F4] to-[#FFFFFF] py-8 lg:py-16">
+    <section className="bg-linear-to-b from-[#F0F5F4] to-[#FFFFFF] py-8 lg:py-16">
         <div className="container">
           <SectionTitle
               title="ওয়ের স্টোরিস"
@@ -62,6 +62,6 @@ export default function OurStorisSection() {
               ))}
           </div>
         </div>
-    </div>
+    </section>
   );
 }

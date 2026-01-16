@@ -10,7 +10,9 @@ type NewsItemProps = {
   imageHeight?: number;
   titleMb?: number;
   isLive?: boolean;
+  timeMt?: number;
 };
+
 
 export default function NewsItem({
   image,
@@ -22,6 +24,7 @@ export default function NewsItem({
   imageHeight = 78,
   titleMb = 4,
   isLive = false,
+  timeMt = 4,
 }: NewsItemProps) {
   return (
     <div className="flex gap-3 py-5 first:pt-0 last:pb-0">
@@ -41,35 +44,39 @@ export default function NewsItem({
       {/* Content */}
       <div className="flex-1">
         {title && (
-          <a href={href}>
-            <h6
-              className="text-sm sm:text-base font-semibold leading-6"
-              style={{ marginBottom: `${titleMb}px` }}
-            >
-                {isLive && (
-                  <>
-                    <span className="inline-flex items-end gap-2 -mb-1">
-                      <span className="relative inline-flex items-end justify-center">
-                        <span className="absolute inline-flex h-3.5 w-3.5 rounded-full bg-red-500 opacity-30 animate-ping"></span>
-                        <span className="relative inline-flex h-3.5 w-3.5 rounded-full bg-red-500"></span>
-                      </span>
-                    </span>
-                    <span className="text-sm sm:text-base font-semibold leading-6 text-[#F50A0A] ml-2 mr-1">লাইভ:</span>
-                  </>
-                )}
+          <h6
+            className="text-sm sm:text-base font-semibold leading-6"
+            style={{ marginBottom: `${titleMb}px` }}
+          >
+            {isLive && (
+              <span className="inline-flex items-center gap-2">
+                <span className="relative inline-flex items-center justify-center">
+                  <span className="absolute inline-flex h-3.5 w-3.5 rounded-full bg-red-500 opacity-30 animate-ping"></span>
+                  <span className="relative inline-flex h-3.5 w-3.5 rounded-full bg-red-500"></span>
+                </span>
+                <span className="text-sm sm:text-base font-semibold text-[#F50A0A] mr-1 -mb-1.5">
+                  লাইভ:
+                </span>
+              </span>
+            )}
+
+            <a href={href} className="transition-all hover:text-blue-700">
               {title}
-            </h6>
-          </a>
+            </a>
+          </h6>
         )}
 
         {content && (
-          <p className="text-xs sm:text-sm text-body">
+          <a href={href} className="text-xs sm:text-sm text-body">
             {content}
-          </p>
+          </a>
         )}
 
         {time && (
-          <span className="text-xs sm:text-[13px] text-black/50 block mt-1">
+          <span
+            className="text-xs sm:text-[13px] text-black/50 block"
+            style={{ marginTop: `${timeMt}px` }}
+          >
             {time}
           </span>
         )}
