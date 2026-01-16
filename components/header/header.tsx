@@ -1,26 +1,14 @@
 import Image, { StaticImageData } from "next/image";
-
 import Logo from "../../assets/logo/logo.svg";
 import TopImage from "../../assets/image/top-image.jpg";
 import hamburgerIcon from "../../assets/logo/hambuger-icon.svg";
 import closeIcon from "../../assets/icon/close.png";
-import searchBlack from "../../assets/icon/search-icon.svg";
 import globeIcon from "../../assets/logo/globe.svg";
 import searchIcon from "../../assets/logo/search.svg";
 import userIcon from "../../assets/logo/user.svg";
-import globeBlack from "../../assets/icon/globe-black.svg";
-import userBlack from "../../assets/icon/user-black.svg";
-import googleIcon from "../../assets/icon/google.svg";
-import arrowIcon from "../../assets/icon/down-arrow.png"
-import CategoryItem from "../mega-menu/CategoryItem";
-import { megaMenuData } from "../../src/data/megaMenuData";
 import TopMenu from "../menu/TopMenu";
 import TopNews, { TopNewsItem } from "../top-news/topNews";
 import TopHeader from "./topHeader";
-import SearchForm from "../form/searchForm";
-import MegaButton from "../button/megaButton";
-import SocialMedia from "../social/socialMedia";
-import LinkItem from "../mega-menu/linkItem";
 
 type IconLink = {
   icon: StaticImageData;
@@ -61,7 +49,7 @@ const socialLinks = [
   {
     href: "#",
     icon: (
-        <svg className="text-red transition-all duration-500 group-hover:text-white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+        <svg className="text-[#FF0000] transition-all duration-500 group-hover:text-white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
             <path fill="currentColor"
                 d="M21.594 7.203a2.5 2.5 0 0 0-1.762-1.766c-1.566-.43-7.83-.437-7.83-.437s-6.265-.007-7.832.404a2.56 2.56 0 0 0-1.766 1.778c-.413 1.566-.417 4.814-.417 4.814s-.004 3.264.406 4.814c.23.857.905 1.534 1.763 1.765 1.582.43 7.83.437 7.83.437s6.265.007 7.831-.403a2.52 2.52 0 0 0 1.767-1.763c.414-1.565.417-4.812.417-4.812s.02-3.265-.407-4.831M9.997 15.005l.005-6 5.207 3.005z" />
         </svg>
@@ -79,27 +67,28 @@ const socialLinks = [
   },
 ];
 const topNewsData: TopNewsItem[] = [
-  { image: TopImage, title: "When Abul Kalam’s life is worth 2.5 bhoris of gold", href: "#" },
-  { image: TopImage, title: "Breaking news headline example", href: "#" },
-  { image: TopImage, title: "Another top news story", href: "#" },
-  { image: TopImage, title: "Yet another important news", href: "#" },
+  { image: TopImage, title: "খালেদা জিয়া ৩ আসনে, তারেক রহমান বগুড়া-৬ এ বিএনপির প্রার্থী", href: "#" },
+  { image: TopImage, title: "খালেদা জিয়া ৩ আসনে, তারেক রহমান বগুড়া-৬ এ বিএনপির প্রার্থী", href: "#" },
+  { image: TopImage, title: "খালেদা জিয়া ৩ আসনে, তারেক রহমান বগুড়া-৬ এ বিএনপির প্রার্থী", href: "#" },
+  { image: TopImage, title: "খালেদা জিয়া ৩ আসনে, তারেক রহমান বগুড়া-৬ এ বিএনপির প্রার্থী", href: "#" },
 ];
   const navItems = [
-    { label: "Latest", href: "#" },
-    { label: "National", href: "#" },
-    { label: "Bangladesh", href: "#" },
-    { label: "Politics", href: "#" },
-    { label: "World", href: "#" },
-    { label: "Economy", href: "#" },
-    { label: "Religion", href: "#" },
-    { label: "Sports", href: "#" },
-    { label: "Entertainment", href: "#" },
-    { label: "Media", href: "#" },
+    { label: "হোম", href: "#" },
+    { label: "সর্বশেষ", href: "#" },
+    { label: "জাতীয়", href: "#" },
+    { label: "বাংলাদেশ", href: "#" },
+    { label: "রাজনীতি", href: "#" },
+    { label: "বিশ্বের খবর", href: "#" },
+    { label: "অর্থনীতি", href: "#" },
+    { label: "ধর্ম", href: "#" },
+    { label: "খেলা", href: "#" },
+    { label: "বিনোদন", href: "#" },
+    { label: "মিডিয়া", href: "#" },
   ];
 
 const iconLinks: IconLink[] = [
   { icon: globeIcon, label: "Bangla", href: "#", showOn: "all" }, 
-  { icon: searchIcon, label: "Search", href: "#", showOn: "md" }, 
+  { icon: searchIcon, label: "সার্চ করুন", href: "#", showOn: "md" }, 
   { icon: userIcon, label: "Profile", href: "#", showOn: "md" },  
 ];
 
@@ -127,76 +116,7 @@ export default function Header() {
                 closeIcon={closeIcon}
                 hamburgerIcon={hamburgerIcon} 
                 />
-            <div className="bg-white absolute top-0 left-0 right-0 -bottom-px z-50 h-screen overflow-y-auto pb-10 hidden">
-                <div className="border-b border-gray py-6">
-                    <div className="max-w-360 mx-auto overflow-hidden">
-                        <div className="container flex items-center justify-between">
-                            <div>
-                                <Image
-                                    src={Logo}
-                                    alt="Hero image"
-                                    width={100}
-                                    height={64}
-                                />
-                            </div>
-                            <div>
-                                <Image
-                                    src={closeIcon}
-                                    alt="Close Icon"
-                                    width={24}
-                                    height={24}
-                                />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="bg-white max-w-360 mx-auto overflow-hidden">
-                    <div className="container">
-                        <div className="flex flex-col lg:flex-row justify-between gap-10">
-                            <div className="pt-12 pb-10 w-full">
-                                {megaMenuData.map((category, index) => (
-                                    <CategoryItem
-                                    key={index}
-                                    title={category.title}
-                                    icon={arrowIcon}
-                                    items={category.items}
-                                    />
-                                ))}
-                            </div>
-                            <div className="relative w-full lg:max-w-88 after:content-[''] after:absolute after:inset-0 lg:after:w-screen after:bg-[#E0EBF0] after:z-10 pl-5 pr-5 lg:pr-0 lg:pl-10 py-12">
-                                <div className="flex flex-col justify-between relative z-20 h-full">
-                                    <div>
-                                        <SearchForm icon={searchBlack} />
-                                        <div className="flex items-center justify-between gap-2 border-b border-[#B6C3C8] mb-6 pb-6">
-                                            <MegaButton icon={globeBlack} label="English"/>
-                                            <MegaButton icon={userBlack} label="Login" />
-                                        </div>
-                                        <div>
-                                            <h4>সোশ্যাল মিডিয়া</h4>
-                                            <SocialMedia />
-                                        </div>
-                                    </div>
-                                    <div className=" divide-y divide-[#B6C3C8] border-t border-b border-[#B6C3C8]">
-                                        <ul className="py-5 flex items-center flex-wrap gap-y-2 gap-x-5.25">
-                                            <LinkItem href="#" label="আমাদের সম্পর্কে" />
-                                            <LinkItem href="#" label="যোগাযোগ" />
-                                            <LinkItem href="#" label="বিজ্ঞাপন" />
-                                            <LinkItem href="#" label="ট্রামস অফ সার্ভিস" />
-                                            <LinkItem href="#" label="প্রাইভেসি পলিসি" />
-                                        </ul>
-                                        <div className="py-5">
-                                            <span className="text-[15px] leading-4 tracking-[1%] text-title">© ২০২৫ নিউজফ্ল্যাশ ৭১ | সর্বস্বত্ব সংরক্ষিত</span>
-                                        </div>
-                                        <div className="py-5">
-                                            <p className="text-sm font-normal leading-5.5">নিউজফ্ল্যাশ সেভেন্টিওয়ান’র প্রকাশিত কোন সংবাদ, আলাকচিত্র কপিরাইট আইনে পূর্বানুমতি ছাড়া ব্যবহার করা যাবে না</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
         </header>
     );
 }

@@ -38,13 +38,10 @@ html::-webkit-scrollbar {
   }
 }
 
-
 body {
     font-family: var(--font-noto-serif-bengali), serif;
-    font-size: 16px;
-    line-height: 26px;
     color: var(--color-body);
-    font-weight: 400;
+    @apply text-sm sm:text-base leading-6.5 font-normal
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -53,17 +50,17 @@ h1,h2,h3,h4,h5,h6{
 }
 
 h1{
-    @apply text-4xl leading-12 font-bold 
+    @apply text-3xl lg:text-4xl lg:leading-12 font-bold 
 }
 h2{
-    @apply text-[32px] leading-10 font-semibold 
+    @apply text-2xl lg:text-[32px] lg:leading-10 font-semibold 
 }
 h3{
-    @apply text-2xl leading-8 font-semibold 
+    @apply text-xl lg:text-2xl lg:leading-8 font-semibold 
 }
 h4{
-    @apply text-xl leading-7 font-semibold 
+    @apply text-lg lg:text-xl lg:leading-7 font-semibold 
 }
 h5{
-    @apply text-base leading-6 font-semibold
+    @apply text-sm lg:text-base lg:leading-6 font-semibold
 }

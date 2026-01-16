@@ -5,7 +5,7 @@ import Image, { StaticImageData } from "next/image";
 
 type SocialLink = {
   href: string;
-  icon: React.ReactNode; // for SVG or other JSX icons
+  icon: React.ReactNode;
 };
 
 type TopHeaderProps = {
@@ -42,7 +42,7 @@ export default function TopHeader({
               <a
                 key={index}
                 href={link.href}
-                className="group w-10 h-10 rounded-full bg-[#F7F7F7] transition-all duration-500 hover:bg-red flex items-center justify-center text-[#2159ff] hover:text-white"
+                className="group w-10 h-10 rounded-full bg-[#F7F7F7] transition-all duration-500 hover:bg-[#FF0000] flex items-center justify-center text-[#2159ff] hover:text-white"
               >
                 {link.icon}
               </a>

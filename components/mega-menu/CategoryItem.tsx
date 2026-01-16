@@ -12,12 +12,12 @@ type Item = {
 type Props = {
   title: string;
   icon: StaticImageData;
-  items?: Item[]; // ✅ optional
+  items?: Item[];
 };
 
 export default function CategoryItem({
   title,
-  items = [], // ✅ default empty array (NO runtime error)
+  items = []
 }: Props) {
   const [open, setOpen] = useState(false);
 
@@ -30,7 +30,7 @@ export default function CategoryItem({
 
         <button
           onClick={() => setOpen(!open)}
-          className="lg:hidden block transition-transform"
+          className="max-w-5 sm:max-w-6 lg:hidden block transition-transform"
         >
           <Image
             src={downArrowIcon}

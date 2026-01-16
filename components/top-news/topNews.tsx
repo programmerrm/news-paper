@@ -32,7 +32,7 @@ export default function TopNews({ news }: TopNewsProps) {
                   className="object-cover"
                 />
               </a>
-              <a href={item.href} className="hidden lg:block font-inter text-sm leading-5">
+              <a href={item.href} className="hidden lg:block font-inter text-sm sm:text-base font-medium sm:leading-6">
                 {item.title}
               </a>
             </div>
