@@ -1,5 +1,4 @@
 import Link from "next/link";
-
 type LinkItemProps = {
   href: string;
   label: string;

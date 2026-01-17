@@ -17,7 +17,6 @@ export default function BangldeshNews (){
                 <SectionTitle
                     title="বাংলাদেশ"
                     href="#"
-                    icon= {rightArrow}
                 />
                 <form className="bg-[#E0EBF0] p-4 lg:p-8 mt-8 flex flex-col sm:flex-row items-center gap-3">
                     <div className="w-full grid sm:grid-cols-3 gap-3 sm:flex-1">
@@ -40,6 +39,7 @@ export default function BangldeshNews (){
                                 time={"১ মিনিট আগে"}
                                 href="#"
                                 timeMt={16}
+                                imageWrap="max-w-[104px]"
                                 />
                         </div>
                         <div className="pb-3 lg:pb-5">
@@ -51,6 +51,7 @@ export default function BangldeshNews (){
                                 time={"১ মিনিট আগে"}
                                 href="#"
                                 timeMt={16}
+                                imageWrap="max-w-[104px]"
                                 />
                         </div>
                         <div className="pb-3 lg:pb-5">
@@ -62,6 +63,7 @@ export default function BangldeshNews (){
                                 time={"১ মিনিট আগে"}
                                 href="#"
                                 timeMt={16}
+                                imageWrap="max-w-[104px]"
                                 />
                         </div>
                         <div className="pb-3 lg:pb-5">
@@ -73,12 +75,15 @@ export default function BangldeshNews (){
                                 time={"১ মিনিট আগে"}
                                 href="#"
                                 timeMt={16}
+                                imageWrap="max-w-[104px]"
                                 />
                         </div>
                     </div>
                     <div className="w-full lg:max-w-[42.421%] lg:px-4.75 lg:border-r lg:border-l border-[#A1A1A1] order-1 lg:order-2">
                         <LedNews
                             image={ledImage}
+                            imageWidth={503}
+                            imageHeight={377}
                             title="চূড়ান্ত প্রার্থী তালিকা সময়মতো জানাবে জামায়াত: আমির ডা. শফিকুর রহমান"
                             content="আসন্ন ত্রয়োদশ জাতীয় সংসদ নির্বাচনে চূড়ান্ত প্রার্থী ঘোষণা প্রসঙ্গে বাংলাদেশ জামায়াতে ইসলামীর আমির ডা. শফিকুর রহমান জানিয়েছেন, “সময়মতো আমরা চূড়ান্ত তালিকা জানিয়ে দেব।” মঙ্গলবার (৪ নভেম্বর) বিদেশ সফর শেষে দেশে ফিরে সকাল ৬টার দিকে হযরত শাহজালাল আন্তর্জাতিক বিমানবন্দরে আয়োজিত এক সংক্ষিপ্ত প্রেস ব্রিফিংয়ে তিনি এ কথা বলেন।"
                             time="১ মিনিট আগে"
@@ -96,6 +101,7 @@ export default function BangldeshNews (){
                                 imageHeight={72}
                                 title={"চূড়ান্ত প্রার্থী তালিকা সময়মতো জানাবে জামায়াত: আমির ডা. শফিকুর রহমান"}
                                 href="#"
+                                imageWrap="max-w-[104px]"
                                 /> 
                             </div>
                             <div className="pb-3 lg:pb-5">
@@ -104,6 +110,7 @@ export default function BangldeshNews (){
                                     href="#"
                                     time="১ মিনিট আগে"
                                     timeMt={10}
+                                    imageWrap="max-w-[104px]"
                                     />
                             </div>
                         </div>
@@ -115,6 +122,7 @@ export default function BangldeshNews (){
                                 imageHeight={72}
                                 title={"চূড়ান্ত প্রার্থী তালিকা সময়মতো জানাবে জামায়াত: আমির ডা. শফিকুর রহমান"}
                                 href="#"
+                                imageWrap="max-w-[104px]"
                                 /> 
                             </div>
                             <div className="pb-3 lg:pb-5">
@@ -123,6 +131,7 @@ export default function BangldeshNews (){
                                     href="#"
                                     time="১ মিনিট আগে"
                                     timeMt={10}
+                                    imageWrap="max-w-[104px]"
                                     />
                             </div>
                         </div>
@@ -134,6 +143,7 @@ export default function BangldeshNews (){
                                 imageHeight={72}
                                 title={"চূড়ান্ত প্রার্থী তালিকা সময়মতো জানাবে জামায়াত: আমির ডা. শফিকুর রহমান"}
                                 href="#"
+                                imageWrap="max-w-[104px]"
                                 /> 
                             </div>
                             <div className="pb-3 lg:pb-5">
@@ -142,6 +152,7 @@ export default function BangldeshNews (){
                                     href="#"
                                     time="১ মিনিট আগে"
                                     timeMt={10}
+                                    imageWrap="max-w-[104px]"
                                     />
                             </div>
                         </div>

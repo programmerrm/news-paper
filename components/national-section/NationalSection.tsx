@@ -6,6 +6,7 @@ import NationalLedNews from "./NationalLedNews";
 import nationalImageLed from "../../assets/image/national-image-led.png"
 import NationalNews from "./NationalNews";
 import OnlineVhote from "./OnlineVhote";
+import updesthaImage from "../../assets/image/image3.png"
 
 
 export default function NationalSection (){
@@ -17,13 +18,11 @@ export default function NationalSection (){
                         <SectionTitle
                             title= "জাতীয়"
                             href="#"
-                            icon={rightArrow}
                         />
                         <div className="mt-8 flex flex-col md:flex-row">
                             <div className="w-full md:max-w-[61.282%] md:pr-5 md:border-r border-[#A1A1A1]">
                                 <NationalLedNews />
                                 <div className="grid grid-cols-2 mt-5 gap-4">
-                                    
                                     <NationalNews
                                         image={nationalImageLed}
                                         title="চূড়ান্ত প্রার্থী তালিকা সময়মতো জানাবে জামায়াত: আমির ডা. শফিকুর রহমান"
@@ -44,7 +43,7 @@ export default function NationalSection (){
                                 <div className="divide-y divide-[#D4D4D4] space-y-4">
                                     <div className="pb-4 last:pb-0">
                                         <NewsItem 
-                                        image={HeroSideberImage}
+                                        image={updesthaImage}
                                         imageWidth={104}
                                         imageHeight={78}
                                         title={"চূড়ান্ত প্রার্থী তালিকা সময়মতো জানাবে জামায়াত: আমির ডা. শফিকুর রহমান"}
@@ -91,8 +90,8 @@ export default function NationalSection (){
                             </div>
                         </div>
                     </div>
-                    <div className="w-full lg:max-w-[32.5%] lg:pl-5">
-                        <div className="pb-6 border-b-2 border-[#A1A1A1] flex gap-3 items-center">
+                    <div className="w-full lg:max-w-[32.5%] lg:pl-5 mt-5 lg:mt-0">
+                        <div className="pb-3 lg:pb-6 border-b-2 border-[#A1A1A1] flex gap-3 items-center">
                             <h4 className="text-xl! lg:text-2xl! font-semibold font-inter">অনলাইন ভোট</h4>
                         </div>
                         <div className="mt-5 px-4 pt-4 pb-6 flex flex-col border border-[#A1A1A1]">

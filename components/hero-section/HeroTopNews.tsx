@@ -37,13 +37,13 @@ export default function HeroTopNews({
       </div>
 
       {/* Image */}
-      <a href="#" className="w-full sm:max-w-[45.579%] order-1 sm:order-2">
+      <a href="#" className="w-full sm:max-w-[45.579%] order-1 sm:order-2 overflow-hidden">
         <Image
           src={image}
           alt={imageAlt}
           width={268}
           height={201}
-          className="w-full h-auto object-cover"
+          className="w-full h-auto object-cover transition-transform duration-500 hover:scale-105"
           priority
         />
 

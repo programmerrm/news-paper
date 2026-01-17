@@ -1,7 +1,7 @@
-import MakkaImage from "../../assets/image/makka.png";
-import Image2 from "../../assets/image/image-2.png";
-import Image3 from "../../assets/image/image-3.png";
-import Image4 from "../../assets/image/image-4.png";
+import MakkaImage from "../assets/image/makka.png";
+import Image2 from "../assets/image/image-2.png";
+import Image3 from "../assets/image/image-3.png";
+import Image4 from "../assets/image/image-4.png";
 
 export const newsSliderData = [
   {

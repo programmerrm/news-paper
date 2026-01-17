@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import { divisions } from "../../src/data/division"; 
+import { divisions } from "../../data/division"; 
 import CaretDown from "../../assets/image/caretdown.svg";
 
 export default function DivisionSelect() {

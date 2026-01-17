@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import { subdistricts } from "../../src/data/subdistricts";
+import { subdistricts } from "../../data/subdistricts";
 import CaretDown from "../../assets/image/caretdown.svg"; 
 
 export default function SubdistrictSelect() {

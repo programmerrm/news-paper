@@ -6,7 +6,7 @@ import searchBlack from "../../assets/icon/search-icon.svg";
 import globeBlack from "../../assets/icon/globe-black.svg";
 import userBlack from "../../assets/icon/user-black.svg";
 import arrowIcon from "../../assets/icon/down-arrow.png"
-import { megaMenuData } from "../../src/data/megaMenuData";
+import { megaMenuData } from "../../data/megaMenuData";
 import SearchForm from "../form/searchForm";
 import MegaButton from "../button/megaButton";
 import SocialMedia from "../social/socialMedia";

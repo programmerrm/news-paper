@@ -1,18 +1,6 @@
-import Image, { StaticImageData } from "next/image";
-
-type NewsItemProps = {
-  image?: StaticImageData;
-  title?: string;
-  content?: string;
-  time?: string;
-  href?: string;
-  imageWidth?: number;
-  imageHeight?: number;
-  titleMb?: number;
-  isLive?: boolean;
-  timeMt?: number;
-};
-
+import { NewsItemProps } from "@/types/NewsItemProps";
+import Image from "next/image";
+import Link from "next/link";
 
 export default function NewsItem({
   image,
@@ -25,20 +13,24 @@ export default function NewsItem({
   titleMb = 4,
   isLive = false,
   timeMt = 4,
+  imageWrap
 }: NewsItemProps) {
   return (
     <div className="flex gap-3 py-5 first:pt-0 last:pb-0">
       {/* Image */}
       {image && (
-        <a href={href} style={{ maxWidth: imageWidth }} className="block">
+        <Link
+          href={href}
+          className={`block overflow-hidden ${imageWrap} md:max-w-full`}
+        >
           <Image
             src={image}
             alt={title || "News image"}
             width={imageWidth}
             height={imageHeight}
-            className="object-cover"
+            className="object-cover transition-transform duration-500 hover:scale-105"
           />
-        </a>
+        </Link>
       )}
 
       {/* Content */}
@@ -60,7 +52,7 @@ export default function NewsItem({
               </span>
             )}
 
-            <a href={href} className="transition-all hover:text-blue-700">
+            <a href={href} className="transition-all hover:text-[#1877F2]">
               {title}
             </a>
           </h6>

@@ -2,45 +2,8 @@ import HeroSideberImage from "../../assets/image/hero-sidebar.png";
 import BanarImage from "../../assets/image/banner-image.jpg";
 import NewsItem from "../news-items/newsItem";
 import HeroTopNews from "./HeroTopNews";
+import Image4 from "../../assets/image/image4.png"
 
-
-
-  const news = [
-    {
-      id: 1,
-      title:
-        "ইতিহাস গড়ল ভারত! দক্ষিণ আফ্রিকাকে হারিয়ে নারী বিশ্বকাপ জয়",
-      time: "1 min ago",
-      image: HeroSideberImage,
-    },
-    {
-      id: 2,
-      title: "চূড়ান্ত প্রার্থী তালিকা সময়মতো জানাবে জামায়াত: আমির ডা. শফিকুর রহমান",
-      time: "1 mins ago",
-      image: HeroSideberImage,
-    },
-    {
-      id: 3,
-      title: "চূড়ান্ত প্রার্থী তালিকা সময়মতো জানাবে জামায়াত: আমির ডা. শফিকুর রহমান",
-      time: "1 mins ago",
-      image: HeroSideberImage,
-    },
-    {
-      id: 4,
-      title: "যুদ্ধবিরতি ভঙ্গ! ইসরায়েলের বিরুদ্ধে ১৯৪ বার চুক্তি লঙ্ঘনের অভিযোগ",
-      time: "1 mins ago",
-    },
-    {
-      id: 5,
-      title: "১৯ বছরের ছোট, ডায়মন্ড ব্যবসায়ীর সঙ্গে প্রেমে মজলেন মালাইকা",
-      time: "1 mins ago",
-    },
-    {
-      id: 6,
-      title: "চূড়ান্ত প্রার্থী তালিকা সময়মতো জানাবে জামায়াত: আমির ডা. শফিকুর রহমান",
-      time: "1 mins ago",
-    },
-  ];
 export default function HeroSection() {
     return (
         <section className="pt-10 pb-10 md:pb-18">
@@ -53,6 +16,7 @@ export default function HeroSection() {
                                 title={"ইতিহাস গড়ল ভারত! দক্ষিণ আফ্রিকাকে হারিয়ে নারী বিশ্বকাপ জয়"}
                                 time={"1 min ago"}
                                 href="#"
+                                imageWrap="max-w-[80px]"
                                 />
                         </div>
                         <div className="flex gap-3 pb-5">
@@ -60,6 +24,7 @@ export default function HeroSection() {
                                 image={HeroSideberImage}
                                 title={"চূড়ান্ত প্রার্থী তালিকা সময়মতো জানাবে জামায়াত: আমির ডা. শফিকুর রহমান"}
                                 time={"1 min ago"}
+                                imageWrap="max-w-[80px]"
                                 />
                         </div>
                         <div className="flex gap-3 pb-5">
@@ -67,6 +32,7 @@ export default function HeroSection() {
                                 image={HeroSideberImage}
                                 title={"চূড়ান্ত প্রার্থী তালিকা সময়মতো জানাবে জামায়াত: আমির ডা. শফিকুর রহমান"}
                                 time={"1 min ago"}
+                                imageWrap="max-w-[80px]"
                                 />
                         </div>
                         <div className="flex gap-3 pb-5">
@@ -99,6 +65,7 @@ export default function HeroSection() {
                                         imageWidth={96}
                                         imageHeight={72}
                                         title={"চূড়ান্ত প্রার্থী তালিকা সময়মতো জানাবে জামায়াত: আমির ডা. শফিকুর রহমান"}
+                                        imageWrap="max-w-[80px]"
                                         />
                                 </div>
                                 <div className=" pb-5">
@@ -115,6 +82,7 @@ export default function HeroSection() {
                                         imageWidth={96}
                                         imageHeight={72}
                                         title="চূড়ান্ত প্রার্থী তালিকা সময়মতো জানাবে জামায়াত: আমির ডা. শফিকুর রহমান"
+                                        imageWrap="max-w-[80px]"        
                                         />
                                 </div>
                                 <div className=" xl:pb-5">
@@ -159,46 +127,53 @@ export default function HeroSection() {
                             className="text-red font-inter">Special</span></h6>
                         <div className="divide-y divide-[#D4D4D4] mt-6">
                             <NewsItem 
-                                image={HeroSideberImage}
+                                image={Image4}
                                 title="খালেদা জিয়া ৩ আসনে, তারেক রহমান বগুড়া-৬ এ বিএনপির প্রার্থী"
                                 imageWidth={88}
                                 imageHeight={66}
+                                imageWrap="max-w-[80px]"
                             />
                             <NewsItem 
                                 image={HeroSideberImage}
                                 title="খালেদা জিয়া ৩ আসনে, তারেক রহমান বগুড়া-৬ এ বিএনপির প্রার্থী"
                                 imageWidth={88}
                                 imageHeight={66}
+                                imageWrap="max-w-[80px]"
                             />
                             <NewsItem 
                                 image={HeroSideberImage}
                                 title="খালেদা জিয়া ৩ আসনে, তারেক রহমান বগুড়া-৬ এ বিএনপির প্রার্থী"
                                 imageWidth={88}
                                 imageHeight={66}
+                                imageWrap="max-w-[80px]"
                             />
                             <NewsItem 
                                 image={HeroSideberImage}
                                 title="খালেদা জিয়া ৩ আসনে, তারেক রহমান বগুড়া-৬ এ বিএনপির প্রার্থী"
                                 imageWidth={88}
                                 imageHeight={66}
+                                imageWrap="max-w-[80px]"
                             />
                             <NewsItem 
                                 image={HeroSideberImage}
                                 title="খালেদা জিয়া ৩ আসনে, তারেক রহমান বগুড়া-৬ এ বিএনপির প্রার্থী"
                                 imageWidth={88}
                                 imageHeight={66}
+                                imageWrap="max-w-[80px]"
                             />
                             <NewsItem 
                                 image={HeroSideberImage}
                                 title="খালেদা জিয়া ৩ আসনে, তারেক রহমান বগুড়া-৬ এ বিএনপির প্রার্থী"
                                 imageWidth={88}
                                 imageHeight={66}
+                                imageWrap="max-w-[80px]"
                             />
                             <NewsItem 
                                 image={HeroSideberImage}
                                 title="খালেদা জিয়া ৩ আসনে, তারেক রহমান বগুড়া-৬ এ বিএনপির প্রার্থী"
                                 imageWidth={88}
                                 imageHeight={66}
+                                imageWrap="max-w-[80px]"
                             />
                         </div>
                     </div>

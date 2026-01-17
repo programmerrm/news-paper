@@ -7,13 +7,13 @@ import VoteItem from "../../components/national-section/VhoteItem";
 export default function OnlineVhote (){
     const [vote, setVote] = useState("");
     return (
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 overflow-hidden">
             <Image
                 src={OnlineImage}
                 alt="OnlineImage"
                 width={364}
                 height={240}
-                className="w-full h-auto object-cover"
+                className="w-full h-auto object-cover transition-transform duration-500 hover:scale-105"
                 priority
             />
             <div>

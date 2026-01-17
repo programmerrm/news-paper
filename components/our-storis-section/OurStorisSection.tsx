@@ -1,6 +1,5 @@
 
 import SectionTitle from "../section-title/SectionTitle";
-import rightArrow from "../../assets/icon/right-arrow.svg";
 import StorisCard from "./StorisCard";
 import storisImage from "../../assets/image/storis-image.png";
 const storisData = [
@@ -48,8 +47,7 @@ export default function OurStorisSection() {
         <div className="container">
           <SectionTitle
               title="ওয়ের স্টোরিস"
-              href=""
-              icon={rightArrow}
+              href="#"
           />
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7 gap-4 mt-7">
             {storisData.map((item, index) => (

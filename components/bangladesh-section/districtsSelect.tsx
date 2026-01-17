@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useState } from "react";
-import { districts } from "../../src/data/districts"; 
+import { districts } from "../../data/districts"; 
 import CaretDown from "../../assets/image/caretdown.svg";
 
 export default function DistrictSelect() {

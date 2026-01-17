@@ -5,7 +5,8 @@ import { Pagination, Autoplay } from "swiper/modules";
 import Image from "next/image";
 import "swiper/css";
 import "swiper/css/pagination";
-import { newsSliderData } from "../../src/data/sliderData";
+import { newsSliderData } from "@/data/sliderData";
+import Link from "next/link";
 
 export default function NewsSlider() {
   return (
@@ -42,11 +43,11 @@ export default function NewsSlider() {
                   <p className="text-xs leading-3.75 text-red mb-1">
                     {item.category}
                   </p>
-                  <a href="#">
+                  <Link href="#">
                     <h6 className="text-sm leading-5.5 font-semibold text-title">
                       {item.title}
                     </h6>
-                  </a>
+                  </Link>
                   
                 </div>
               </div>

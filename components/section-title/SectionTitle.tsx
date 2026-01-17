@@ -1,14 +1,13 @@
-import Image, { StaticImageData } from "next/image";
+import Image from "next/image";
+import arrowIcon from "../../assets/icon/right-arrow.svg"
 type SectionTitleProps = {
   title: string;
   href?: string;
-  icon: StaticImageData;
 };
 
 export default function SectionTitle({
   title,
   href = "#",
-  icon,
 }: SectionTitleProps) {
   return (
         <div className="pb-6 border-b-2 border-[#A1A1A1] flex gap-3 items-center">
@@ -19,7 +18,7 @@ export default function SectionTitle({
                 className="text-sm leading-6 font-medium inline-flex items-center gap-0.5 text-red"
             >
                 সব খবর
-                <Image src={icon} alt="right arrow" />
+                <Image src={arrowIcon} alt="right arrow" />
             </a>
         </div>
   );

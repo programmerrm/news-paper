@@ -1,16 +1,6 @@
-import Image, { StaticImageData } from "next/image";
-
-type LedNewsProps = {
-  image: StaticImageData;
-  title: string;
-  content?: string;
-  time?: string;
-  href?: string;
-  imageWidth?: number;
-  imageHeight?: number;
-  contentMt?: number;
-  timeMt?: number;
-};
+import { LedNewsProps } from "@/types/LedNewsProps";
+import Image from "next/image";
+import Link from "next/link";
 
 export default function NationalNews({
   image,
@@ -22,25 +12,26 @@ export default function NationalNews({
   imageHeight = 377,
   contentMt = 12,
   timeMt = 16,
+  imageWrap
 }: LedNewsProps) {
   return (
     <div className="flex flex-col gap-3">
       {/* Image */}
-      <a href={href}>
+      <Link href={href} className={`block overflow-hidden group ${imageWrap} md:max-w-full`}>
         <Image
           src={image}
           alt={title}
           width={imageWidth}
           height={imageHeight}
-          className="w-full h-auto object-cover"
+          className="object-cover transition-transform duration-500 group-hover:scale-105"
           priority
         />
-      </a>
+      </Link>
 
       {/* Content */}
       <div>
-        <a href={href}>
-          <h5 className="font-semibold leading-6 sm:leading-7">
+        <Link href={href}>
+          <h5 className="font-semibold leading-6 sm:leading-7 transition-all hover:text-blue-600!">
             {title}
           </h5>
 
@@ -52,7 +43,7 @@ export default function NationalNews({
               {content}
             </p>
           )}
-        </a>
+        </Link>
 
         {time && (
           <span

@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { socialLinks } from "../../src/data/socialLinks";
+import { socialLinks } from "../../data/socialLinks";
 import googleIcon from "../../assets/icon/google.svg";
 
 import {
