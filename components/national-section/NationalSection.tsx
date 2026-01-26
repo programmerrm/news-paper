@@ -1,12 +1,12 @@
 import SectionTitle from "../section-title/SectionTitle";
-import rightArrow from "../../assets/icon/right-arrow.svg";
 import NewsItem from "../news-items/newsItem";
 import HeroSideberImage from "../../assets/image/hero-sidebar.png";
-import NationalLedNews from "./NationalLedNews";
+import NationalLedNews from "../national-led-news/NationalLedNews";
 import nationalImageLed from "../../assets/image/national-image-led.png"
 import NationalNews from "./NationalNews";
 import OnlineVhote from "./OnlineVhote";
 import updesthaImage from "../../assets/image/image3.png"
+import nationalLedImage from "../../assets/image/national-led-news.jpg";
 
 
 export default function NationalSection (){
@@ -21,7 +21,12 @@ export default function NationalSection (){
                         />
                         <div className="mt-8 flex flex-col md:flex-row">
                             <div className="w-full md:max-w-[61.282%] md:pr-5 md:border-r border-[#A1A1A1]">
-                                <NationalLedNews />
+                                <NationalLedNews 
+                                    image={nationalLedImage}
+                                    title="বিএনপিতে ১০টি আসনে সুপ্রিম কোর্টের আইনজীবীদের প্রার্থী হিসেবে"
+                                    time="৫ মিনিট আগে"
+                                    href="#"
+                                />
                                 <div className="grid grid-cols-2 mt-5 gap-4">
                                     <NationalNews
                                         image={nationalImageLed}
