@@ -6,9 +6,12 @@ import PoliticsSection from "@/components/politics-section/PoliticsSection";
 import NewsSlider from "@/components/slider-section/SliderSection";
 import SportsSection from "@/components/sports-section/SportsSection";
 import VideoSection from "@/components/video-section/VideoSection";
-import InformationSection from "@/components/information-section/InformationSection";
 import EntertainmentSection from "@/components/entertainment-section/EntertainmentSection";
 import InternationalNews from "@/components/international-section/InternationalNews";
+import OpinionSection from "@/components/opinion-section/OpinionSection";
+import GallarySection from "@/components/gallary-section/GallarySection";
+import SocialDiscourseSection from "@/components/information-section/SocialDiscourseSection";
+import LifeStyleSection from "@/components/information-section/LifeStyleSection";
 
 export default function Home() {
     return (
@@ -21,9 +24,12 @@ export default function Home() {
             <VideoSection />
             <PoliticsSection />
             <SportsSection />
-            <InformationSection />
+            <SocialDiscourseSection />
             <EntertainmentSection />
             <InternationalNews />
+            <OpinionSection />
+            <GallarySection />
+            <LifeStyleSection />
         </>
         
     );

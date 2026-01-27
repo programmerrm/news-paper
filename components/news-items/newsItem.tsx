@@ -36,8 +36,7 @@ export default function NewsItem({
       {/* Content */}
       <div className="flex-1">
         {title && (
-          <h6
-            className="text-sm sm:text-base font-semibold leading-6"
+          <h5
             style={{ marginBottom: `${titleMb}px` }}
           >
             {isLive && (
@@ -55,7 +54,7 @@ export default function NewsItem({
             <a href={href} className="transition-all hover:text-[#1877F2]">
               {title}
             </a>
-          </h6>
+          </h5>
         )}
 
         {content && (

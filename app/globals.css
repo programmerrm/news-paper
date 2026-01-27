@@ -62,7 +62,7 @@ h4{
     @apply text-lg lg:text-xl lg:leading-7 font-semibold 
 }
 h5{
-    @apply text-sm lg:text-base lg:leading-6 font-semibold
+    @apply text-sm sm:text-base lg:leading-6 font-semibold
 }
 
 .home-slider .swiper-horizontal > .swiper-pagination-bullets,

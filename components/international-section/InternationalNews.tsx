@@ -107,6 +107,39 @@ export default function InternationalNews() {
                                 />
                             </div>
                         </div>
+                        <div className="border-t border-[#A1A1A1] mt-5 pt-5 grid sm:grid-cols-3 gap-4 sm:divide-x divide-[#D4D4D4]">
+                            <div className="pr-4">
+                                <NewsItem
+                                    title="রাষ্ট্র নীরব, মানুষ ক্ষুব্ধ—মব রুলে চলছে রক্তাক্ত ন্যায়"
+                                    content="মবের মুল্লুকে আপনাকে স্বাগত। মব রুল বা মবোক্রেসিতে দেশাক্রান্ত। ঘটছে একের পর এক মবকাণ্ড। এটাই এখন বাস্তবতা। আইনের শাসনে ভরসা নেই। "
+                                    time="১ মিনিট আগে"
+                                    href="/news/led/1"
+                                    titleMb={12}
+                                    timeMt={16}
+                                />
+                            </div>
+                            <div className="pr-4">
+                                <NewsItem
+                                    title="রাষ্ট্র নীরব, মানুষ ক্ষুব্ধ—মব রুলে চলছে রক্তাক্ত ন্যায়"
+                                    content="মবের মুল্লুকে আপনাকে স্বাগত। মব রুল বা মবোক্রেসিতে দেশাক্রান্ত। ঘটছে একের পর এক মবকাণ্ড। এটাই এখন বাস্তবতা। আইনের শাসনে ভরসা নেই। "
+                                    time="১ মিনিট আগে"
+                                    href="/news/led/1"
+                                    titleMb={12}
+                                    timeMt={16}
+                                />
+                            </div>
+                            <div className="pr-4">
+                                <NewsItem
+                                    title="রাষ্ট্র নীরব, মানুষ ক্ষুব্ধ—মব রুলে চলছে রক্তাক্ত ন্যায়"
+                                    content="মবের মুল্লুকে আপনাকে স্বাগত। মব রুল বা মবোক্রেসিতে দেশাক্রান্ত। ঘটছে একের পর এক মবকাণ্ড। এটাই এখন বাস্তবতা। আইনের শাসনে ভরসা নেই। "
+                                    time="১ মিনিট আগে"
+                                    href="/news/led/1"
+                                    titleMb={12}
+                                    timeMt={16}
+                                />
+                            </div>
+                            
+                        </div>
                     </div>
 
                     <div className="w-full lg:max-w-[25.390%] lg:pl-5 order-3 lg:order-3 mt-5 lg:mt-0">
