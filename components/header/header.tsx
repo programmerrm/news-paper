@@ -104,7 +104,6 @@ const iconLinks: IconLink[] = [
 export default function Header() {
     return (
         <header className="relative">
-            {/* top header */}
             <div className=" border-b border-[#D4D4D4] py-5">
               <div className="container">
                   <TopHeader
@@ -116,10 +115,7 @@ export default function Header() {
               </div>
             </div>
 
-            {/* top news */}
             <TopNews  news={topNewsData}/>
-
-            {/* NAVBAR SECTION START */}
             
             <TopMenu 
                 navItems={navItems} 
