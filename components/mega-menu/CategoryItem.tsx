@@ -3,6 +3,7 @@
 import Image, { StaticImageData } from "next/image";
 import { useState } from "react";
 import downArrowIcon from "../../assets/icon/down-arrow.png"
+import Link from "next/link";
 
 type Item = {
   label: string;
@@ -54,7 +55,7 @@ export default function CategoryItem({
       >
         {items.map((item, index) => (
           <li key={index} className="last:pb-0">
-            <a href={item.href} className="py-2 lg:py-0 inline-block">{item.label}</a>
+            <Link href={item.href} className="py-2 lg:py-0 inline-block">{item.label}</Link>
           </li>
         ))}
       </ul>

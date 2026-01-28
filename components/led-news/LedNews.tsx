@@ -1,4 +1,5 @@
 import Image, { StaticImageData } from "next/image";
+import Link from "next/link";
 
 type LedNewsProps = {
   image: StaticImageData;
@@ -26,7 +27,7 @@ export default function LedNews({
   return (
     <div className="flex flex-col gap-6">
       {/* Image */}
-      <a href={href} className="overflow-hidden">
+      <Link href={href} className="overflow-hidden">
         <Image
           src={image}
           alt={title}
@@ -35,11 +36,11 @@ export default function LedNews({
           className="w-full h-auto object-cover transition-transform duration-500 hover:scale-105"
           priority
         />
-      </a>
+      </Link>
 
       {/* Content */}
       <div>
-        <a href={href}>
+        <Link href={href}>
           <h4 className="font-semibold leading-6 sm:leading-7 transition-all duration-300 hover:text-blue-600!">
             {title}
           </h4>
@@ -52,7 +53,7 @@ export default function LedNews({
               {content}
             </p>
           )}
-        </a>
+        </Link>
 
         {time && (
           <span

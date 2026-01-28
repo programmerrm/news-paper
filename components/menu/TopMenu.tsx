@@ -1,4 +1,5 @@
 "use client";
+
 import Image, { StaticImageData } from "next/image";
 import React, { useState } from "react";
 import CategoryItem from "../mega-menu/CategoryItem";
@@ -11,6 +12,7 @@ import SearchForm from "../form/searchForm";
 import MegaButton from "../button/Button";
 import SocialMedia from "../social/socialMedia";
 import LinkItem from "../mega-menu/linkItem";
+import Link from "next/link";
 
 export type IconLink = {
   icon: StaticImageData;
@@ -61,7 +63,7 @@ const TopMenu: React.FC<TopMenuProps> = ({
             <ul className="inline-flex gap-3 lg:gap-6.5 min-w-150 lg:min-w-170">
               {navItems.map((item, index) => (
                 <li key={index}>
-                  <a href={item.href} className="text-sm leading-5.5">{item.label}</a>
+                  <Link href={item.href} className="text-sm leading-5.5">{item.label}</Link>
                 </li>
               ))}
             </ul>
@@ -69,7 +71,7 @@ const TopMenu: React.FC<TopMenuProps> = ({
 
           {/* Icon Links */}
           {iconLinks.map((link, index) => (
-            <a
+            <Link
               key={index}
               href={link.href}
               className={`text-sm leading-4.5 flex items-center border-l border-gray-dark py-3 lg:py-4 px-3 gap-2 ${
@@ -80,7 +82,7 @@ const TopMenu: React.FC<TopMenuProps> = ({
                 <Image src={link.icon} alt={link.label} width={24} height={24} />
               </div>
               <span className="text-sm leading-4.5 font-inter -tracking-[1%] hidden sm:block">{link.label}</span>
-            </a>
+            </Link>
           ))}
         </div>
       </div>
