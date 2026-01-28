@@ -38,7 +38,7 @@ export default function TopHeader({
         {socialLinks.map((item, i) => (
           <Link
             key={i}
-            href={item.href}
+            href={`${item.href}` || ""}
             className="group w-8 sm:w-10 h-8 sm:h-10 rounded-full bg-gray-100 hover:bg-red-600
                        flex items-center justify-center text-blue-600 hover:text-white transition"
           >
