@@ -46,9 +46,8 @@ export default function TopHeader({
               <Image
                 src={item.imageSrc}
                 alt="Social Icon"
-                width={16}
-                height={16}
-                className="sm:w-20 sm:h-20"
+                width={20}
+                height={20}
               />
             ) : (
               item.icon
