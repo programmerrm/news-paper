@@ -3,6 +3,7 @@ import Link from "next/link";
 import LogoImage from "../../../assets/logo/logo.svg"
 import PasswordInput from "@/components/input/PasswordInput";
 import EmailInput from "@/components/input/EmailInput";
+import Button from "@/components/button/Button";
 
 export default function LoginPage() {
     return (
@@ -51,6 +52,10 @@ export default function LoginPage() {
                                     Forget Password
                                 </Link>
                             </div>
+                            <div className=" mt-6">
+                                <Button />
+                            </div>
+                            <span className="text-center block py-4 text-sm leading-6 font-medium text-black">or</span>
                         </div>
                     </form>
                 </div>

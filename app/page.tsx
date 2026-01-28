@@ -12,10 +12,13 @@ import OpinionSection from "@/components/opinion-section/OpinionSection";
 import GallarySection from "@/components/gallary-section/GallarySection";
 import SocialDiscourseSection from "@/components/information-section/SocialDiscourseSection";
 import LifeStyleSection from "@/components/information-section/LifeStyleSection";
+import Header from "@/components/header/header";
+import Footer from "@/components/footer/footer";
 
 export default function Home() {
     return (
         <>
+            <Header />
             <HeroSection />
             <OurStoris />
             <NewsSlider />
@@ -30,6 +33,7 @@ export default function Home() {
             <OpinionSection />
             <GallarySection />
             <LifeStyleSection />
+            <Footer />
         </>
         
     );

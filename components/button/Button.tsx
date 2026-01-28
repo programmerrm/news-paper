@@ -1,30 +1,19 @@
-import Image, { StaticImageData } from "next/image";
-
-type MegaButtonProps = {
-  icon: StaticImageData;
-  label: string;
-  onClick?: () => void; 
-};
-
-export default function MegaButton({
-  icon,
-  label,
+export default function Button({
+  text = "Login",
+  disabled = false,
   onClick,
-}: MegaButtonProps) {
+}: {
+  text?: string;
+  disabled?: boolean;
+  onClick?: React.MouseEventHandler<HTMLButtonElement>;
+}) {
   return (
     <button
       onClick={onClick}
-      className="w-1/2 border border-[#B6C3C8] px-4 py-2.75 flex items-center gap-2 cursor-pointer"
+      disabled={disabled}
+      className="w-full bg-red text-white p-3 text-sm font-medium leading-6"
     >
-      <Image
-        src={icon}
-        alt={`${label} icon`}
-        width={24}
-        height={24}
-      />
-      <span className="text-base text-[#171717] leading-4">
-        {label}
-      </span>
+      {text}
     </button>
   );
 }

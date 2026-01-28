@@ -44,6 +44,8 @@ body {
     @apply text-sm sm:text-base leading-6.5 font-normal
 }
 
+
+
 h1,h2,h3,h4,h5,h6{
     font-family: var(--font-noto-serif-bengali), serif;
     @apply text-title

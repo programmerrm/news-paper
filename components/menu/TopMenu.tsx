@@ -8,7 +8,7 @@ import userBlack from "../../assets/icon/user-black.svg";
 import arrowIcon from "../../assets/icon/down-arrow.png"
 import { megaMenuData } from "../../data/megaMenuData";
 import SearchForm from "../form/searchForm";
-import MegaButton from "../button/Button";
+import MegaButton from "../button/megaButton";
 import SocialMedia from "../social/socialMedia";
 import LinkItem from "../mega-menu/linkItem";
 
