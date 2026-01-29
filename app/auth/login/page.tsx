@@ -4,13 +4,15 @@ import LogoImage from "../../../assets/logo/logo.svg"
 import PasswordInput from "@/components/input/PasswordInput";
 import EmailInput from "@/components/input/EmailInput";
 import Button from "@/components/button/Button";
+import FacebookLogo from "../../../assets/logo/logos_facebook.svg";
+import GoogleLogo from "../../../assets/logo/material-icon-google.svg";
 
 export default function LoginPage() {
     return (
-        <section>
+        <section className="min-h-screen flex items-center justify-center">
             <div className="container">
-                <div className="flex flex-col items-center justify-center gap-8 bg-[#E0EBF0] w-full max-w-156 mx-auto p-6 lg:p-12">
-                    <Link href="#">
+                <div className="flex flex-col items-center justify-center gap-4 md:gap-8 bg-[#E0EBF0] w-full max-w-156 mx-auto p-4 sm:p-6 lg:p-12">
+                    <Link href="#" className="max-w-20 sm:max-w-25">
                         <Image
                             src={LogoImage}
                             alt="Logo Image"
@@ -20,7 +22,7 @@ export default function LoginPage() {
                     </Link>
                     <div>
                         <h3 className="text-xl sm:text-2xl lg:text-[26px] leading-6 lg:leading-7 text-title font-inter">Login to your account</h3>
-                        <p className="text-[13px] leading-5.25 font-inter mt-2 text-[#525252]">Don’t have an account? <a href="#" className="text-red underline">Create an account</a></p>
+                        <p className="text-xs sm:text-[13px] leading-5.25 font-inter mt-2 text-[#525252]">Don’t have an account? <a href="#" className="text-red underline ml-2">Create an account</a></p>
                     </div>
                     <form action="#" className="w-full">
                         <div>
@@ -45,17 +47,37 @@ export default function LoginPage() {
                                             </svg>
                                         </div>
 
-                                        <span className="ml-2 text-black">Remember me</span>
+                                        <span className="text-xs sm:text-sm sm:leading-6 font-medium ml-2 text-[#171717]">Remember me</span>
                                     </label>
                                 </div>
-                                <Link href="#" className="text-sm leading-6 font-medium font-inter text-[#171717] underline">
+                                <Link href="#" className="font-inter text-[#171717] underline text-xs sm:text-sm sm:leading-6 font-medium">
                                     Forget Password
                                 </Link>
                             </div>
-                            <div className=" mt-6">
-                                <Button />
+                            <div className="mt-4 sm:mt-6">
+                                <Button
+                                    text="Login"
+                                />
                             </div>
-                            <span className="text-center block py-4 text-sm leading-6 font-medium text-black">or</span>
+                            <span className="text-center block py-3 sm:py-4 text-sm leading-6 font-medium text-black">or</span>
+                                <div className="space-y-3">
+                                    <Button
+                                    text="Login"
+                                    imageSrc={FacebookLogo}
+                                    bgColor="#ffffff"
+                                    hoverColor="#ffffff"
+                                    textColor="#0A0A0A" 
+                                    hoverTextColor="#0A0A0A"
+                                    />
+                                    <Button
+                                        text="Login"
+                                        imageSrc={GoogleLogo}
+                                        bgColor="#ffffff"
+                                        hoverColor="#ffffff"
+                                        textColor="#0A0A0A" 
+                                        hoverTextColor="#0A0A0A"
+                                    />
+                                </div>
                         </div>
                     </form>
                 </div>

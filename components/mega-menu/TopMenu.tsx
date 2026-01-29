@@ -2,7 +2,7 @@
 
 import Image, { StaticImageData } from "next/image";
 import React, { useState } from "react";
-import CategoryItem from "../mega-menu/CategoryItem";
+import CategoryItem from "./CategoryItem";
 import searchBlack from "../../assets/icon/search-icon.svg";
 import globeBlack from "../../assets/icon/globe-black.svg";
 import userBlack from "../../assets/icon/user-black.svg";
@@ -10,9 +10,11 @@ import arrowIcon from "../../assets/icon/down-arrow.png"
 import { megaMenuData } from "../../data/megaMenuData";
 import SearchForm from "../form/searchForm";
 import MegaButton from "../button/megaButton";
-import SocialMedia from "../social/socialMedia";
-import LinkItem from "../mega-menu/linkItem";
+import LinkItem from "./linkItem";
 import Link from "next/link";
+import TopHeader from "../header/topHeader";
+import { SocialLink } from "../../data/socialLinks";
+
 
 export type IconLink = {
   icon: StaticImageData;
@@ -26,13 +28,18 @@ type NavItem = {
   href: string;
 };
 
+
+
 type TopMenuProps = {
-  navItems: NavItem[];
-  iconLinks: IconLink[];
-  hamburgerIcon: StaticImageData;
-  logo: StaticImageData;
-  closeIcon: StaticImageData;
+navItems: NavItem[];
+iconLinks: IconLink[];
+hamburgerIcon: StaticImageData;
+logo: StaticImageData;
+closeIcon: StaticImageData;
+socialLinks: SocialLink[];
 };
+
+
 
 const TopMenu: React.FC<TopMenuProps> = ({
   navItems,
@@ -40,6 +47,7 @@ const TopMenu: React.FC<TopMenuProps> = ({
   hamburgerIcon,
   logo,
   closeIcon,
+  socialLinks,
 }) => {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -93,14 +101,9 @@ const TopMenu: React.FC<TopMenuProps> = ({
           <div className="border-b border-gray py-3 md:py-6">
               <div className="max-w-360 mx-auto overflow-hidden">
                   <div className="container flex items-center justify-between">
-                      <div>
-                          <Image
-                              src={logo}
-                              alt="Hero image"
-                              width={100}
-                              height={64}
-                          />
-                      </div>
+                      <Link href="/" className="w-16 sm:w-20 md:w-24 lg:w-28 shrink-0">
+                        <Image src={logo} alt="Logo" width={150} height={64} className="w-full h-auto" priority />
+                      </Link>
                       <button className="cursor-pointer"onClick={() => setMenuOpen(false)}>
                           <Image
                               src={closeIcon}
@@ -133,10 +136,14 @@ const TopMenu: React.FC<TopMenuProps> = ({
                                       <MegaButton icon={globeBlack} label="English"/>
                                       <MegaButton icon={userBlack} label="Login" />
                                   </div>
-                                  <div className="pb-3">
-                                      <h4>সোশ্যাল মিডিয়া</h4>
-                                      <SocialMedia />
+                                  <div>
+                                    <h4 className="mb-2 font-semibold">সোশ্যাল মিডিয়া</h4>
+                                    <TopHeader
+                                        socialLinks={socialLinks}
+                                    />
                                   </div>
+
+                                  
                               </div>
                               <div className=" divide-y divide-[#B6C3C8] border-t border-b border-[#B6C3C8]">
                                   <ul className="py-3 lg:py-5 flex items-center flex-wrap gap-y-2 gap-x-5.25">
