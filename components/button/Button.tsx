@@ -5,12 +5,13 @@ import Image, { StaticImageData } from "next/image";
 type ButtonProps = {
   text?: string;
   disabled?: boolean;
+  
   onClick?: React.MouseEventHandler<HTMLButtonElement>;
   imageSrc?: StaticImageData;
-  bgColor?: string;      // button background color
-  hoverColor?: string;   // hover background color
-  textColor?: string;    // button text color
-  hoverTextColor?: string; // hover text color
+  bgColor?: string;     
+  hoverColor?: string;  
+  textColor?: string;   
+  hoverTextColor?: string; 
 };
 
 export default function Button({
@@ -18,7 +19,7 @@ export default function Button({
   disabled = false,
   onClick,
   imageSrc,
-  bgColor = "#EF4444",
+  bgColor = "#A71E22",
   hoverColor = "#B91C1C",
   textColor = "#FFFFFF",
   hoverTextColor = "#FFFFFF",

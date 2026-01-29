@@ -1,17 +1,19 @@
 
-export default function EmailInput({
+export default function InputField({
   placeholder = "Email address",
   id = "email",
   name = "email",
+  type = "email",
 }: {
   placeholder?: string;
   id?: string;
   name?: string;
+  type?: string;
 }) {
   return (
     <div className="w-full">
       <input
-        type="email"
+        type={type}
         id={id}
         name={name}
         placeholder={placeholder}
