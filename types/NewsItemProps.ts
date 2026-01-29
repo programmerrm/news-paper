@@ -12,4 +12,6 @@ export interface NewsItemProps {
   timeMt?: number;
   contentMt?:number;
   imageWrap?: "max-w-[80px]" | "max-w-[104px]";
+  SingleimageWrap?: "max-w-[150px]" | "max-w-[200px]";
+  showPlayButton?: boolean;
 };

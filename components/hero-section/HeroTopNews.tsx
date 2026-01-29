@@ -6,7 +6,7 @@ type TopNewsProps = {
   time: string;
   image: StaticImageData;
   imageAlt?: string;
-  caption?: string; // ✅ figcaption dynamic
+  caption?: string; 
 };
 
 export default function HeroTopNews({

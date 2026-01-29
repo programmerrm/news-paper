@@ -161,14 +161,14 @@ export default function InternationalNews() {
                                 <div className="flex">
                                     <label
                                         htmlFor="latest"
-                                        className="w-1/2 text-center py-2 cursor-pointer border-b border-[#A1A1A1] text-title  group-has-[#latest:checked]:border-red group-has-[#latest:checked]:text-red group-has-[#latest:checked]:font-semibold"
+                                        className="w-1/2 text-center text-base leading-6 font-medium py-2 cursor-pointer border-b border-[#A1A1A1] text-title  group-has-[#latest:checked]:border-red group-has-[#latest:checked]:text-red"
                                     >
                                         সর্বশেষ
                                     </label>
 
                                     <label
                                         htmlFor="popular"
-                                        className="w-1/2 text-center py-2 cursor-pointer border-b border-[#A1A1A1] text-title group-has-[#popular:checked]:border-red group-has-[#popular:checked]:text-red group-has-[#popular:checked]:font-semibold"
+                                        className="w-1/2 text-center text-base leading-6 font-medium py-2 cursor-pointer border-b border-[#A1A1A1] text-title group-has-[#popular:checked]:border-red group-has-[#popular:checked]:text-red"
                                     >
                                         বেশি পঠিত
                                     </label>

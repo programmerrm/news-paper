@@ -25,7 +25,7 @@ const LatestNewsRead = ({ items }: LatestNewsReadProps) => {
           key={index}
           className="flex items-center gap-3 border-b border-[#D4D4D4] pb-4"
         >
-          <span className="text-base font-semibold leading-6">
+          <span className="text-xl md:text-2xl text-[#525252] font-semibold md:leading-6">
             {toBanglaNumber(index + 1)}
           </span>
 
