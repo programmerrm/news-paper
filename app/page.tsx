@@ -14,24 +14,35 @@ import SocialDiscourseSection from "@/components/information-section/SocialDisco
 import LifeStyleSection from "@/components/information-section/LifeStyleSection";
 import Header from "@/components/header/header";
 import Footer from "@/components/footer/footer";
+import Add from "@/components/add/Add";
 
 export default function Home() {
     return (
         <>
             <Header />
+            <Add />
             <HeroSection />
             <OurStoris />
+            <Add />
             <NewsSlider />
             <BangldeshNews />
+            <Add />
             <NationalSection />
             <VideoSection />
             <PoliticsSection />
+            <Add />
             <SportsSection />
+            <Add />
             <SocialDiscourseSection />
+            <Add />
             <EntertainmentSection />
+            <Add />
             <InternationalNews />
+            <Add />
             <OpinionSection />
+            <Add />
             <GallarySection />
+            <Add />
             <LifeStyleSection />
             <Footer />
         </>

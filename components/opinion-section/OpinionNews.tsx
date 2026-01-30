@@ -1,4 +1,5 @@
 import Image, { StaticImageData } from "next/image";
+import Link from "next/link";
 
 interface OpinionNewsItemProps {
   image: StaticImageData | string;
@@ -17,18 +18,20 @@ const OpinionNewsItem = ({
 }: OpinionNewsItemProps) => {
   return (
     <div className="flex items-center gap-2 border-b border-red pb-7 last:pb-0 last:border-b-0">
-      <div className="shrink-0">
+      <div className="w-full max-w-24 rounded-full overflow-hidden">
         <Image
           src={image}
           alt={title}
           width={imageWidth}
           height={imageHeight}
-          className="object-cover"
+          className="object-cover transition-transform duration-500 hover:scale-105"
         />
       </div>
 
       <div>
-        <h5 className="font-medium leading-6">{title}</h5>
+        <h5 className="font-medium leading-6 transition-all hover:text-[#1877f2]">
+          <Link href="#">{title}</Link>
+          </h5>
         <span className="text-xs sm:text-sm leading-5.5 text-[#525252] mt-2 inline-block">
           লেখক: {author}
         </span>

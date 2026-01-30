@@ -1,5 +1,6 @@
 import Image, { StaticImageData } from "next/image";
 import ImageSquareSmall from "../../assets/icon/ImageSquareSmall.svg"
+import Link from "next/link";
 
 interface GalleryNewsProps {
   image: StaticImageData | string;
@@ -31,7 +32,7 @@ export default function GalleryNews({
           alt={title}
           width={308}
           height={231}
-          className="object-cover w-full h-auto"
+          className="object-cover w-full h-auto "
         />
       </div>
 
@@ -39,8 +40,8 @@ export default function GalleryNews({
         {photoCount} টি ছবি
       </span>
 
-      <h5 className="mt-2 font-semibold leading-7">
-        {title}
+      <h5 className="mt-2 font-semibold leading-7 ">
+        <Link href="#">{title}</Link>
       </h5>
 
       <p className="mt-2 text-gray text-sm">

@@ -46,25 +46,28 @@ body {
 
 
 
-h1,h2,h3,h4,h5,h6{
-    font-family: var(--font-noto-serif-bengali), serif;
-    @apply text-title
-}
 
-h1{
-    @apply text-3xl lg:text-4xl lg:leading-12 font-bold 
-}
-h2{
-    @apply text-2xl lg:text-[32px] lg:leading-10 font-semibold 
-}
-h3{
-    @apply text-xl lg:text-2xl lg:leading-8 font-semibold 
-}
-h4{
-    @apply text-lg lg:text-xl lg:leading-7 font-semibold 
-}
-h5{
-    @apply text-sm sm:text-base lg:leading-6 font-semibold
+@layer base{
+    h1,h2,h3,h4,h5,h6{
+        font-family: var(--font-noto-serif-bengali), serif;
+        @apply text-title
+    }
+
+    h1{
+        @apply text-3xl lg:text-4xl lg:leading-12 font-bold 
+    }
+    h2{
+        @apply text-2xl lg:text-[32px] lg:leading-10 font-semibold 
+    }
+    h3{
+        @apply text-xl lg:text-2xl lg:leading-8 font-semibold 
+    }
+    h4{
+        @apply text-lg lg:text-xl lg:leading-7 font-semibold 
+    }
+    h5{
+        @apply text-sm sm:text-base lg:leading-6 font-semibold
+    }
 }
 
 .home-slider .swiper-horizontal > .swiper-pagination-bullets,

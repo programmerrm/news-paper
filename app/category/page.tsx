@@ -11,6 +11,8 @@ import SingleNewsItem from "@/components/news-items/SingleNewsItem";
 import Image from "next/image";
 import NewsFlashImage from "../../assets/image/news-flash.png"
 import Button from "@/components/button/Button";
+import Link from "next/link";
+import arrowRight from "../../assets/icon/arrow-right.png"
 
 const latestNewsData = [
   { title: "দাঁতের জন্য ক্ষতিকর ৬ খাবার ও পানীয়: বিশেষজ্ঞদের সতর্কতা" },
@@ -30,13 +32,39 @@ const mostReadNews = [
   { title: "নির্বাচন নিয়ে নতুন ঘোষণা কমিশনের" },
 ];
 
-export default function LatestNewspage() {
+export default function CategoryNewspage() {
   return (
     <>
     
         <section className="py-5 sm:py-10">
             <div className="container">
-                <h2 className="text-2xl font-bold">Latest news</h2>
+                <div>
+                    <div className="flex items-center gap-4">
+                       <h2 className="">জাতীয় খবর</h2> 
+                       <div className="flex items-center gap-4">
+                            <Image 
+                                src={arrowRight}
+                                alt="#"
+                            />
+                            <h2 className="text-red">রাজনীতি</h2>
+                        </div> 
+                    </div>
+                   <ul className="flex items-center gap-6">
+                        <li>
+                            <Link href="#" className="relative top-1/2 pl-3 after:absolute after:top-1/2 after:-translate-y-1/2 after:left-0 after:w-1.5 after:h-1.5 after:bg-[#B6C3C8] after:rounded-full">রাজনীতি</Link>
+                        </li>
+                        <li>
+                            <Link href="#" className="relative top-1/2 pl-3 after:absolute after:top-1/2 after:-translate-y-1/2 after:left-0 after:w-1.5 after:h-1.5 after:bg-[#B6C3C8] after:rounded-full">রাজনীতি</Link>
+                        </li>
+                        <li>
+                            <Link href="#" className="relative top-1/2 pl-3 after:absolute after:top-1/2 after:-translate-y-1/2 after:left-0 after:w-1.5 after:h-1.5 after:bg-[#B6C3C8] after:rounded-full">রাজনীতি</Link>
+                        </li>
+                        <li>
+                            <Link href="#" className="relative top-1/2 pl-3 after:absolute after:top-1/2 after:-translate-y-1/2 after:left-0 after:w-1.5 after:h-1.5 after:bg-[#B6C3C8] after:rounded-full">রাজনীতি</Link>
+                        </li>
+                   </ul>
+                </div>
+                
                 <div className="flex flex-col lg:flex-row mt-8 gap-5">
                 {/* Left column - small news items */}
                 <div className="w-full lg:max-w-[32%] flex flex-col gap-5 divide-y divide-[#D4D4D4] order-2 lg:order-1">
@@ -212,103 +240,13 @@ export default function LatestNewspage() {
                             />
                     </div>
                     <div className="pb-4 md:pb-8">
-                        <SingleNewsItem
-                                image={RiverImage}
-                                imageWidth={340}
-                                imageHeight={304}
-                                title={"চূড়ান্ত প্রার্থী তালিকা সময়মতো জানাবে জামায়াত: আমির ডা. শফিকুর রহমান"}
-                                time={"১ সেকেন্ড আগে"}
-                                href="#"
-                                timeMt={16}
-                                SingleimageWrap="max-w-[200px]"
-                                content="বলিউডের আইটেম গার্ল খ্যাত অভিনেত্রী মালাইকা অরোরা ব্যক্তিগত জীবন নিয়ে সবসময় আলোচনায় থাকেন। দীর্ঘদাম্পত্য আর সম্পর্ক ভেঙে যাওয়ার পর মালাইকা এবার নতুন প্রেমের গুঞ্জনে ছড়িয়ে পড়েছেন।"
-                                titleMb={12}
-                                showPlayButton= {true}
-                            />
-                    </div>
-                    <div className="pb-4 md:pb-8">
-                        <SingleNewsItem
-                                image={RiverImage}
-                                imageWidth={340}
-                                imageHeight={304}
-                                title={"চূড়ান্ত প্রার্থী তালিকা সময়মতো জানাবে জামায়াত: আমির ডা. শফিকুর রহমান"}
-                                time={"১ সেকেন্ড আগে"}
-                                href="#"
-                                timeMt={16}
-                                SingleimageWrap="max-w-[200px]"
-                                content="বলিউডের আইটেম গার্ল খ্যাত অভিনেত্রী মালাইকা অরোরা ব্যক্তিগত জীবন নিয়ে সবসময় আলোচনায় থাকেন। দীর্ঘদাম্পত্য আর সম্পর্ক ভেঙে যাওয়ার পর মালাইকা এবার নতুন প্রেমের গুঞ্জনে ছড়িয়ে পড়েছেন।"
-                                titleMb={12}
-                                showPlayButton= {true}
-                            />
-                    </div>
-                    <div className="pb-4 md:pb-8">
-                        <SingleNewsItem
-                                image={RiverImage}
-                                imageWidth={340}
-                                imageHeight={304}
-                                title={"চূড়ান্ত প্রার্থী তালিকা সময়মতো জানাবে জামায়াত: আমির ডা. শফিকুর রহমান"}
-                                time={"১ সেকেন্ড আগে"}
-                                href="#"
-                                timeMt={16}
-                                SingleimageWrap="max-w-[200px]"
-                                content="বলিউডের আইটেম গার্ল খ্যাত অভিনেত্রী মালাইকা অরোরা ব্যক্তিগত জীবন নিয়ে সবসময় আলোচনায় থাকেন। দীর্ঘদাম্পত্য আর সম্পর্ক ভেঙে যাওয়ার পর মালাইকা এবার নতুন প্রেমের গুঞ্জনে ছড়িয়ে পড়েছেন।"
-                                titleMb={12}
-                                showPlayButton= {true}
-                            />
-                    </div>
-                    <div className="pb-4 md:pb-8">
-                        <SingleNewsItem
-                                image={RiverImage}
-                                imageWidth={340}
-                                imageHeight={304}
-                                title={"চূড়ান্ত প্রার্থী তালিকা সময়মতো জানাবে জামায়াত: আমির ডা. শফিকুর রহমান"}
-                                time={"১ সেকেন্ড আগে"}
-                                href="#"
-                                timeMt={16}
-                                SingleimageWrap="max-w-[200px]"
-                                content="বলিউডের আইটেম গার্ল খ্যাত অভিনেত্রী মালাইকা অরোরা ব্যক্তিগত জীবন নিয়ে সবসময় আলোচনায় থাকেন। দীর্ঘদাম্পত্য আর সম্পর্ক ভেঙে যাওয়ার পর মালাইকা এবার নতুন প্রেমের গুঞ্জনে ছড়িয়ে পড়েছেন।"
-                                titleMb={12}
-                                showPlayButton= {true}
-                            />
-                    </div>
-                    <div className="pb-4 md:pb-8">
-                        <SingleNewsItem
-                                image={RiverImage}
-                                imageWidth={340}
-                                imageHeight={304}
-                                title={"চূড়ান্ত প্রার্থী তালিকা সময়মতো জানাবে জামায়াত: আমির ডা. শফিকুর রহমান"}
-                                time={"১ সেকেন্ড আগে"}
-                                href="#"
-                                timeMt={16}
-                                SingleimageWrap="max-w-[200px]"
-                                content="বলিউডের আইটেম গার্ল খ্যাত অভিনেত্রী মালাইকা অরোরা ব্যক্তিগত জীবন নিয়ে সবসময় আলোচনায় থাকেন। দীর্ঘদাম্পত্য আর সম্পর্ক ভেঙে যাওয়ার পর মালাইকা এবার নতুন প্রেমের গুঞ্জনে ছড়িয়ে পড়েছেন।"
-                                titleMb={12}
-                                showPlayButton= {true}
-                            />
-                    </div>
-                    <div className="pb-4 md:pb-8">
-                        <SingleNewsItem
-                                image={RiverImage}
-                                imageWidth={340}
-                                imageHeight={304}
-                                title={"চূড়ান্ত প্রার্থী তালিকা সময়মতো জানাবে জামায়াত: আমির ডা. শফিকুর রহমান"}
-                                time={"১ সেকেন্ড আগে"}
-                                href="#"
-                                timeMt={16}
-                                SingleimageWrap="max-w-[200px]"
-                                content="বলিউডের আইটেম গার্ল খ্যাত অভিনেত্রী মালাইকা অরোরা ব্যক্তিগত জীবন নিয়ে সবসময় আলোচনায় থাকেন। দীর্ঘদাম্পত্য আর সম্পর্ক ভেঙে যাওয়ার পর মালাইকা এবার নতুন প্রেমের গুঞ্জনে ছড়িয়ে পড়েছেন।"
-                                titleMb={12}
-                                showPlayButton= {true}
-                            />
-                    </div>
-                    <div className="pb-4 md:pb-8">
                         <Image
                             src={NewsFlashImage}
                             alt="NewsFlashImage"
                         />
                     </div>
                     <div className="pb-4 md:pb-8 pt-2 max-w-60 mx-auto">
-                        <Button 
+                        <Button
                             text="আরো দেখুন"
                         />
                     </div>

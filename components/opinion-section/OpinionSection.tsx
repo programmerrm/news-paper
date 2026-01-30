@@ -22,9 +22,10 @@ export default function OpinionSection () {
                                     alt="traump image"
                                     width={140}
                                     height={140}
+                                    className=" object-cover transition-transform duration-500 hover:scale-105"
                                 />
                             </div>
-                            <h4 className="mb-3">
+                            <h4 className="mb-3 transition-all hover:text-[#1877f2]">
                                 <Link href="#">
                                     ভারত-পাকিস্তান যুদ্ধ দামামা: উগ্র জাতীয়তাবাদ, নাকি কৌশলগত বাণিজ্য?
                                 </Link>
