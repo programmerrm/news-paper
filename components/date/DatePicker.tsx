@@ -15,7 +15,7 @@ export default function DatePicker() {
     const d = new Date(value);
     const options: Intl.DateTimeFormatOptions = {
       day: "2-digit",
-      month: "short",
+      month: "2-digit",
       year: "numeric",
     };
     return d.toLocaleDateString("bn-BD", options);
