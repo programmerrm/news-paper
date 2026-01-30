@@ -1,12 +1,13 @@
 import SectionTitle from "../section-title/SectionTitle";
-import rightArrow from "../../assets/icon/right-arrow.svg";
-import DistrictSelect from "./districtsSelect";
-import DivisionSelect from "./divisionSelect";
-import SubdistrictSelect from "./subDistrictSelect";
 import NewsItem from "../news-items/newsItem";
 import HeroSideberImage from "../../assets/image/hero-sidebar.png";
 import LedNews from "../led-news/LedNews";
 import ledImage from "../../assets/image/led-image.png"
+import Button from "../button/Button";
+import { subdistricts } from "@/data/subdistricts";
+import { districts } from "@/data/districts";
+import { divisions } from "@/data/division";
+import CustomSelect from "../selects/CustomSelect";
 
 
 
@@ -20,12 +21,20 @@ export default function BangldeshNews (){
                 />
                 <form className="bg-[#E0EBF0] p-4 lg:p-8 mt-8 flex flex-col sm:flex-row items-center gap-3">
                     <div className="w-full grid sm:grid-cols-3 gap-3 sm:flex-1">
-                        <DivisionSelect />
-                        <DistrictSelect />
-                        <SubdistrictSelect />
+                        <CustomSelect
+                             options={divisions}
+                        />
+                        <CustomSelect
+                             options={districts}
+                        />
+                        <CustomSelect
+                             options={subdistricts}
+                        />
                     </div>
                     <div className="w-full sm:max-w-40 lg:max-w-60">
-                        <button type="submit" className="bg-red py-2 lg:py-3 w-full text-sm leading-6 text-white font-medium cursor-pointer ">সার্চ করুন</button>
+                        <Button
+                            text="সার্চ করুন"
+                        />
                     </div>
                 </form>
                 <div className="flex flex-col lg:flex-row mt-8">

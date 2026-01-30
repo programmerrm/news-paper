@@ -1,6 +1,6 @@
 "use client";
 
-import CustomSelect from "../select/CustomSelect";
+import CustomSelect from "../selects/CustomSelect";
 
 type NewsFilterBarProps = {
   total: number | string;
@@ -15,12 +15,18 @@ export default function NewsFilterBar({
   options,
 }: NewsFilterBarProps) {
   return (
-    <div className="flex items-center justify-between gap-4 w-full">
+    <div className="flex items-center justify-between gap-2">
       <p className="text-sm sm:text-base text-[#171717] font-medium leading-6">
         টোটাল খবর - <span>{total}</span>
       </p>
 
-      {options && <CustomSelect options={options} />}
+      <div>
+        {options && 
+        <CustomSelect 
+         options={options} 
+         className="py-2 px-3"
+        />}
+      </div>
     </div>
   );
 }

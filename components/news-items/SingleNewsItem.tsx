@@ -36,7 +36,7 @@ export default function SingleNewsItem({
             {showPlayButton && (
                 <button
                     type="submit"
-                    className="absolute bottom-3 md:bottom-6 left-3 md:left-6 max-w-7 md:max-w-10"
+                    className="absolute bottom-3 md:bottom-6 left-3 md:left-6 max-w-7 md:max-w-10 cursor-pointer"
                 >
                     <Image
                     src={PlayIcon}
