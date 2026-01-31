@@ -132,6 +132,7 @@ export default function HeroSection() {
                                 imageWidth={88}
                                 imageHeight={66}
                                 imageWrap="max-w-[80px]"
+                                titleFontWeight="500"
                             />
                             <NewsItem 
                                 image={HeroSideberImage}
@@ -139,6 +140,7 @@ export default function HeroSection() {
                                 imageWidth={88}
                                 imageHeight={66}
                                 imageWrap="max-w-[80px]"
+                                titleFontWeight="500"
                             />
                             <NewsItem 
                                 image={HeroSideberImage}
@@ -146,6 +148,7 @@ export default function HeroSection() {
                                 imageWidth={88}
                                 imageHeight={66}
                                 imageWrap="max-w-[80px]"
+                                titleFontWeight="500"
                             />
                             <NewsItem 
                                 image={HeroSideberImage}
@@ -153,6 +156,7 @@ export default function HeroSection() {
                                 imageWidth={88}
                                 imageHeight={66}
                                 imageWrap="max-w-[80px]"
+                                titleFontWeight="500"
                             />
                             <NewsItem 
                                 image={HeroSideberImage}
@@ -160,6 +164,7 @@ export default function HeroSection() {
                                 imageWidth={88}
                                 imageHeight={66}
                                 imageWrap="max-w-[80px]"
+                                titleFontWeight="500"
                             />
                             <NewsItem 
                                 image={HeroSideberImage}
@@ -167,6 +172,7 @@ export default function HeroSection() {
                                 imageWidth={88}
                                 imageHeight={66}
                                 imageWrap="max-w-[80px]"
+                                titleFontWeight="500"
                             />
                             <NewsItem 
                                 image={HeroSideberImage}
@@ -174,6 +180,7 @@ export default function HeroSection() {
                                 imageWidth={88}
                                 imageHeight={66}
                                 imageWrap="max-w-[80px]"
+                                titleFontWeight="500"
                             />
                         </div>
                     </div>

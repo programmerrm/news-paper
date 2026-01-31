@@ -11,6 +11,7 @@ export interface NewsItemProps {
   isLive?: boolean;
   timeMt?: number;
   contentMt?:number;
+  titleFontWeight?: number | string;
   imageWrap?: "max-w-[80px]" | "max-w-[104px]";
   SingleimageWrap?: "max-w-[150px]" | "max-w-[200px]";
   showPlayButton?: boolean;

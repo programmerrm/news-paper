@@ -1,9 +1,11 @@
 import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
+import { ReactNode } from "react";
 
 type LedNewsProps = {
   image: StaticImageData;
-  title: string;
+  title: ReactNode;
+  headingLevel?: "h1" | "h2" | "h3" | "h4" | "h5" | "h6";
   content?: string;
   time?: string;
   href?: string;
@@ -11,11 +13,13 @@ type LedNewsProps = {
   imageHeight?: number;
   contentMt?: number;
   timeMt?: number;
+  gap?: string;
 };
 
 export default function LedNews({
   image,
   title,
+  headingLevel = "h4",
   content,
   time,
   href = "#",
@@ -23,14 +27,17 @@ export default function LedNews({
   imageHeight = 377,
   contentMt = 12,
   timeMt = 16,
+  gap = "gap-6",
 }: LedNewsProps) {
+  const HeadingTag = headingLevel;
+
   return (
-    <div className="flex flex-col gap-6">
+    <div className={`flex flex-col ${gap}`}>
       {/* Image */}
       <Link href={href} className="overflow-hidden">
         <Image
           src={image}
-          alt={title}
+          alt={typeof title === "string" ? title : "news image"}
           width={imageWidth}
           height={imageHeight}
           className="w-full h-auto object-cover transition-transform duration-500 hover:scale-105"
@@ -41,9 +48,9 @@ export default function LedNews({
       {/* Content */}
       <div>
         <Link href={href}>
-          <h4 className="font-semibold leading-6 sm:leading-7 transition-all duration-300 hover:text-blue-600!">
+          <HeadingTag className="transition-all duration-300 hover:text-blue-600!">
             {title}
-          </h4>
+          </HeadingTag>
 
           {content && (
             <p

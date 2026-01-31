@@ -13,7 +13,8 @@ export default function NewsItem({
   titleMb = 4,
   isLive = false,
   timeMt = 4,
-  imageWrap
+  imageWrap,
+  titleFontWeight = 600,
 }: NewsItemProps) {
   return (
     <div className="flex gap-3 py-5 first:pt-0 last:pb-0">
@@ -37,7 +38,10 @@ export default function NewsItem({
       <div className="flex-1">
         {title && (
           <h5
-            style={{ marginBottom: `${titleMb}px` }}
+             style={{
+              marginBottom: `${titleMb}px`,
+              fontWeight: titleFontWeight, 
+            }}
           >
             {isLive && (
               <span className="inline-flex items-center gap-2">
