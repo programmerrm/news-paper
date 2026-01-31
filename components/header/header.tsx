@@ -1,4 +1,4 @@
-import Image, { StaticImageData } from "next/image";
+import { StaticImageData } from "next/image";
 import Logo from "../../assets/logo/logo.svg";
 import TopImage from "../../assets/image/top-image.jpg";
 import hamburgerIcon from "../../assets/logo/hambuger-icon.svg";
@@ -7,7 +7,7 @@ import globeIcon from "../../assets/logo/globe.svg";
 import searchIcon from "../../assets/logo/search.svg";
 import userIcon from "../../assets/logo/user.svg";
 import TopMenu from "../mega-menu/TopMenu";
-import TopNews, { TopNewsItem } from "../top-news/topNews";
+import TopNews, { TopNewsItem } from "./topNews";
 import TopHeader from "./topHeader";
 
 

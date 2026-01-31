@@ -6,11 +6,9 @@ import searchIcon from "../../assets/icon/search.svg"
 import HasTagButton from "@/components/button/HasTagButton";
 import NewsFilterBar from "@/components/news-filter/NewsFilterBar";
 
-
 export default function SearchNewspage() {
     return (
         <>
-
             <section className="py-5 sm:py-10">
                 <div className="container">
                     <h2 className="text-2xl font-bold">খুঁজুন</h2>

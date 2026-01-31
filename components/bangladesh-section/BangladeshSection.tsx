@@ -9,8 +9,6 @@ import { districts } from "@/data/districts";
 import { divisions } from "@/data/division";
 import CustomSelect from "../selects/CustomSelect";
 
-
-
 export default function BangldeshNews (){
     return (
         <section className="py-8 lg:py-16">
@@ -19,24 +17,28 @@ export default function BangldeshNews (){
                     title="বাংলাদেশ"
                     href="#"
                 />
-                <form className="bg-[#E0EBF0] p-4 lg:p-8 mt-8 flex flex-col sm:flex-row items-center gap-3">
-                    <div className="w-full grid sm:grid-cols-3 gap-3 sm:flex-1">
-                        <CustomSelect
-                             options={divisions}
-                        />
-                        <CustomSelect
-                             options={districts}
-                        />
-                        <CustomSelect
-                             options={subdistricts}
-                        />
-                    </div>
-                    <div className="w-full sm:max-w-40 lg:max-w-60">
-                        <Button
-                            text="সার্চ করুন"
-                        />
-                    </div>
-                </form>
+                
+                <div className="bg-[#E0EBF0] p-4 lg:p-8 mt-8 ">
+                    <h5 className="text-center mb-3.5">আপনার এলাকার খবর</h5>
+                    <form action="" className="flex flex-col sm:flex-row items-center gap-3">
+                        <div className="w-full grid sm:grid-cols-3 gap-3 sm:flex-1">
+                            <CustomSelect
+                                options={divisions}
+                            />
+                            <CustomSelect
+                                options={districts}
+                            />
+                            <CustomSelect
+                                options={subdistricts}
+                            />
+                        </div>
+                        <div className="w-full sm:max-w-40 lg:max-w-60">
+                            <Button
+                                text="সার্চ করুন"
+                            />
+                        </div>
+                    </form>
+                </div>
                 <div className="flex flex-col lg:flex-row mt-8">
                     <div className="w-full lg:max-w-[32.031%] lg:pr-5 mt-4 lg:mt-0 flex flex-col gap-2.5 lg:gap-5 divide-y divide-[#D4D4D4] order-2 lg:order-1">
                         <div className="pb-3 lg:pb-5">

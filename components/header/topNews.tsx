@@ -1,7 +1,8 @@
-// components/TopNews.tsx
+
 "use client";
 
 import Image, { StaticImageData } from "next/image";
+import Link from "next/link";
 
 export type TopNewsItem = {
   image: StaticImageData;
@@ -20,7 +21,7 @@ export default function TopNews({ news }: TopNewsProps) {
         <div className="grid grid-cols-4 items-center justify-between gap-5">
           {news.map((item, index) => (
             <div key={index} className="flex gap-2 w-full lg:w-auto">
-              <a
+              <Link
                 href={item.href}
                 className="bg-gray-dark w-full max-w-22 h-full max-h-16.5"
               >
@@ -31,10 +32,10 @@ export default function TopNews({ news }: TopNewsProps) {
                   height={66}
                   className="object-cover"
                 />
-              </a>
-              <a href={item.href} className="hidden lg:block font-inter text-sm sm:text-base font-medium sm:leading-6">
+              </Link>
+              <Link href={item.href} className="hidden lg:block font-inter text-sm sm:text-base font-medium sm:leading-6">
                 {item.title}
-              </a>
+              </Link>
             </div>
           ))}
         </div>

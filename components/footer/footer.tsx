@@ -94,7 +94,7 @@ const links6 = [
 
 export default function Footer() {
     return (
-        <footer className="pt-6 lg:pt-12">
+        <footer className="pt-6 lg:pt-12 border-t border-[#E5E5E5]">
             <div className="container">
                 <div className="space-y-4 md:space-y-8 divide-y divide-gray-dark">
                     <div className="pb-4 md:pb-8">

@@ -1,4 +1,3 @@
-
 export default function InputField({
   placeholder = "Email address",
   id = "email",

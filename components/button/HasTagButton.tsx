@@ -1,12 +1,10 @@
 import Link from "next/link";
 
-
 type hashTagData = {
     href: string;
     label: string;
     color?: string;
 };
-
 
 const HasTagButton = ({ 
     href,
@@ -27,6 +25,5 @@ const HasTagButton = ({
         </Link>
     );
 };
-
 
 export default HasTagButton;

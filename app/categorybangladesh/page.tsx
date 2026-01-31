@@ -12,8 +12,12 @@ import NewsBreadcrumb from "@/components/breadcrumb/NewsBreadcrumb";
 import SubCategory from "@/components/subcategory/SubCategory";
 import CategoryNewsHeadding from "@/components/category/CategoryNewsHeadding";
 import SectionHeader from "@/components/category/SectionHeader";
+import CustomSelect from "@/components/selects/CustomSelect";
+import { subdistricts } from "@/data/subdistricts";
+import { districts } from "@/data/districts";
+import { divisions } from "@/data/division";
 
-export default function CategoryNewspage() {
+export default function CategoryBangladeshNewspage() {
     return (
         <>
             <section className="py-5 sm:py-10">
@@ -21,8 +25,8 @@ export default function CategoryNewspage() {
                     <div>
 
                         <NewsBreadcrumb
-                            title="জাতীয় খবর"
-                            subtitle="রাজনীতি"
+                            title="বাংলাদেশ"
+                            subtitle="ঢাকা"
                         />
                         <SubCategory />
                     </div>
@@ -89,8 +93,8 @@ export default function CategoryNewspage() {
 
                         {/* Right column - small news items */}
                         <div className="w-full lg:max-w-[23.829%] order-3 lg:order-3">
-                            <CategoryNewsHeadding 
-                                highlightText= "রাজনীতি"
+                            <CategoryNewsHeadding
+                                highlightText="বাংলাদেশ"
                             />
                             <div className="flex flex-col divide-y divide-[#D4D4D4] mt-6">
                                 <NewsItem
@@ -146,58 +150,84 @@ export default function CategoryNewspage() {
                     </div>
                 </div>
             </section>
+            <section className="bg-[#E0EBF0]">
+                <div className="container">
+                    <div className=" p-4 lg:p-8 mt-8 ">
+                        <h5 className="text-center mb-3.5">আপনার এলাকার খবর</h5>
+                        <form action="" className="flex flex-col sm:flex-row items-center gap-3">
+                            <div className="w-full grid sm:grid-cols-3 gap-3 sm:flex-1">
+                                <CustomSelect
+                                    options={divisions}
+                                />
+                                <CustomSelect
+                                    options={districts}
+                                />
+                                <CustomSelect
+                                    options={subdistricts}
+                                />
+                            </div>
+                            <div className="w-full sm:max-w-40 lg:max-w-60">
+                                <Button
+                                    text="সার্চ করুন"
+                                />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
             <section className="bg-linear-to-b from-[#F0F5F4] to-[#FFFFFF] py-8 lg:py-16 border-b border-[#B6C3C8]">
                 <div className="container">
-                    <SectionHeader 
-                        category="রাজনীতি"
+                    
+                    <SectionHeader
+                        category="বাংলাদেশ"
                     />
                     <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 mt-6">
                         <LedNews
-                                image={ledImage}
-                                imageWidth={305}
-                                imageHeight={229}
-                                title="ফিলিস্তিনি বন্দির ওপর ভয়াবহ নির্যাতনের ভিডিও ফাঁসের ঘটনায় গ্রেফতার হয়েছেন ইসরাইলি সেনাবাহিনীর সাবেক প্রধান আইন কর্মকর্তা"
-                                time="১ মিনিট আগে"
-                                href="/news/led/1"
-                                timeMt={16}
-                                headingLevel="h5"
-                                gap="gap-3"
-                            />
+                            image={ledImage}
+                            imageWidth={305}
+                            imageHeight={229}
+                            title="ফিলিস্তিনি বন্দির ওপর ভয়াবহ নির্যাতনের ভিডিও ফাঁসের ঘটনায় গ্রেফতার হয়েছেন ইসরাইলি সেনাবাহিনীর সাবেক প্রধান আইন কর্মকর্তা"
+                            time="১ মিনিট আগে"
+                            href="/news/led/1"
+                            timeMt={16}
+                            headingLevel="h5"
+                            gap="gap-3"
+                        />
                         <LedNews
-                                image={ledImage}
-                                imageWidth={305}
-                                imageHeight={229}
-                                title="ফিলিস্তিনি বন্দির ওপর ভয়াবহ নির্যাতনের ভিডিও ফাঁসের ঘটনায় গ্রেফতার হয়েছেন ইসরাইলি সেনাবাহিনীর সাবেক প্রধান আইন কর্মকর্তা"
-                                time="১ মিনিট আগে"
-                                href="/news/led/1"
-                                timeMt={16}
-                                headingLevel="h5"
-                                gap="gap-3"
-                            />
+                            image={ledImage}
+                            imageWidth={305}
+                            imageHeight={229}
+                            title="ফিলিস্তিনি বন্দির ওপর ভয়াবহ নির্যাতনের ভিডিও ফাঁসের ঘটনায় গ্রেফতার হয়েছেন ইসরাইলি সেনাবাহিনীর সাবেক প্রধান আইন কর্মকর্তা"
+                            time="১ মিনিট আগে"
+                            href="/news/led/1"
+                            timeMt={16}
+                            headingLevel="h5"
+                            gap="gap-3"
+                        />
                         <LedNews
-                                image={ledImage}
-                                imageWidth={305}
-                                imageHeight={229}
-                                title="ফিলিস্তিনি বন্দির ওপর ভয়াবহ নির্যাতনের ভিডিও ফাঁসের ঘটনায় গ্রেফতার হয়েছেন ইসরাইলি সেনাবাহিনীর সাবেক প্রধান আইন কর্মকর্তা"
-                                time="১ মিনিট আগে"
-                                href="/news/led/1"
-                                timeMt={16}
-                                headingLevel="h5"
-                                gap="gap-3"
-                            />
+                            image={ledImage}
+                            imageWidth={305}
+                            imageHeight={229}
+                            title="ফিলিস্তিনি বন্দির ওপর ভয়াবহ নির্যাতনের ভিডিও ফাঁসের ঘটনায় গ্রেফতার হয়েছেন ইসরাইলি সেনাবাহিনীর সাবেক প্রধান আইন কর্মকর্তা"
+                            time="১ মিনিট আগে"
+                            href="/news/led/1"
+                            timeMt={16}
+                            headingLevel="h5"
+                            gap="gap-3"
+                        />
                         <LedNews
-                                image={ledImage}
-                                imageWidth={305}
-                                imageHeight={229}
-                                title="ফিলিস্তিনি বন্দির ওপর ভয়াবহ নির্যাতনের ভিডিও ফাঁসের ঘটনায় গ্রেফতার হয়েছেন ইসরাইলি সেনাবাহিনীর সাবেক প্রধান আইন কর্মকর্তা"
-                                time="১ মিনিট আগে"
-                                href="/news/led/1"
-                                timeMt={16}
-                                headingLevel="h5"
-                                gap="gap-3"
-                            />
+                            image={ledImage}
+                            imageWidth={305}
+                            imageHeight={229}
+                            title="ফিলিস্তিনি বন্দির ওপর ভয়াবহ নির্যাতনের ভিডিও ফাঁসের ঘটনায় গ্রেফতার হয়েছেন ইসরাইলি সেনাবাহিনীর সাবেক প্রধান আইন কর্মকর্তা"
+                            time="১ মিনিট আগে"
+                            href="/news/led/1"
+                            timeMt={16}
+                            headingLevel="h5"
+                            gap="gap-3"
+                        />
                     </div>
-                    
+
                 </div>
             </section>
             <section className="py-7 lg:py-14">
@@ -230,7 +260,6 @@ export default function CategoryNewspage() {
                                 SingleimageWrap="max-w-[200px]"
                                 content="বলিউডের আইটেম গার্ল খ্যাত অভিনেত্রী মালাইকা অরোরা ব্যক্তিগত জীবন নিয়ে সবসময় আলোচনায় থাকেন। দীর্ঘদাম্পত্য আর সম্পর্ক ভেঙে যাওয়ার পর মালাইকা এবার নতুন প্রেমের গুঞ্জনে ছড়িয়ে পড়েছেন।"
                                 titleMb={12}
-                                isLive
 
                             />
                         </div>
@@ -270,7 +299,7 @@ export default function CategoryNewspage() {
                                 showPlayButton={true}
                             />
                         </div>
-                        
+
                         <div className="pb-4 md:pb-8 pt-2 max-w-60 mx-auto">
                             <Button
                                 text="আরো দেখুন"

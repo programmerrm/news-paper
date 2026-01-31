@@ -1,0 +1,16 @@
+{
+  "framework": "nextjs",
+  "rewrites": [
+    { "source": "/home.json", "destination": "/api/home" },
+    { "source": "/archive.json", "destination": "/api/archive" },
+    { "source": "/category.json", "destination": "/api/category" },
+    { "source": "/categorybangladesh.json", "destination": "/api/categorybangladesh" },
+    { "source": "/latest.json", "destination": "/api/latest" },
+    { "source": "/search.json", "destination": "/api/search" },
+
+    { "source": "/auth/login.json", "destination": "/api/auth/login" },
+    { "source": "/auth/registration.json", "destination": "/api/auth/registration" },
+    { "source": "/auth/verification.json", "destination": "/api/auth/verification" },
+    { "source": "/auth/forgetpassword.json", "destination": "/api/auth/forgetpassword" }
+  ]
+}

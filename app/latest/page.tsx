@@ -1,4 +1,3 @@
-
 import NewsItem from "@/components/news-items/newsItem";
 import LedNews from "@/components/led-news/LedNews";
 import HeroSideberImage from "../../assets/image/hero-sidebar.png";
@@ -33,7 +32,6 @@ const mostReadNews = [
 export default function LatestNewspage() {
   return (
     <>
-    
         <section className="py-5 sm:py-10">
             <div className="container">
                 <h2 className="text-2xl font-bold">Latest news</h2>

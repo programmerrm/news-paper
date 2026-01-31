@@ -1,11 +1,9 @@
 "use client";
 
 import Image, { StaticImageData } from "next/image";
-
 type ButtonProps = {
   text?: string;
   disabled?: boolean;
-  
   onClick?: React.MouseEventHandler<HTMLButtonElement>;
   imageSrc?: StaticImageData;
   bgColor?: string;     

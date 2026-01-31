@@ -1,5 +1,3 @@
-
-
 type VoteItemProps = {
   id: string;
   name: string;

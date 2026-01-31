@@ -1,4 +1,3 @@
-
 import SectionTitle from "../section-title/SectionTitle";
 import StorisCard from "./StorisCard";
 import storisImage from "../../assets/image/storis-image.png";

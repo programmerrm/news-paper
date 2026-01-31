@@ -4,7 +4,6 @@ import HeroSideberImage from "../../assets/image/hero-sidebar.png";
 import nationalImageLed from "../../assets/image/national-image-led.png"
 import updesthaImage from "../../assets/image/image3.png"
 import NationalNews from "../national-section/NationalNews";
-import OnlineVhote from "../national-section/OnlineVhote";
 import NationalLedNews from "../national-led-news/NationalLedNews";
 import entertainmentLedImage from "../../assets/image/entertainment-image.png";
 import addentertainmentImage from "../../assets/image/add-entertainment.png";

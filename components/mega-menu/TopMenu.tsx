@@ -15,7 +15,6 @@ import Link from "next/link";
 import TopHeader from "../header/topHeader";
 import { SocialLink } from "../../data/socialLinks";
 
-
 export type IconLink = {
   icon: StaticImageData;
   label: string;
@@ -28,8 +27,6 @@ type NavItem = {
   href: string;
 };
 
-
-
 type TopMenuProps = {
 navItems: NavItem[];
 iconLinks: IconLink[];
@@ -38,8 +35,6 @@ logo: StaticImageData;
 closeIcon: StaticImageData;
 socialLinks: SocialLink[];
 };
-
-
 
 const TopMenu: React.FC<TopMenuProps> = ({
   navItems,
@@ -50,7 +45,6 @@ const TopMenu: React.FC<TopMenuProps> = ({
   socialLinks,
 }) => {
   const [menuOpen, setMenuOpen] = useState(false);
-
   const toggleMenu = () => setMenuOpen(!menuOpen);
 
   return (

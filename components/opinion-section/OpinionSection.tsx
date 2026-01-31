@@ -1,4 +1,3 @@
-
 import SectionTitle from "../section-title/SectionTitle";
 import internationalNewsImage from "../../assets/image/trump-1.png"
 import Image from "next/image";

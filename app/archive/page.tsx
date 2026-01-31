@@ -7,7 +7,6 @@ import DatePicker from "@/components/date/DatePicker";
 import CalenderIcon from "../../assets/icon/calender.svg";
 import { sections } from "@/data/sections";
 import { topic } from "@/data/topic";
-import { districts } from "@/data/districts";
 import CustomSelect from "@/components/selects/CustomSelect";
 
 
