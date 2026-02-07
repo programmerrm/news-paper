@@ -43,7 +43,7 @@ export default function VideoSection() {
             </Link>
 
             <Link
-              href="#"
+              href="/reels"
               className="text-xs sm:text-sm leading-5.5 text-[#E5E5E5] relative after:absolute after:left-0 after:right-0 after:-bottom-3 after:w-full after:h-0.5 after:bg-transparent hover:after:bg-amber-700 transition-all duration-300"
             >
               রিল খবর
