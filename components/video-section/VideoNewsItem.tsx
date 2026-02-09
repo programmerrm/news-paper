@@ -1,7 +1,7 @@
 import Image, { StaticImageData } from "next/image";
 import videoIcon from "../../assets/icon/play-icon.svg";
 import Link from "next/link";
-import VideoPage from "../video/VideoPage";
+import VideoPlayer from "../video/VideoPage";
 
 type VideoNewsItemProps = {
   image: StaticImageData;
@@ -19,7 +19,12 @@ export default function VideoNewsItem({
   return (
     <div className="p-3 md:p-4 bg-body flex gap-4">
       <div className=" w-full max-w-41">
-        <VideoPage />
+        <VideoPlayer
+          src="/video/jodinat.mp4"
+          poster="/video/Image.png"
+          controls={true}
+          muted
+        />
       </div>
       <div>
         <a href={href}>

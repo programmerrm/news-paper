@@ -1,6 +1,7 @@
 import { NewsItemProps } from "@/types/NewsItemProps";
 import Image from "next/image";
 import VideoPage from "../video/VideoPage";
+import VideoPlayer from "../video/VideoPage";
 
 export default function NewsItem({
   image,
@@ -23,8 +24,12 @@ export default function NewsItem({
         <div
           className={`block ${imageWrap}`}
         >
-         <VideoPage 
-         />
+         <VideoPlayer
+            src="/video/jodinat.mp4"
+            poster="/video/Image.png"
+            controls={true}
+            muted
+          />
         </div>
       )}
 

@@ -11,7 +11,7 @@ export default function NavLinks({ links }: NavLinksProps) {
         <li key={index}>
           <Link
             href={link.href}
-            className="text-[15px] leading-3.75 tracking-[0.15px] text-black transition-all hover:text-[#1877F2]"
+            className="text-[15px] leading-3.75 tracking-[0.15px] text-black transition-all hover:text-blue"
           >
             {link.label}
           </Link>

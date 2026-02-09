@@ -9,6 +9,7 @@ import HasTagButton from "@/components/button/HasTagButton";
 import CommentBox from "@/components/comment-box/CommentBox";
 import FullDetailsItem from "./fullDetailsItem";
 import ReportVideo from "@/components/details/ReportVideo";
+import VideoPlayer from "@/components/video/VideoPage";
 
 const videoList = [
     {
@@ -53,10 +54,11 @@ export default function VideoFullDetailsPage() {
                                 </div>
                             </div>
                             <div className="sm:px-7.5">
-                                <ReportVideo
-                                    src={ledImage}
-                                    alt="led image"
-                                    caption="ছবির ক্যাপশন এখানে হবে"
+                                <VideoPlayer
+                                    src="/video/jodinat.mp4"
+                                    poster="/video/Image.png"
+                                    controls={true}
+                                    muted
                                 />
                             </div>
 

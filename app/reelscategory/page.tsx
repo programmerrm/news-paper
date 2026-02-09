@@ -89,7 +89,6 @@ export default function ReelsCategoryPage() {
                             time="১ মিনিট আগে"
                             href="#"
                         />
-                        
                     </div>
                     <div className="max-w-60 mx-auto mt-10">
                         <Button 

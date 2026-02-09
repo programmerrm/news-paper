@@ -1,6 +1,6 @@
 
 import Link from "next/link";
-import VideoPage from "../video/VideoPage";
+import VideoPlayer from "../video/VideoPage";
 
 type VideoNewsItemProps = {
   title: string;
@@ -16,8 +16,13 @@ export default function VideoCategoryNewsItem({
   return (
     <div className="p-3 md:p-4 bg-white flex gap-4 border border-[#D4D4D4]">
       {/* Thumbnail */}
-      <div className=" w-full max-w-41">
-        <VideoPage />
+      <div className="w-full max-w-41 h-full max-h-30.75">
+        <VideoPlayer
+          src="/video/jodinat.mp4"
+          poster="/video/Image.png"
+          controls={true}
+          muted
+        />
       </div>
       
       <div>

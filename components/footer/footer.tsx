@@ -60,8 +60,8 @@ const socialLinks = [
 ];
 const links = [
     { href: "/latest", label: "সর্বশেষ" },
-    { href: "#", label: "জাতীয়" },
-    { href: "#", label: "বাংলাদেশ" },
+    { href: "/category", label: "জাতীয়" },
+    { href: "/categorybangladesh", label: "বাংলাদেশ" },
 ];
 const links2 = [
     { href: "#", label: "রাজনীতি" },
@@ -128,28 +128,28 @@ export default function Footer() {
                     </div>
                     <ul className="pb-4 md:pb-8 flex items-center justify-center gap-y-3 gap-x-7 lg:gap-x-14 flex-wrap">
                         <li>
-                            <Link href="#" className="text-[15px] leading-3.75 tracking-[0.15px] text-black transition-all hover:text-[#1877F2]">
+                            <Link href="#" className="text-[15px] leading-3.75 tracking-[0.15px] text-black transition-all hover:text-blue">
                                 আমাদের সম্পর্কে
                             </Link>
                         </li>
                         
                         <li>
-                            <Link href="#" className="text-[15px] leading-3.75 tracking-[0.15px] text-black transition-all hover:text-[#1877F2]">
+                            <Link href="#" className="text-[15px] leading-3.75 tracking-[0.15px] text-black transition-all hover:text-blue">
                                 যোগাযোগ
                             </Link>
                         </li>
                         <li>
-                            <Link href="#" className="text-[15px] leading-3.75 tracking-[0.15px] text-black transition-all hover:text-[#1877F2]">
+                            <Link href="#" className="text-[15px] leading-3.75 tracking-[0.15px] text-black transition-all hover:text-blue">
                                 বিজ্ঞাপন
                             </Link>
                         </li>
                         <li>
-                            <Link href="#" className="text-[15px] leading-3.75 tracking-[0.15px] text-black transition-all hover:text-[#1877F2]">
+                            <Link href="#" className="text-[15px] leading-3.75 tracking-[0.15px] text-black transition-all hover:text-blue">
                                 ট্রামস অফ সার্ভিস
                             </Link>
                         </li>
                         <li>
-                            <Link href="#" className="text-[15px] leading-3.75 tracking-[0.15px] text-black transition-all hover:text-[#1877F2]">
+                            <Link href="#" className="text-[15px] leading-3.75 tracking-[0.15px] text-black transition-all hover:text-blue">
                                 প্রাইভেসি পলিসি
                             </Link>
                         </li>

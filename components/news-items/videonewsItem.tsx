@@ -1,5 +1,6 @@
 import { NewsItemProps } from "@/types/NewsItemProps";
 import VideoPage from "../video/VideoPage";
+import VideoPlayer from "../video/VideoPage";
 
 export default function VideoNewsItem({
   image,
@@ -20,7 +21,12 @@ export default function VideoNewsItem({
         <div
           className={`block overflow-hidden ${imageWrap} max-h-19.5`}
         >
-          <VideoPage />
+          <VideoPlayer
+            src="/video/jodinat.mp4"
+            poster="/video/Image.png"
+            controls={true}
+            muted
+          />
         </div>
       )}
 

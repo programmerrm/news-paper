@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import VideoPage from "../video/VideoPage";
+import VideoPlayer from "../video/VideoPage";
 
 type VideoCardProps = {
   title: string;
@@ -22,8 +23,13 @@ export default function VideoCardItem({
 }: VideoCardProps) {
   return (
     <div className={`flex flex-col bg-white ${className}`}>
-      <div className="overflow-hidden w-full max-w-85">
-        <VideoPage />
+      <div className="overflow-hidden w-full h-full max-w-85">
+        <VideoPlayer
+          src="/video/jodinat.mp4"
+          poster="/video/Image.png"
+          controls={true}
+          muted
+      />
       </div>
 
       <div className="pt-3 bg-white">

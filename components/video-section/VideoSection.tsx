@@ -3,6 +3,7 @@ import VideoNewsItem from "./VideoNewsItem";
 import videoItemImage from "../../assets/image/video-item-image.png";
 import Link from "next/link";
 import VideoPage from "../video/VideoPage";
+import VideoPlayer from "../video/VideoPage";
 
 const videoList = [
   {
@@ -53,7 +54,12 @@ export default function VideoSection() {
         <div className="mt-4 sm:mt-6 flex flex-col md:flex-row gap-6 ">
           <div className="w-full md:max-w-[55.938%] bg-body">
             <div className="overflow-hidden max-w-179">
-              <VideoPage />
+              <VideoPlayer
+                src="/video/jodinat.mp4"
+                poster="/video/Image.png"
+                controls={true}
+                muted
+              />
             </div>
 
             <div className="px-3 md:px-6 pt-3 md:pt-8 pb-3 md:pb-13">

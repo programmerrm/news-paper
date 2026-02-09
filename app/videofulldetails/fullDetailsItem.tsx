@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import VideoPage from "../../components/video/VideoPage";
+import VideoPlayer from "../../components/video/VideoPage";
 
 type VideoCardProps = {
   title: string;
@@ -15,7 +16,12 @@ export default function FullDetailsItem({
   return (
     <div className="flex bg-white gap-3 pb-4.5" >
       <div className="w-full max-w-32">
-        <VideoPage />
+        <VideoPlayer
+          src="/video/jodinat.mp4"
+          poster="/video/Image.png"
+          controls={true}
+          muted
+        />
       </div>
 
       <div className="w-full bg-white">
