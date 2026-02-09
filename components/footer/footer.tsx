@@ -64,32 +64,32 @@ const links = [
     { href: "/categorybangladesh", label: "বাংলাদেশ" },
 ];
 const links2 = [
-    { href: "#", label: "রাজনীতি" },
-    { href: "#", label: "বিশ্ব" },
-    { href: "#", label: "ইকোনমি" },
+    { href: "/category", label: "রাজনীতি" },
+    { href: "/category", label: "বিশ্ব" },
+    { href: "/category", label: "ইকোনমি" },
 ];
 const links3 = [
-    { href: "#", label: "ধর্ম" },
-    { href: "#", label: "খেলা" },
-    { href: "#", label: "বিনোদন" },
+    { href: "/category", label: "ধর্ম" },
+    { href: "/category", label: "খেলা" },
+    { href: "/category", label: "বিনোদন" },
 ];
 
 const links4 = [
-    { href: "#", label: "মিডিয়া" },
+    { href: "/category", label: "মিডিয়া" },
     { href: "/archive", label: "আর্কাইভ" },
-    { href: "#", label: "টক অব দ্যা টাউন" },
+    { href: "/category", label: "টক অব দ্যা টাউন" },
 ];
 
 const links5 = [
-    { href: "#", label: "ইতিহাসে’র এই দিনে" },
-    { href: "#", label: "ফিরে দেখা" },
-    { href: "#", label: "প্রবাস প্রকৃতি" },
+    { href: "/category", label: "ইতিহাসে’র এই দিনে" },
+    { href: "/category", label: "ফিরে দেখা" },
+    { href: "/category", label: "প্রবাস প্রকৃতি" },
 ];
 
 const links6 = [
-    { href: "#", label: "এডিটরস মাইন্ড" },
-    { href: "#", label: "নারী শিশু" },
-    { href: "#", label: "কৃষি বাতায়ন" },
+    { href: "/category", label: "এডিটরস মাইন্ড" },
+    { href: "/category", label: "নারী শিশু" },
+    { href: "/category", label: "কৃষি বাতায়ন" },
 ];
 
 export default function Footer() {

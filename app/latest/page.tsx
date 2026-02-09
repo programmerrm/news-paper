@@ -44,7 +44,7 @@ export default function LatestNewspage() {
                     imageHeight={104}
                     title="ইতিহাস গড়ল ভারত! দক্ষিণ আফ্রিকাকে হারিয়ে নারী বিশ্বকাপ জয়"
                     time="১ মিনিট আগে"
-                    href="#"
+                    href="/singledetails"
                     timeMt={16}
                     imageWrap="max-w-[140px]"
                     />
@@ -54,7 +54,7 @@ export default function LatestNewspage() {
                     imageHeight={104}
                     title="কুমিল্লায় ট্রেনে আতশবাজি বিস্ফোরণ: শতাধিক যাত্রী বড় দুর্ঘটনা থেকে রক্ষা পেলেন"
                     time="১ মিনিট আগে"
-                    href="#"
+                    href="/singledetails"
                     timeMt={16}
                     imageWrap="max-w-[140px]"
                     />
@@ -64,7 +64,7 @@ export default function LatestNewspage() {
                     imageHeight={104}
                     title="চূড়ান্ত প্রার্থী তালিকা সময়মতো জানাবে জামায়াত: আমির ডা. শফিকুর রহমান"
                     time="১ মিনিট আগে"
-                    href="#"
+                    href="/singledetails"
                     timeMt={16}
                     imageWrap="max-w-[140px]"
                     />
@@ -74,7 +74,7 @@ export default function LatestNewspage() {
                     imageHeight={104}
                     title="কুমিল্লায় ট্রেনে আতশবাজি বিস্ফোরণ: শতাধিক যাত্রী বড় দুর্ঘটনা থেকে রক্ষা পেলেন"
                     time="১ মিনিট আগে"
-                    href="#"
+                    href="/singledetails"
                     timeMt={16}
                     imageWrap="max-w-[140px]"
                     />
@@ -89,7 +89,7 @@ export default function LatestNewspage() {
                     title="চূড়ান্ত প্রার্থী তালিকা সময়মতো জানাবে জামায়াত: আমির ডা. শফিকুর রহমান"
                     content="আসন্ন ত্রয়োদশ জাতীয় সংসদ নির্বাচনে চূড়ান্ত প্রার্থী ঘোষণা প্রসঙ্গে বাংলাদেশ জামায়াতে ইসলামীর আমির ডা. শফিকুর রহমান জানিয়েছেন, “সময়মতো আমরা চূড়ান্ত তালিকা জানিয়ে দেব।”"
                     time="১ মিনিট আগে"
-                    href="/news/led/1"
+                    href="/singledetails"
                     contentMt={12}
                     timeMt={16}
                     />
@@ -132,6 +132,7 @@ export default function LatestNewspage() {
                     {/* Tab content */}
                     <div className="mt-6">
                         <div className="hidden group-has-[#latest:checked]:block">
+                        
                         <LatestNews items={latestNewsData} />
                         </div>
 

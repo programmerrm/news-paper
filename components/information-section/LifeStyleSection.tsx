@@ -36,7 +36,7 @@ export default function LifeStyleSection() {
                                 imageHeight={104}
                                 title={"জোটে অংশ নিলেও নিজ দলের প্রতীকে ভোট বাধ্যতামূলক"}
                                 time={"১ মিনিট আগে"}
-                                href="#"
+                                href="/singledetails"
                                 timeMt={16}
                                 imageWrap="max-w-[104px]"
                             />
@@ -48,7 +48,7 @@ export default function LifeStyleSection() {
                                 imageHeight={104}
                                 title={"জোটে অংশ নিলেও নিজ দলের প্রতীকে ভোট বাধ্যতামূলক"}
                                 time={"১ মিনিট আগে"}
-                                href="#"
+                                href="/singledetails"
                                 timeMt={16}
                                 imageWrap="max-w-[104px]"
                             />
@@ -60,7 +60,7 @@ export default function LifeStyleSection() {
                                 imageHeight={104}
                                 title={"জোটে অংশ নিলেও নিজ দলের প্রতীকে ভোট বাধ্যতামূলক"}
                                 time={"১ মিনিট আগে"}
-                                href="#"
+                                href="/singledetails"
                                 timeMt={16}
                                 imageWrap="max-w-[104px]"
                             />
@@ -79,7 +79,7 @@ export default function LifeStyleSection() {
                                 imageHeight={104}
                                 title={"জোটে অংশ নিলেও নিজ দলের প্রতীকে ভোট বাধ্যতামূলক"}
                                 time={"১ মিনিট আগে"}
-                                href="#"
+                                href="/singledetails"
                                 timeMt={16}
                                 imageWrap="max-w-[104px]"
                             />
@@ -91,7 +91,7 @@ export default function LifeStyleSection() {
                                 imageHeight={104}
                                 title={"জোটে অংশ নিলেও নিজ দলের প্রতীকে ভোট বাধ্যতামূলক"}
                                 time={"১ মিনিট আগে"}
-                                href="#"
+                                href="/singledetails"
                                 timeMt={16}
                                 imageWrap="max-w-[104px]"
                             />
@@ -103,7 +103,7 @@ export default function LifeStyleSection() {
                                 imageHeight={104}
                                 title={"জোটে অংশ নিলেও নিজ দলের প্রতীকে ভোট বাধ্যতামূলক"}
                                 time={"১ মিনিট আগে"}
-                                href="#"
+                                href="/singledetails"
                                 timeMt={16}
                                 imageWrap="max-w-[104px]"
                             />
@@ -121,7 +121,7 @@ export default function LifeStyleSection() {
                                 imageHeight={104}
                                 title={"জোটে অংশ নিলেও নিজ দলের প্রতীকে ভোট বাধ্যতামূলক"}
                                 time={"১ মিনিট আগে"}
-                                href="#"
+                                href="/singledetails"
                                 timeMt={16}
                                 imageWrap="max-w-[104px]"
                             />
@@ -133,7 +133,7 @@ export default function LifeStyleSection() {
                                 imageHeight={104}
                                 title={"জোটে অংশ নিলেও নিজ দলের প্রতীকে ভোট বাধ্যতামূলক"}
                                 time={"১ মিনিট আগে"}
-                                href="#"
+                                href="/singledetails"
                                 timeMt={16}
                                 imageWrap="max-w-[104px]"
                             />
@@ -145,7 +145,7 @@ export default function LifeStyleSection() {
                                 imageHeight={104}
                                 title={"জোটে অংশ নিলেও নিজ দলের প্রতীকে ভোট বাধ্যতামূলক"}
                                 time={"১ মিনিট আগে"}
-                                href="#"
+                                href="/singledetails"
                                 timeMt={16}
                                 imageWrap="max-w-[104px]"
                             />

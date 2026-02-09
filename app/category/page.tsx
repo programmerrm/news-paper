@@ -35,7 +35,7 @@ export default function CategoryNewspage() {
                                 imageHeight={104}
                                 title="ইতিহাস গড়ল ভারত! দক্ষিণ আফ্রিকাকে হারিয়ে নারী বিশ্বকাপ জয়"
                                 time="১ মিনিট আগে"
-                                href="#"
+                                href="/singledetails"
                                 timeMt={16}
                                 imageWrap="max-w-[104px]"
                             />
@@ -45,7 +45,7 @@ export default function CategoryNewspage() {
                                 imageHeight={104}
                                 title="কুমিল্লায় ট্রেনে আতশবাজি বিস্ফোরণ: শতাধিক যাত্রী বড় দুর্ঘটনা থেকে রক্ষা পেলেন"
                                 time="১ মিনিট আগে"
-                                href="#"
+                                href="/singledetails"
                                 timeMt={16}
                                 imageWrap="max-w-[104px]"
                             />
@@ -55,7 +55,7 @@ export default function CategoryNewspage() {
                                 imageHeight={104}
                                 title="চূড়ান্ত প্রার্থী তালিকা সময়মতো জানাবে জামায়াত: আমির ডা. শফিকুর রহমান"
                                 time="১ মিনিট আগে"
-                                href="#"
+                                href="/singledetails"
                                 timeMt={16}
                                 imageWrap="max-w-[104px]"
                             />
@@ -65,7 +65,7 @@ export default function CategoryNewspage() {
                                 imageHeight={104}
                                 title="কুমিল্লায় ট্রেনে আতশবাজি বিস্ফোরণ: শতাধিক যাত্রী বড় দুর্ঘটনা থেকে রক্ষা পেলেন"
                                 time="১ মিনিট আগে"
-                                href="#"
+                                href="/singledetails"
                                 timeMt={16}
                                 imageWrap="max-w-[104px]"
                             />
@@ -80,7 +80,7 @@ export default function CategoryNewspage() {
                                 title="চূড়ান্ত প্রার্থী তালিকা সময়মতো জানাবে জামায়াত: আমির ডা. শফিকুর রহমান"
                                 content="আসন্ন ত্রয়োদশ জাতীয় সংসদ নির্বাচনে চূড়ান্ত প্রার্থী ঘোষণা প্রসঙ্গে বাংলাদেশ জামায়াতে ইসলামীর আমির ডা. শফিকুর রহমান জানিয়েছেন, “সময়মতো আমরা চূড়ান্ত তালিকা জানিয়ে দেব।”"
                                 time="১ মিনিট আগে"
-                                href="/news/led/1"
+                                href="/singledetails"
                                 contentMt={12}
                                 timeMt={16}
                             />
@@ -99,7 +99,7 @@ export default function CategoryNewspage() {
                                     imageHeight={66}
                                     imageWrap="max-w-[88px]"
                                     titleFontWeight={500}
-                                    href=""
+                                    href="/singledetails"
                                 />
                                 <NewsItem
                                     image={HeroSideberImage}
@@ -108,7 +108,7 @@ export default function CategoryNewspage() {
                                     imageHeight={66}
                                     imageWrap="max-w-[88px]"
                                     titleFontWeight={500}
-                                    href=""
+                                    href="/singledetails"
                                 />
                                 <NewsItem
                                     image={HeroSideberImage}
@@ -117,7 +117,7 @@ export default function CategoryNewspage() {
                                     imageHeight={66}
                                     imageWrap="max-w-[88px]"
                                     titleFontWeight={500}
-                                    href=""
+                                    href="/singledetails"
                                 />
                                 <NewsItem
                                     image={HeroSideberImage}
@@ -126,7 +126,7 @@ export default function CategoryNewspage() {
                                     imageHeight={66}
                                     imageWrap="max-w-[88px]"
                                     titleFontWeight={500}
-                                    href=""
+                                    href="/singledetails"
                                 />
                                 <NewsItem
                                     image={HeroSideberImage}
@@ -135,7 +135,7 @@ export default function CategoryNewspage() {
                                     imageHeight={66}
                                     imageWrap="max-w-[88px]"
                                     titleFontWeight={500}
-                                    href=""
+                                    href="/singledetails"
                                 />
                                 <NewsItem
                                     image={HeroSideberImage}
@@ -144,7 +144,7 @@ export default function CategoryNewspage() {
                                     imageHeight={66}
                                     imageWrap="max-w-[88px]"
                                     titleFontWeight={500}
-                                    href=""
+                                    href="/singledetails"
                                 />
                             </div>
                         </div>
@@ -163,7 +163,7 @@ export default function CategoryNewspage() {
                                 imageHeight={229}
                                 title="ফিলিস্তিনি বন্দির ওপর ভয়াবহ নির্যাতনের ভিডিও ফাঁসের ঘটনায় গ্রেফতার হয়েছেন ইসরাইলি সেনাবাহিনীর সাবেক প্রধান আইন কর্মকর্তা"
                                 time="১ মিনিট আগে"
-                                href="/news/led/1"
+                                href="/singledetails"
                                 timeMt={16}
                                 headingLevel="h5"
                                 gap="gap-3"
@@ -174,7 +174,7 @@ export default function CategoryNewspage() {
                                 imageHeight={229}
                                 title="ফিলিস্তিনি বন্দির ওপর ভয়াবহ নির্যাতনের ভিডিও ফাঁসের ঘটনায় গ্রেফতার হয়েছেন ইসরাইলি সেনাবাহিনীর সাবেক প্রধান আইন কর্মকর্তা"
                                 time="১ মিনিট আগে"
-                                href="/news/led/1"
+                                href="/singledetails"
                                 timeMt={16}
                                 headingLevel="h5"
                                 gap="gap-3"
@@ -185,7 +185,7 @@ export default function CategoryNewspage() {
                                 imageHeight={229}
                                 title="ফিলিস্তিনি বন্দির ওপর ভয়াবহ নির্যাতনের ভিডিও ফাঁসের ঘটনায় গ্রেফতার হয়েছেন ইসরাইলি সেনাবাহিনীর সাবেক প্রধান আইন কর্মকর্তা"
                                 time="১ মিনিট আগে"
-                                href="/news/led/1"
+                                href="/singledetails"
                                 timeMt={16}
                                 headingLevel="h5"
                                 gap="gap-3"
@@ -196,7 +196,7 @@ export default function CategoryNewspage() {
                                 imageHeight={229}
                                 title="ফিলিস্তিনি বন্দির ওপর ভয়াবহ নির্যাতনের ভিডিও ফাঁসের ঘটনায় গ্রেফতার হয়েছেন ইসরাইলি সেনাবাহিনীর সাবেক প্রধান আইন কর্মকর্তা"
                                 time="১ মিনিট আগে"
-                                href="/news/led/1"
+                                href="/singledetails"
                                 timeMt={16}
                                 headingLevel="h5"
                                 gap="gap-3"
@@ -216,7 +216,7 @@ export default function CategoryNewspage() {
                                 imageHeight={304}
                                 title={"চূড়ান্ত প্রার্থী তালিকা সময়মতো জানাবে জামায়াত: আমির ডা. শফিকুর রহমান"}
                                 time={"১ সেকেন্ড আগে"}
-                                href="#"
+                                href="/singledetails"
                                 timeMt={16}
                                 SingleimageWrap="max-w-[200px]"
                                 content="বলিউডের আইটেম গার্ল খ্যাত অভিনেত্রী মালাইকা অরোরা ব্যক্তিগত জীবন নিয়ে সবসময় আলোচনায় থাকেন। দীর্ঘদাম্পত্য আর সম্পর্ক ভেঙে যাওয়ার পর মালাইকা এবার নতুন প্রেমের গুঞ্জনে ছড়িয়ে পড়েছেন।"
@@ -230,7 +230,7 @@ export default function CategoryNewspage() {
                                 imageHeight={304}
                                 title={"চূড়ান্ত প্রার্থী তালিকা সময়মতো জানাবে জামায়াত: আমির ডা. শফিকুর রহমান"}
                                 time={"১ সেকেন্ড আগে"}
-                                href="#"
+                                href="/singledetails"
                                 timeMt={16}
                                 SingleimageWrap="max-w-[200px]"
                                 content="বলিউডের আইটেম গার্ল খ্যাত অভিনেত্রী মালাইকা অরোরা ব্যক্তিগত জীবন নিয়ে সবসময় আলোচনায় থাকেন। দীর্ঘদাম্পত্য আর সম্পর্ক ভেঙে যাওয়ার পর মালাইকা এবার নতুন প্রেমের গুঞ্জনে ছড়িয়ে পড়েছেন।"
@@ -246,7 +246,7 @@ export default function CategoryNewspage() {
                                 imageHeight={304}
                                 title={"চূড়ান্ত প্রার্থী তালিকা সময়মতো জানাবে জামায়াত: আমির ডা. শফিকুর রহমান"}
                                 time={"১ সেকেন্ড আগে"}
-                                href="#"
+                                href="/singledetails"
                                 timeMt={16}
                                 SingleimageWrap="max-w-[200px]"
                                 content="বলিউডের আইটেম গার্ল খ্যাত অভিনেত্রী মালাইকা অরোরা ব্যক্তিগত জীবন নিয়ে সবসময় আলোচনায় থাকেন। দীর্ঘদাম্পত্য আর সম্পর্ক ভেঙে যাওয়ার পর মালাইকা এবার নতুন প্রেমের গুঞ্জনে ছড়িয়ে পড়েছেন।"
@@ -267,7 +267,7 @@ export default function CategoryNewspage() {
                                 imageHeight={304}
                                 title={"চূড়ান্ত প্রার্থী তালিকা সময়মতো জানাবে জামায়াত: আমির ডা. শফিকুর রহমান"}
                                 time={"১ সেকেন্ড আগে"}
-                                href="#"
+                                href="/singledetails"
                                 timeMt={16}
                                 SingleimageWrap="max-w-[200px]"
                                 content="বলিউডের আইটেম গার্ল খ্যাত অভিনেত্রী মালাইকা অরোরা ব্যক্তিগত জীবন নিয়ে সবসময় আলোচনায় থাকেন। দীর্ঘদাম্পত্য আর সম্পর্ক ভেঙে যাওয়ার পর মালাইকা এবার নতুন প্রেমের গুঞ্জনে ছড়িয়ে পড়েছেন।"

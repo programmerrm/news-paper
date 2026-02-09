@@ -2,7 +2,6 @@
 import VideoNewsItem from "./VideoNewsItem";
 import videoItemImage from "../../assets/image/video-item-image.png";
 import Link from "next/link";
-import VideoPage from "../video/VideoPage";
 import VideoPlayer from "../video/VideoPage";
 
 const videoList = [
@@ -10,21 +9,25 @@ const videoList = [
     image: videoItemImage,
     title: "দুইশো ডেক তোবারক বিতরণ করা হবে রাজৈর বেপারীপাড়ার মাহফিলে",
     time: "১ মিনিট আগে",
+    href: "/videofulldetails"
   },
   {
     image: videoItemImage,
     title: "দুইশো ডেক তোবারক বিতরণ করা হবে রাজৈর বেপারীপাড়ার মাহফিলে",
     time: "১ মিনিট আগে",
+    href: "/videofulldetails"
   },
   {
     image: videoItemImage,
     title: "দুইশো ডেক তোবারক বিতরণ করা হবে রাজৈর বেপারীপাড়ার মাহফিলে",
     time: "১ মিনিট আগে",
+    href: "/videofulldetails"
   },
   {
     image: videoItemImage,
     title: "দুইশো ডেক তোবারক বিতরণ করা হবে রাজৈর বেপারীপাড়ার মাহফিলে",
     time: "১ মিনিট আগে",
+    href: "/videofulldetails"
   },
 ];
 
@@ -63,7 +66,7 @@ export default function VideoSection() {
             </div>
 
             <div className="px-3 md:px-6 pt-3 md:pt-8 pb-3 md:pb-13">
-              <Link href="#">
+              <Link href="/videofulldetails">
                 <h4 className="text-white! mb-3 sm:mb-4 transition-colors hover:text-blue!">
                   টানা ২৮ বছর ধরে আওয়ামী লীগের আসনে বিএনপির ইঞ্জিনিয়ার আশরাফ উদ্দিন বকুল
                 </h4>
@@ -82,6 +85,7 @@ export default function VideoSection() {
                 image={item.image}
                 title={item.title}
                 time={item.time}
+                href={item.href}
                 />
             ))}
           </div>

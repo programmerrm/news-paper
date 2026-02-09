@@ -1,16 +1,8 @@
-import LedNews from "@/components/led-news/LedNews";
-import HeroSideberImage from "../../assets/image/hero-sidebar.png";
 import ledImage from "../../assets/image/led-image.png";
-import NewsFlashImage from "../../assets/image/news-flash.png"
 import Button from "@/components/button/Button";
 import NewsBreadcrumb from "@/components/breadcrumb/NewsBreadcrumb";
 import SubCategory from "@/components/subcategory/SubCategory";
-import CategoryNewsHeadding from "@/components/category/CategoryNewsHeadding";
-import SectionHeader from "@/components/category/SectionHeader";
-import OpinionItem from "@/components/news-items/opinionItem";
-import OpinionLedNews from "@/components/led-news/OpinionLedNews";
-import DetailsAdd from "@/components/detailsadd/DetailsAdd";
-import WebStorisCard from "@/components/storis/WebStoris";
+import WebStorisCard from "@/components/storis/webStorisCard";
 
 export default function WebStorisPage() {
     return (

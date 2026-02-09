@@ -7,10 +7,12 @@ interface GalleryNewsProps {
   title: string;
   time: string;
   photoCount: number;
+  href: string;
 }
 
 export default function GalleryNews({
   image,
+  href,
   title,
   time,
   photoCount,
@@ -41,7 +43,7 @@ export default function GalleryNews({
       </span>
 
       <h5 className="mt-2 font-semibold leading-7 transition-all hover:text-blue">
-        <Link href="#">{title}</Link>
+        <Link href={href || "#"}>{title}</Link>
       </h5>
 
       <p className="mt-2 text-gray text-sm">

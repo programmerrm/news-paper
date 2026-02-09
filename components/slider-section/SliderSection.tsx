@@ -32,25 +32,29 @@ export default function NewsSlider() {
         >
           {newsSliderData.map((item) => (
             <SwiperSlide key={item.id}>
-              <div className="relative h-60 overflow-hidden group flex flex-col justify-end">
-                <Image
-                  src={item.image}
-                  alt={item.title}
-                  fill
-                  className="object-cover transition-transform duration-500 group-hover:scale-105"
-                />
-                <div className="relative z-10 w-full p-3 bg-white/85">
-                  <p className="text-xs leading-3.75 text-red mb-1">
-                    {item.category}
-                  </p>
-                  <Link href="#">
+              <Link href={item.href} className="block">
+                <div className="relative h-60 overflow-hidden group flex flex-col justify-end">
+
+                  <Image
+                    src={item.image}
+                    alt={item.title}
+                    fill
+                    className="object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+
+                  <div className="relative z-10 w-full p-3 bg-white/85">
+                    <p className="text-xs leading-3.75 text-red mb-1">
+                      {item.category}
+                    </p>
+
                     <h6 className="text-sm leading-5.5 font-semibold text-title">
                       {item.title}
                     </h6>
-                  </Link>
-                  
+                  </div>
+
                 </div>
-              </div>
+              </Link>
+
             </SwiperSlide>
           ))}
         </Swiper>

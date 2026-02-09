@@ -25,7 +25,7 @@ export default function PoliticsSection() {
                             title="চূড়ান্ত প্রার্থী তালিকা সময়মতো জানাবে জামায়াত: আমির ডা. শফিকুর রহমান"
                             content="আসন্ন ত্রয়োদশ জাতীয় সংসদ নির্বাচনে চূড়ান্ত প্রার্থী ঘোষণা প্রসঙ্গে বাংলাদেশ জামায়াতে ইসলামীর আমির ডা. শফিকুর রহমান জানিয়েছেন, সময়মতো আমরা চূড়ান্ত তালিকা জানিয়ে দেব।"
                             time="১ মিনিট আগে"
-                            href="/news/led/1"
+                            href="/singledetails"
                             contentMt={12}
                             timeMt={16}
                         />
@@ -41,7 +41,7 @@ export default function PoliticsSection() {
                                     imageHeight={229}
                                     title="ফিলিস্তিনি বন্দির ওপর ভয়াবহ নির্যাতনের ভিডিও ফাঁস"
                                     time="১ মিনিট আগে"
-                                    href="#"
+                                    href="/singledetails"
                                     timeMt={12}
                                 />
                             </div>
@@ -53,7 +53,7 @@ export default function PoliticsSection() {
                                     imageHeight={229}
                                     title="ইসরাইলি সেনাবাহিনীর সাবেক প্রধান আইন কর্মকর্তা গ্রেফতার"
                                     time="১ মিনিট আগে"
-                                    href="#"
+                                    href="/singledetails"
                                     timeMt={12}
                                 />
                             </div>
@@ -72,7 +72,7 @@ export default function PoliticsSection() {
                                         title="চূড়ান্ত প্রার্থী তালিকা সময়মতো জানাবে জামায়াত"
                                         time="১ মিনিট আগে"
                                         timeMt={16}
-                                        href="#"
+                                        href="/singledetails"
                                     />
                                 </div>
                             ))}

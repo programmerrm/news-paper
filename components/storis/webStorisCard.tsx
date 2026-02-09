@@ -3,7 +3,7 @@
 import Image, { StaticImageData } from "next/image";
 import { useState } from "react";
 import ReelsIcon from "../../assets/icon/reels-icon.svg";
-import VideoPlayer from "../video/VideoPage";
+import Imagecategory from "../../assets/image/banner-image.jpg"
 
 type WebStorisCardProps = {
     thumbnail: StaticImageData | string;
@@ -12,7 +12,7 @@ type WebStorisCardProps = {
     href?: string;
 };
 
-export default function ReelStorisCard({
+export default function WebStorisCard({
     thumbnail,
     title,
     time,
@@ -26,23 +26,18 @@ export default function ReelStorisCard({
                 onClick={() => setOpen(true)}
                 className="block group cursor-pointer"
             >
-                <div className="relative w-full h-132.5 overflow-hidden">
+                <div className="relative w-full h-132.5 overflow-hidden rounded-md">
 
                     {/* Thumbnail */}
-                    {/* <Image
-                        src={thumbnail}
-                        alt={title}
-                        fill
-                        className="object-cover group-hover:scale-105 transition duration-300"
-                    /> */}
                     <div className="h-full">
-                        <VideoPlayer
-                            src="/video/jodinat.mp4"
-                            poster="/video/Image.png"
-                            controls={false}
-                            muted
+                        <Image
+                            src={thumbnail}
+                            alt={title}
+                            fill
+                            className="object-cover"
                         />
                     </div>
+
 
                     {/* Gradient Overlay */}
                     <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/40 to-transparent" />
@@ -80,22 +75,31 @@ export default function ReelStorisCard({
                             ✕
                         </button>
 
-                        <div className="flex flex-col relative w-full h-full overflow-hidden bg-white bg-linear-to-t from-black/80 via-black/0 to-transparent">
+                        <div className="relative w-full h-full">
 
-                            <VideoPlayer
-                                src="/video/jodinat.mp4"
-                                poster="/video/Image.png"
-                                controls={true}
-                                muted
+                            <Image
+                                src={Imagecategory}
+                                alt="Imagecategory"
+                                fill
+                                className="object-cover"
+                                priority
                             />
-                            <div className=" bottom-0 left-0 px-3 sma:px-6 pb-6 sm:pb-8 mt-4 z-10">
+
+                            {/* Gradient */}
+                            <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/0 to-transparent" />
+
+                            {/* Caption */}
+                            <div className="absolute bottom-0 left-0 px-3 sm:px-6 pb-6 sm:pb-8 z-10">
                                 <h4 className="text-white">
                                     চূড়ান্ত প্রার্থী তালিকা সময়মতো জানাবে জামায়াত: আমির ডা. শফিকুর রহমান
                                 </h4>
-                                <span className="text-xs leading-3.75 text-gray">১ মিনিট আগে</span>
+                                <span className="text-xs leading-3.75 text-gray">
+                                    ১ মিনিট আগে
+                                </span>
                             </div>
 
                         </div>
+
                     </div>
                 </div>
             )}

@@ -7,10 +7,12 @@ interface OpinionNewsItemProps {
   author: string;
   imageWidth: number;
   imageHeight: number;
+  href: string;
 }
 
 const OpinionNewsItem = ({
   image,
+  href,
   title,
   author,
   imageWidth,
@@ -30,7 +32,7 @@ const OpinionNewsItem = ({
 
       <div>
         <h5 className="font-medium leading-6 transition-all hover:text-[#1877f2]">
-          <Link href="#">{title}</Link>
+          <Link href={href}>{title}</Link>
           </h5>
         <span className="text-xs sm:text-sm leading-5.5 text-[#525252] mt-2 inline-block">
           লেখক: {author}

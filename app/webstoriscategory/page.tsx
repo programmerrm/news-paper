@@ -3,7 +3,7 @@ import ledImage from "../../assets/image/led-image.png";
 import Button from "@/components/button/Button";
 import NewsBreadcrumb from "@/components/breadcrumb/NewsBreadcrumb";
 import SubCategory from "@/components/subcategory/SubCategory";
-import WebStorisCard from "@/components/storis/WebStoris";
+import WebStorisCard from "@/components/storis/webStorisCard";
 
 export default function WebStorisCategoryPage() {
     return (

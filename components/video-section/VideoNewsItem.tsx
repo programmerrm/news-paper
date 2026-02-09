@@ -27,11 +27,11 @@ export default function VideoNewsItem({
         />
       </div>
       <div>
-        <a href={href}>
+        <Link href={href}>
           <h6 className="text-white! text-base leading-6 mb-2 lg:mb-6 hover:text-blue! transition-colors">
             {title}
           </h6>
-        </a>
+        </Link>
 
         {time && (
           <span className="text-xs leading-3.75 text-gray">{time}</span>

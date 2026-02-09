@@ -25,21 +25,21 @@ export default function EntertainmentSection (){
                                     image={entertainmentLedImage}
                                     title="বিএনপিতে ১০টি আসনে সুপ্রিম কোর্টের আইনজীবীদের প্রার্থী হিসেবে"
                                     time="৫ মিনিট আগে"
-                                    href="/news/1"
+                                    href="/singledetails"
                                 />
                                 <div className="grid grid-cols-2 mt-5 gap-4">
                                     <NationalNews
                                         image={nationalImageLed}
                                         title="২৩৭ আসনে বিএনপির প্রার্থী তালিকা প্রকাশ: খালেদা জিয়া-তারেক রহমান কোন আসনে?"
                                         time="১ মিনিট আগে"
-                                        href="#"
+                                        href="/singledetails"
                                         timeMt={12}
                                     />
                                     <NationalNews
                                         image={nationalImageLed}
                                         title="২৩৭ আসনে বিএনপির প্রার্থী তালিকা প্রকাশ: খালেদা জিয়া-তারেক রহমান কোন আসনে?"
                                         time="১ মিনিট আগে"
-                                        href="#"
+                                        href="/singledetails"
                                         timeMt={12}
                                     />
                                 </div>
@@ -52,7 +52,7 @@ export default function EntertainmentSection (){
                                         imageWidth={104}
                                         imageHeight={78}
                                         title={"চূড়ান্ত প্রার্থী তালিকা সময়মতো জানাবে জামায়াত: আমির ডা. শফিকুর রহমান"}
-                                        href="#"
+                                        href="/singledetails"
                                         time="১ মিনিট আগে"
                                         timeMt={10}
                                         /> 
@@ -63,7 +63,7 @@ export default function EntertainmentSection (){
                                         imageWidth={104}
                                         imageHeight={78}
                                         title={"চূড়ান্ত প্রার্থী তালিকা সময়মতো জানাবে জামায়াত: আমির ডা. শফিকুর রহমান"}
-                                        href="#"
+                                        href="/singledetails"
                                         time="১ মিনিট আগে"
                                         timeMt={10}
                                         /> 
@@ -74,7 +74,7 @@ export default function EntertainmentSection (){
                                         imageWidth={104}
                                         imageHeight={78}
                                         title={"চূড়ান্ত প্রার্থী তালিকা সময়মতো জানাবে জামায়াত: আমির ডা. শফিকুর রহমান"}
-                                        href="#"
+                                        href="/singledetails"
                                         time="১ মিনিট আগে"
                                         timeMt={10}
                                         isLive={true}
@@ -86,7 +86,7 @@ export default function EntertainmentSection (){
                                         imageWidth={104}
                                         imageHeight={78}
                                         title={"চূড়ান্ত প্রার্থী তালিকা সময়মতো জানাবে জামায়াত: আমির ডা. শফিকুর রহমান"}
-                                        href="#"
+                                        href="/singledetails"
                                         time="১ মিনিট আগে"
                                         timeMt={10}
                                         /> 

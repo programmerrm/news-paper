@@ -1,4 +1,5 @@
 import Image, { StaticImageData } from "next/image";
+import Link from "next/link";
 
 type StorisCardProps = {
   image: StaticImageData;
@@ -13,7 +14,7 @@ export default function StorisCard({
 }: StorisCardProps) {
   return (
     <div className="py-5.5 px-4 border-[1.5px] border-[#D4D4D4]">
-      <a
+      <Link
         href={href}
         className="flex flex-col gap-2 items-center justify-center"
       >
@@ -26,7 +27,7 @@ export default function StorisCard({
         <p className="text-xs leading-4.5 font-medium text-[#171717] text-center">
           {title}
         </p>
-      </a>
+      </Link>
     </div>
   );
 }

@@ -19,7 +19,7 @@ type IconLink = {
 
 const socialLinks = [
     {
-        href: "#",
+        href: "https://facebook.com",
         icon: (
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20">
                 <path fill="currentColor" d="M7.678 4.146V6.59H6v2.987h1.678v8.876h3.445V9.577h2.313s.216-1.432.322-2.999h-2.62V4.536c0-.305.374-.716.746-.716h1.878V.71H11.21C7.593.71 7.68 3.7 7.68 4.147" />
@@ -27,7 +27,7 @@ const socialLinks = [
         ),
     },
     {
-        href: "#",
+        href: "https://twitter.com",
         icon: (
             <span className="text-black transition-all duration-500 group-hover:text-white">
                 <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="none" viewBox="0 0 17 17">
@@ -48,7 +48,7 @@ const socialLinks = [
         ),
     },
     {
-        href: "#",
+        href: "https://youtube.com",
         icon: (
             <svg className="text-[#FF0000] transition-all duration-500 group-hover:text-white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                 <path fill="currentColor"
@@ -58,7 +58,7 @@ const socialLinks = [
         ),
     },
     {
-        href: "#",
+        href: "https://linkdin.com",
         icon: (
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20">
                 <path fill="currentColor"
@@ -69,24 +69,24 @@ const socialLinks = [
 ];
 
 const topNewsData: TopNewsItem[] = [
-  { image: TopImage, title: "খালেদা জিয়া ৩ আসনে, তারেক রহমান বগুড়া-৬ এ বিএনপির প্রার্থী", href: "#" },
-  { image: TopImage, title: "খালেদা জিয়া ৩ আসনে, তারেক রহমান বগুড়া-৬ এ বিএনপির প্রার্থী", href: "#" },
-  { image: TopImage, title: "খালেদা জিয়া ৩ আসনে, তারেক রহমান বগুড়া-৬ এ বিএনপির প্রার্থী", href: "#" },
-  { image: TopImage, title: "খালেদা জিয়া ৩ আসনে, তারেক রহমান বগুড়া-৬ এ বিএনপির প্রার্থী", href: "#" },
+  { image: TopImage, title: "খালেদা জিয়া ৩ আসনে, তারেক রহমান বগুড়া-৬ এ বিএনপির প্রার্থী", href: "/singledetails" },
+  { image: TopImage, title: "খালেদা জিয়া ৩ আসনে, তারেক রহমান বগুড়া-৬ এ বিএনপির প্রার্থী", href: "/singledetails" },
+  { image: TopImage, title: "খালেদা জিয়া ৩ আসনে, তারেক রহমান বগুড়া-৬ এ বিএনপির প্রার্থী", href: "/singledetails" },
+  { image: TopImage, title: "খালেদা জিয়া ৩ আসনে, তারেক রহমান বগুড়া-৬ এ বিএনপির প্রার্থী", href: "/singledetails" },
 ];
 
   const navItems = [
-    { label: "হোম", href: "#" },
+    { label: "হোম", href: "/" },
     { label: "সর্বশেষ", href: "/latest" },
     { label: "জাতীয়", href: "/category" },
     { label: "বাংলাদেশ", href: "/categorybangladesh" },
     { label: "রাজনীতি", href: "/sub-category" },
-    { label: "বিশ্বের খবর", href: "#" },
-    { label: "অর্থনীতি", href: "#" },
-    { label: "ধর্ম", href: "#" },
-    { label: "খেলা", href: "#" },
-    { label: "বিনোদন", href: "#" },
-    { label: "মিডিয়া", href: "#" },
+    { label: "বিশ্বের খবর", href: "/category" },
+    { label: "অর্থনীতি", href: "/category" },
+    { label: "ধর্ম", href: "/category" },
+    { label: "খেলা", href: "/category" },
+    { label: "বিনোদন", href: "/category" },
+    { label: "মিডিয়া", href: "/category" },
   ];
 
 const iconLinks: IconLink[] = [

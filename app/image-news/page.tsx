@@ -31,24 +31,28 @@ export default function ImageNews() {
                             title="বিএনপির সম্ভাব্য প্রার্থী তালিকা প্রকাশ, তালিকায় নেই রুমিন ফারহানার নাম"
                             time="১ মিনিট আগে"
                             photoCount={2}
+                            href="/imagedetails"
                         />
                         <GalleryNews
                             image={MousqueImage}
                             title="বিএনপির সম্ভাব্য প্রার্থী তালিকা প্রকাশ, তালিকায় নেই রুমিন ফারহানার নাম"
                             time="১ মিনিট আগে"
                             photoCount={2}
+                            href="/imagedetails"
                         />
                         <GalleryNews
                             image={MousqueImage}
                             title="বিএনপির সম্ভাব্য প্রার্থী তালিকা প্রকাশ, তালিকায় নেই রুমিন ফারহানার নাম"
                             time="১ মিনিট আগে"
                             photoCount={2}
+                            href="/imagedetails"
                         />
                         <GalleryNews
                             image={MousqueImage}
                             title="বিএনপির সম্ভাব্য প্রার্থী তালিকা প্রকাশ, তালিকায় নেই রুমিন ফারহানার নাম"
                             time="১ মিনিট আগে"
                             photoCount={2}
+                            href="/imagedetails"
                         />
                         
                     </div>
@@ -66,24 +70,28 @@ export default function ImageNews() {
                             title="বিএনপির সম্ভাব্য প্রার্থী তালিকা প্রকাশ, তালিকায় নেই রুমিন ফারহানার নাম"
                             time="১ মিনিট আগে"
                             photoCount={2}
+                            href="/imagedetails"
                         />
                         <GalleryNews
                             image={MousqueImage}
                             title="বিএনপির সম্ভাব্য প্রার্থী তালিকা প্রকাশ, তালিকায় নেই রুমিন ফারহানার নাম"
                             time="১ মিনিট আগে"
                             photoCount={2}
+                            href="/imagedetails"
                         />
                         <GalleryNews
                             image={MousqueImage}
                             title="বিএনপির সম্ভাব্য প্রার্থী তালিকা প্রকাশ, তালিকায় নেই রুমিন ফারহানার নাম"
                             time="১ মিনিট আগে"
                             photoCount={2}
+                            href="/imagedetails"
                         />
                         <GalleryNews
                             image={MousqueImage}
                             title="বিএনপির সম্ভাব্য প্রার্থী তালিকা প্রকাশ, তালিকায় নেই রুমিন ফারহানার নাম"
                             time="১ মিনিট আগে"
                             photoCount={2}
+                            href="/imagedetails"
                         />
                     </div>
                 </div>
@@ -100,24 +108,28 @@ export default function ImageNews() {
                             title="বিএনপির সম্ভাব্য প্রার্থী তালিকা প্রকাশ, তালিকায় নেই রুমিন ফারহানার নাম"
                             time="১ মিনিট আগে"
                             photoCount={2}
+                            href="/imagedetails"
                         />
                         <GalleryNews
                             image={MousqueImage}
                             title="বিএনপির সম্ভাব্য প্রার্থী তালিকা প্রকাশ, তালিকায় নেই রুমিন ফারহানার নাম"
                             time="১ মিনিট আগে"
                             photoCount={2}
+                            href="/imagedetails"
                         />
                         <GalleryNews
                             image={MousqueImage}
                             title="বিএনপির সম্ভাব্য প্রার্থী তালিকা প্রকাশ, তালিকায় নেই রুমিন ফারহানার নাম"
                             time="১ মিনিট আগে"
                             photoCount={2}
+                            href="/imagedetails"
                         />
                         <GalleryNews
                             image={MousqueImage}
                             title="বিএনপির সম্ভাব্য প্রার্থী তালিকা প্রকাশ, তালিকায় নেই রুমিন ফারহানার নাম"
                             time="১ মিনিট আগে"
                             photoCount={2}
+                            href="/imagedetails"
                         />
                     </div>
                 </div>
@@ -134,24 +146,28 @@ export default function ImageNews() {
                             title="বিএনপির সম্ভাব্য প্রার্থী তালিকা প্রকাশ, তালিকায় নেই রুমিন ফারহানার নাম"
                             time="১ মিনিট আগে"
                             photoCount={2}
+                            href="/imagedetails"
                         />
                         <GalleryNews
                             image={MousqueImage}
                             title="বিএনপির সম্ভাব্য প্রার্থী তালিকা প্রকাশ, তালিকায় নেই রুমিন ফারহানার নাম"
                             time="১ মিনিট আগে"
                             photoCount={2}
+                            href="/imagedetails"
                         />
                         <GalleryNews
                             image={MousqueImage}
                             title="বিএনপির সম্ভাব্য প্রার্থী তালিকা প্রকাশ, তালিকায় নেই রুমিন ফারহানার নাম"
                             time="১ মিনিট আগে"
                             photoCount={2}
+                            href="/imagedetails"
                         />
                         <GalleryNews
                             image={MousqueImage}
                             title="বিএনপির সম্ভাব্য প্রার্থী তালিকা প্রকাশ, তালিকায় নেই রুমিন ফারহানার নাম"
                             time="১ মিনিট আগে"
                             photoCount={2}
+                            href="/imagedetails"
                         />
                     </div>
                 </div>

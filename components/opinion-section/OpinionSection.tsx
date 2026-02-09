@@ -25,12 +25,12 @@ export default function OpinionSection () {
                                 />
                             </div>
                             <h4 className="mb-3 transition-all hover:text-[#1877f2]">
-                                <Link href="#">
+                                <Link href="/singledetails">
                                     ভারত-পাকিস্তান যুদ্ধ দামামা: উগ্র জাতীয়তাবাদ, নাকি কৌশলগত বাণিজ্য?
                                 </Link>
                             </h4>
                             <p className="text-xs sm:text-sm leading-5.5 text-[#525252]">
-                                <Link href="#">
+                                <Link href="/singledetails">
                                     দুনিয়ার রাজনীতি এখন উত্তপ্ত হয়ে উঠেছে। সেই মিছিলের অংশীদার ভারত-পাকিস্তানও। প্রতিবেশি দেশ দুটির মধ্যে উত্তেজনা আবারও চরমে। আতঙ্কের নাম অপারেশন
                                 </Link>
                             </p>
@@ -46,6 +46,7 @@ export default function OpinionSection () {
                                     imageHeight= {96}
                                     title="ভারত-পাকিস্তান যুদ্ধ দামামা: উগ্র জাতীয়তাবাদ, নাকি কৌশলগত বাণিজ্য?"
                                     author="সোহেল"
+                                    href="/singledetails"
                                     />
                                 <OpinionNewsItem
                                     image={internationalNewsImage}
@@ -53,6 +54,7 @@ export default function OpinionSection () {
                                     imageHeight= {96}
                                     title="ভারত-পাকিস্তান যুদ্ধ দামামা: উগ্র জাতীয়তাবাদ, নাকি কৌশলগত বাণিজ্য?"
                                     author="সোহেল"
+                                    href="/singledetails"
                                     />
                                 <OpinionNewsItem
                                     image={internationalNewsImage}
@@ -60,6 +62,7 @@ export default function OpinionSection () {
                                     imageHeight= {96}
                                     title="ভারত-পাকিস্তান যুদ্ধ দামামা: উগ্র জাতীয়তাবাদ, নাকি কৌশলগত বাণিজ্য?"
                                     author="সোহেল"
+                                    href="/singledetails"
                                     />
                             </div>
                         </div>
@@ -71,6 +74,7 @@ export default function OpinionSection () {
                                     imageHeight= {96}
                                     title="ভারত-পাকিস্তান যুদ্ধ দামামা: উগ্র জাতীয়তাবাদ, নাকি কৌশলগত বাণিজ্য?"
                                     author="সোহেল"
+                                    href="/singledetails"
                                     />
                                 <OpinionNewsItem
                                     image={internationalNewsImage}
@@ -78,6 +82,7 @@ export default function OpinionSection () {
                                     imageHeight= {96}
                                     title="ভারত-পাকিস্তান যুদ্ধ দামামা: উগ্র জাতীয়তাবাদ, নাকি কৌশলগত বাণিজ্য?"
                                     author="সোহেল"
+                                    href="/singledetails"
                                     />
                                 <OpinionNewsItem
                                     image={internationalNewsImage}
@@ -85,6 +90,7 @@ export default function OpinionSection () {
                                     imageHeight= {96}
                                     title="ভারত-পাকিস্তান যুদ্ধ দামামা: উগ্র জাতীয়তাবাদ, নাকি কৌশলগত বাণিজ্য?"
                                     author="সোহেল"
+                                    href="/singledetails"
                                     />
                             </div>
                         </div>

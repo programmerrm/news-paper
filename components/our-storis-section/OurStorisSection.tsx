@@ -6,37 +6,37 @@ const storisData = [
   {
     image: storisImage,
     title: "১৯ বছরের ছোট, ডায়মন্ড ব্যবসায়ীর সঙ্গে প্রেমে..",
-    href: "#",
+    href: "/webstoris",
   },
   {
     image: storisImage,
     title: "নতুন ছবিতে আলোচনায় জনপ্রিয় অভিনেত্রী",
-    href: "#",
+    href: "/webstoris",
   },
   {
     image: storisImage,
     title: "নতুন ছবিতে আলোচনায় জনপ্রিয় অভিনেত্রী",
-    href: "#",
+    href: "/webstoris",
   },
   {
     image: storisImage,
     title: "নতুন ছবিতে আলোচনায় জনপ্রিয় অভিনেত্রী",
-    href: "#",
+    href: "/webstoris",
   },
   {
     image: storisImage,
     title: "নতুন ছবিতে আলোচনায় জনপ্রিয় অভিনেত্রী",
-    href: "#",
+    href: "/webstoris",
   },
   {
     image: storisImage,
     title: "নতুন ছবিতে আলোচনায় জনপ্রিয় অভিনেত্রী",
-    href: "#",
+    href: "/webstoris",
   },
   {
     image: storisImage,
     title: "নতুন ছবিতে আলোচনায় জনপ্রিয় অভিনেত্রী",
-    href: "#",
+    href: "/webstoris",
   },
 ];
 
@@ -45,7 +45,7 @@ export default function OurStorisSection() {
     <section className="bg-linear-to-b from-[#F0F5F4] to-[#FFFFFF] py-8 lg:py-16">
         <div className="container">
           <SectionTitle
-              title="ওয়ের স্টোরিস"
+              title="ওয়েব স্টোরিস"
               href="/webstoris"
           />
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7 gap-4 mt-7">

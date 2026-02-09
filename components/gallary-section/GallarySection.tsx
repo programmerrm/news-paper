@@ -17,7 +17,7 @@ export default function GallarySection (){
                             imageCount="৮ টি ছবি"
                             title="বিএনপির সম্ভাব্য প্রার্থী তালিকা প্রকাশ, তালিকায় নেই রুমিন ফারহানার নাম"
                             time="১ মিনিট আগে"
-                            href="/news/1"
+                            href="/singledetails"
                         />
                     </div>
                     <div className="w-full md:max-w-[51.875%] md:pl-6 grid grid-cols-2 gap-3 md:gap-6 mt-5 md:mt-0">
@@ -26,24 +26,28 @@ export default function GallarySection (){
                             title="বিএনপির সম্ভাব্য প্রার্থী তালিকা প্রকাশ, তালিকায় নেই রুমিন ফারহানার নাম"
                             time="১ মিনিট আগে"
                             photoCount={2}
+                            href="/singledetails"
                         />
                         <GalleryNews
                             image={MousqueImage}
                             title="বিএনপির সম্ভাব্য প্রার্থী তালিকা প্রকাশ, তালিকায় নেই রুমিন ফারহানার নাম"
                             time="১ মিনিট আগে"
                             photoCount={5}
+                            href="/singledetails"
                         />
                         <GalleryNews
                             image={MousqueImage}
                             title="বিএনপির সম্ভাব্য প্রার্থী তালিকা প্রকাশ, তালিকায় নেই রুমিন ফারহানার নাম"
                             time="১ মিনিট আগে"
                             photoCount={9}
+                            href="/singledetails"
                         />
                         <GalleryNews
                             image={MousqueImage}
                             title="বিএনপির সম্ভাব্য প্রার্থী তালিকা প্রকাশ, তালিকায় নেই রুমিন ফারহানার নাম"
                             time="১ মিনিট আগে"
                             photoCount={9}
+                            href="/singledetails"
                         />
                     </div>
                 </div>

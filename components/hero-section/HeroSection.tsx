@@ -15,7 +15,7 @@ export default function HeroSection() {
                                 image={HeroSideberImage}
                                 title={"ইতিহাস গড়ল ভারত! দক্ষিণ আফ্রিকাকে হারিয়ে নারী বিশ্বকাপ জয়"}
                                 time={"1 min ago"}
-                                href="/shortdetails"
+                                href="/singledetails"
                                 imageWrap="max-w-[104px]"
                                 imageWidth={104}
                                 imageHeight={78}
@@ -31,7 +31,7 @@ export default function HeroSection() {
                                 imageWrap="max-w-[104px]"
                                 imageWidth={104}
                                 imageHeight={78}
-                                href=""
+                                href="/singledetails"
                                 />
                         </div>
                         <div className="flex gap-3 pb-5">
@@ -42,21 +42,21 @@ export default function HeroSection() {
                                 imageWrap="max-w-[104px]"
                                 imageWidth={104}
                                 imageHeight={78}
-                                href=""
+                                href="/singledetails"
                                 />
                         </div>
                         <div className="flex gap-3 pb-5">
                             <NewsItem 
                                 title={"যুদ্ধবিরতি ভঙ্গ! ইসরায়েলের বিরুদ্ধে ১৯৪ বার চুক্তি লঙ্ঘনের অভিযোগ"}
                                 time={"1 min ago"}
-                                href=""
+                                href="/singledetails"
                                 />
                         </div>
                         <div className="flex gap-3 pb-5">
                             <NewsItem 
                                 title={"যুদ্ধবিরতি ভঙ্গ! ইসরায়েলের বিরুদ্ধে ১৯৪ বার চুক্তি লঙ্ঘনের অভিযোগ"}
                                 time={"1 min ago"}
-                                href=""
+                                href="/singledetails"
                                 />
                         </div>
                         
@@ -68,7 +68,7 @@ export default function HeroSection() {
                                 time="১ মিনিট আগে"
                                 image={BanarImage}
                                 caption="অবশেষে খরা কাটল!"
-                                href="/fulldetails"
+                                href="/singledetails"
                                 />
                         <div className="flex flex-col xl:flex-row py-6 divide-y xl:divide-y-0 xl:divide-x divide-[#D4D4D4] first:pt-0 last:pb-0">
                             <div className="w-full xl:max-w-1/2 xl:pr-4">
@@ -79,13 +79,14 @@ export default function HeroSection() {
                                         imageHeight={72}
                                         title={"চূড়ান্ত প্রার্থী তালিকা সময়মতো জানাবে জামায়াত: আমির ডা. শফিকুর রহমান"}
                                         imageWrap="max-w-[96px]"
-                                        href=""
+                                        href="/singledetails"
                                         />
                                 </div>
                                 <div className=" pb-5">
                                     <NewsItem
                                         content={"সংবাদ পরিবেশনায় পক্ষপাত ও নানা বিতর্কের জেরে পদত্যাগ করলেন ব্রিটিশ গণমাধ্যম বিবিসি'র মহাপরিচালক টিম ডেভি এবং বার্তাপ্রধান ডেবোরাহ টারনেস। রোববার (৯ নভেম্বর) তাঁরা"}
                                         time="1 min ago"
+                                        href="/singledetails"
                                         />
                                 </div>
                             </div>
@@ -97,13 +98,14 @@ export default function HeroSection() {
                                         imageHeight={72}
                                         title="চূড়ান্ত প্রার্থী তালিকা সময়মতো জানাবে জামায়াত: আমির ডা. শফিকুর রহমান"
                                         imageWrap="max-w-[96px]" 
-                                        href=""       
+                                        href="/singledetails"       
                                         />
                                 </div>
                                 <div className=" xl:pb-5">
                                     <NewsItem
                                         content={"সংবাদ পরিবেশনায় পক্ষপাত ও নানা বিতর্কের জেরে পদত্যাগ করলেন ব্রিটিশ গণমাধ্যম বিবিসি'র মহাপরিচালক টিম ডেভি এবং বার্তাপ্রধান ডেবোরাহ টারনেস। রোববার (৯ নভেম্বর) তাঁরা"}
                                         time="1 min ago"
+                                        href="/singledetails"
                                         />
                                 </div>
                             </div>
@@ -115,7 +117,7 @@ export default function HeroSection() {
                                     content="বলিউডের আইটেম গার্ল খ্যাত অভিনেত্রী মালাইকা অরোরা ব্যক্তিগত জীবন নিয়ে সবসময় আলোচনায় থাকেন। দীর্ঘদাম্পত্য আর সম্পর্ক ভেঙে যাওয়ার পর মালাইকা এবার নতুন প্রেমের গুঞ্জনে ছড়িয়ে পড়েছেন।"
                                     time="1 min ago"
                                     titleMb={10}
-                                    href=""
+                                    href="/singledetails"
                                     />
                             </div>
                             
@@ -135,7 +137,7 @@ export default function HeroSection() {
                                     content="বলিউডের আইটেম গার্ল খ্যাত অভিনেত্রী মালাইকা অরোরা ব্যক্তিগত জীবন নিয়ে সবসময় আলোচনায় থাকেন। দীর্ঘদাম্পত্য আর সম্পর্ক ভেঙে যাওয়ার পর মালাইকা এবার নতুন প্রেমের গুঞ্জনে ছড়িয়ে পড়েছেন।"
                                     time="1 min ago"
                                     titleMb={10}
-                                    href=""
+                                    href="/singledetails"
                                     />
                             </div>
                         </div>
@@ -151,7 +153,7 @@ export default function HeroSection() {
                                 imageHeight={66}
                                 imageWrap="max-w-[88px]"
                                 titleFontWeight={500}
-                                href=""
+                                href="/singledetails"
                             />
                             <NewsItem 
                                 image={HeroSideberImage}
@@ -160,7 +162,7 @@ export default function HeroSection() {
                                 imageHeight={66}
                                 imageWrap="max-w-[88px]"
                                 titleFontWeight={500}
-                                href=""
+                                href="/singledetails"
                             />
                             <NewsItem 
                                 image={HeroSideberImage}
@@ -169,7 +171,7 @@ export default function HeroSection() {
                                 imageHeight={66}
                                 imageWrap="max-w-[88px]"
                                 titleFontWeight={500}
-                                href=""
+                                href="/singledetails"
                             />
                             <NewsItem 
                                 image={HeroSideberImage}
@@ -178,7 +180,7 @@ export default function HeroSection() {
                                 imageHeight={66}
                                 imageWrap="max-w-[88px]"
                                 titleFontWeight={500}
-                                href=""
+                                href="/singledetails"
                             />
                             <NewsItem 
                                 image={HeroSideberImage}
@@ -187,7 +189,7 @@ export default function HeroSection() {
                                 imageHeight={66}
                                 imageWrap="max-w-[88px]"
                                 titleFontWeight={500}
-                                href=""
+                                href="/singledetails"
                             />
                             <NewsItem 
                                 image={HeroSideberImage}
@@ -196,7 +198,7 @@ export default function HeroSection() {
                                 imageHeight={66}
                                 imageWrap="max-w-[88px]"
                                 titleFontWeight={500}
-                                href=""
+                                href="/singledetails"
                             />
                             <NewsItem 
                                 image={HeroSideberImage}
@@ -205,7 +207,7 @@ export default function HeroSection() {
                                 imageHeight={66}
                                 imageWrap="max-w-[88px]"
                                 titleFontWeight={500}
-                                href=""
+                                href="/singledetails"
                             />
                         </div>
                     </div>

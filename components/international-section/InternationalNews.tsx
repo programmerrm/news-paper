@@ -51,7 +51,7 @@ export default function InternationalNews() {
                                         imageHeight={104}
                                         title={"জোটে অংশ নিলেও নিজ দলের প্রতীকে ভোট বাধ্যতামূলক"}
                                         time={"১ মিনিট আগে"}
-                                        href="#"
+                                        href="/singledetails"
                                         timeMt={16}
                                         imageWrap="max-w-[104px]"
                                     />
@@ -63,7 +63,7 @@ export default function InternationalNews() {
                                         imageHeight={104}
                                         title={"জোটে অংশ নিলেও নিজ দলের প্রতীকে ভোট বাধ্যতামূলক"}
                                         time={"১ মিনিট আগে"}
-                                        href="#"
+                                        href="/singledetails"
                                         timeMt={16}
                                         imageWrap="max-w-[104px]"
                                     />
@@ -75,7 +75,7 @@ export default function InternationalNews() {
                                         imageHeight={104}
                                         title={"জোটে অংশ নিলেও নিজ দলের প্রতীকে ভোট বাধ্যতামূলক"}
                                         time={"১ মিনিট আগে"}
-                                        href="#"
+                                        href="/singledetails"
                                         timeMt={16}
                                         imageWrap="max-w-[104px]"
                                     />
@@ -87,7 +87,7 @@ export default function InternationalNews() {
                                         imageHeight={104}
                                         title={"জোটে অংশ নিলেও নিজ দলের প্রতীকে ভোট বাধ্যতামূলক"}
                                         time={"১ মিনিট আগে"}
-                                        href="#"
+                                        href="/singledetails"
                                         timeMt={16}
                                         imageWrap="max-w-[104px]"
                                     />
@@ -101,7 +101,7 @@ export default function InternationalNews() {
                                     title="চূড়ান্ত প্রার্থী তালিকা সময়মতো জানাবে জামায়াত: আমির ডা. শফিকুর রহমান"
                                     content="আসন্ন ত্রয়োদশ জাতীয় সংসদ নির্বাচনে চূড়ান্ত প্রার্থী ঘোষণা প্রসঙ্গে বাংলাদেশ জামায়াতে ইসলামীর আমির ডা. শফিকুর রহমান জানিয়েছেন, “সময়মতো আমরা চূড়ান্ত তালিকা জানিয়ে দেব।” মঙ্গলবার (৪ নভেম্বর) বিদেশ সফর শেষে দেশে ফিরে সকাল ৬টার দিকে হযরত শাহজালাল আন্তর্জাতিক বিমানবন্দরে আয়োজিত এক সংক্ষিপ্ত প্রেস ব্রিফিংয়ে তিনি এ কথা বলেন।"
                                     time="১ মিনিট আগে"
-                                    href="/news/led/1"
+                                    href="/singledetails"
                                     contentMt={12}
                                     timeMt={16}
                                 />
@@ -113,7 +113,7 @@ export default function InternationalNews() {
                                     title="রাষ্ট্র নীরব, মানুষ ক্ষুব্ধ—মব রুলে চলছে রক্তাক্ত ন্যায়"
                                     content="মবের মুল্লুকে আপনাকে স্বাগত। মব রুল বা মবোক্রেসিতে দেশাক্রান্ত। ঘটছে একের পর এক মবকাণ্ড। এটাই এখন বাস্তবতা। আইনের শাসনে ভরসা নেই। "
                                     time="১ মিনিট আগে"
-                                    href="/news/led/1"
+                                    href="/singledetails"
                                     titleMb={12}
                                     timeMt={16}
                                 />
@@ -123,7 +123,7 @@ export default function InternationalNews() {
                                     title="রাষ্ট্র নীরব, মানুষ ক্ষুব্ধ—মব রুলে চলছে রক্তাক্ত ন্যায়"
                                     content="মবের মুল্লুকে আপনাকে স্বাগত। মব রুল বা মবোক্রেসিতে দেশাক্রান্ত। ঘটছে একের পর এক মবকাণ্ড। এটাই এখন বাস্তবতা। আইনের শাসনে ভরসা নেই। "
                                     time="১ মিনিট আগে"
-                                    href="/news/led/1"
+                                    href="/singledetails"
                                     titleMb={12}
                                     timeMt={16}
                                 />
@@ -133,7 +133,7 @@ export default function InternationalNews() {
                                     title="রাষ্ট্র নীরব, মানুষ ক্ষুব্ধ—মব রুলে চলছে রক্তাক্ত ন্যায়"
                                     content="মবের মুল্লুকে আপনাকে স্বাগত। মব রুল বা মবোক্রেসিতে দেশাক্রান্ত। ঘটছে একের পর এক মবকাণ্ড। এটাই এখন বাস্তবতা। আইনের শাসনে ভরসা নেই। "
                                     time="১ মিনিট আগে"
-                                    href="/news/led/1"
+                                    href="/singledetails"
                                     titleMb={12}
                                     timeMt={16}
                                 />

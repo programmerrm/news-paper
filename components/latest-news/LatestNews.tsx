@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 type LatestNewsItem = {
   title: string;
   url?: string;
@@ -30,12 +32,12 @@ const LatestNews = ({ items }: LatestNewsProps) => {
           </span>
 
           <h5>
-            <a
+            <Link
               href={item.url ?? "#"}
               className="transition-all hover:text-blue-600"
             >
               {item.title}
-            </a>
+            </Link>
           </h5>
         </div>
       ))}
