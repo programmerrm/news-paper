@@ -15,7 +15,6 @@ import LifeStyleSection from "@/components/information-section/LifeStyleSection"
 import Header from "@/components/header/header";
 import Footer from "@/components/footer/footer";
 import Add from "@/components/add/Add";
-import HomeVideoSection from "@/components/video-section/VideoSection";
 
 export default function Home() {
     return (
