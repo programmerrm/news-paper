@@ -18,12 +18,14 @@ export default function StorisCard({
         href={href}
         className="flex flex-col gap-2 items-center justify-center"
       >
-        <Image
-          src={image}
-          alt={title}
-          width={92}
-          height={92}
-        />
+        <span className="w-full max-w-23 border-2 border-red rounded-full p-1 bg-white">
+          <Image
+            src={image}
+            alt={title}
+            width={92}
+            height={92}
+          />
+        </span>
         <p className="text-xs leading-4.5 font-medium text-[#171717] text-center">
           {title}
         </p>
