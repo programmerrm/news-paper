@@ -1,7 +1,6 @@
 import Image from "next/image";
 import NewsItem from "@/components/news-items/newsItem";
 import CategoryNewsHeadding from "@/components/category/CategoryNewsHeadding";
-import HeroSideberImage from "../../assets/image/hero-sidebar.png";
 import ShareIcons from "@/components/shareicon/ShareIcon";
 import PlayBtn from "../../assets/icon/playbtn.svg";
 import ReportNews from "../../components/details/RportNews";
@@ -127,44 +126,11 @@ export default function FullDetailsPage() {
                         <CategoryNewsHeadding highlightText="রাজনীতি" />
                         <div className="flex flex-col divide-y divide-[#D4D4D4] mt-6">
                             <NewsItem
-                                image={HeroSideberImage}
                                 title="খালেদা জিয়া ৩ আসনে, তারেক রহমান বগুড়া-৬ এ বিএনপির প্রার্থী"
                                 imageWidth={88}
                                 imageHeight={66}
                                 imageWrap="max-w-[88px]"
-                                titleFontWeight={500}
-                            />
-                            <NewsItem
-                                image={HeroSideberImage}
-                                title="খালেদা জিয়া ৩ আসনে, তারেক রহমান বগুড়া-৬ এ বিএনপির প্রার্থী"
-                                imageWidth={88}
-                                imageHeight={66}
-                                imageWrap="max-w-[88px]"
-                                titleFontWeight={500}
-                            />
-                            <NewsItem
-                                image={HeroSideberImage}
-                                title="খালেদা জিয়া ৩ আসনে, তারেক রহমান বগুড়া-৬ এ বিএনপির প্রার্থী"
-                                imageWidth={88}
-                                imageHeight={66}
-                                imageWrap="max-w-[88px]"
-                                titleFontWeight={500}
-                            />
-                            <NewsItem
-                                image={HeroSideberImage}
-                                title="খালেদা জিয়া ৩ আসনে, তারেক রহমান বগুড়া-৬ এ বিএনপির প্রার্থী"
-                                imageWidth={88}
-                                imageHeight={66}
-                                imageWrap="max-w-[88px]"
-                                titleFontWeight={500}
-                            />
-                            <NewsItem
-                                image={HeroSideberImage}
-                                title="খালেদা জিয়া ৩ আসনে, তারেক রহমান বগুড়া-৬ এ বিএনপির প্রার্থী"
-                                imageWidth={88}
-                                imageHeight={66}
-                                imageWrap="max-w-[88px]"
-                                titleFontWeight={500}
+                                titleFontWeight={"500"}
                             />
                         </div>
                     </div>

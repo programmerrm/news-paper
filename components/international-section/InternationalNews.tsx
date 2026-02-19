@@ -1,6 +1,5 @@
 import NewsItem from "../news-items/newsItem";
 import SectionTitle from "../section-title/SectionTitle";
-import TrumpImage from "../../assets/image/trump.png";
 import LedNews from "../led-news/LedNews";
 import TrumpSpeechImage from "../../assets/image/trump-speech.png";
 import LatestNews from "../latest-news/LatestNews";
@@ -46,49 +45,45 @@ export default function InternationalNews() {
                             <div className="w-full sm:max-w-[42.977%] sm:pr-5 space-y-3 lg:space-y-5 divide-y divide-[#D4D4D4] mt-5 sm:mt-0 order-2 sm:order-1">
                                 <div className="pb-3 lg:pb-5">
                                     <NewsItem
-                                        image={TrumpImage}
                                         imageWidth={140}
                                         imageHeight={104}
                                         title={"জোটে অংশ নিলেও নিজ দলের প্রতীকে ভোট বাধ্যতামূলক"}
                                         time={"১ মিনিট আগে"}
                                         href="/singledetails"
-                                        timeMt={16}
+                                        timeMt={"16"}
                                         imageWrap="max-w-[104px]"
                                     />
                                 </div>
                                 <div className="pb-3 lg:pb-5">
                                     <NewsItem
-                                        image={TrumpImage}
                                         imageWidth={140}
                                         imageHeight={104}
                                         title={"জোটে অংশ নিলেও নিজ দলের প্রতীকে ভোট বাধ্যতামূলক"}
                                         time={"১ মিনিট আগে"}
                                         href="/singledetails"
-                                        timeMt={16}
+                                        timeMt={"16"}
                                         imageWrap="max-w-[104px]"
                                     />
                                 </div>
                                 <div className="pb-3 lg:pb-5">
                                     <NewsItem
-                                        image={TrumpImage}
                                         imageWidth={140}
                                         imageHeight={104}
                                         title={"জোটে অংশ নিলেও নিজ দলের প্রতীকে ভোট বাধ্যতামূলক"}
                                         time={"১ মিনিট আগে"}
                                         href="/singledetails"
-                                        timeMt={16}
+                                        timeMt={"16"}
                                         imageWrap="max-w-[104px]"
                                     />
                                 </div>
                                 <div className="pb-3 lg:pb-5">
                                     <NewsItem
-                                        image={TrumpImage}
                                         imageWidth={140}
                                         imageHeight={104}
                                         title={"জোটে অংশ নিলেও নিজ দলের প্রতীকে ভোট বাধ্যতামূলক"}
                                         time={"১ মিনিট আগে"}
                                         href="/singledetails"
-                                        timeMt={16}
+                                        timeMt={"16"}
                                         imageWrap="max-w-[104px]"
                                     />
                                 </div>
@@ -114,8 +109,8 @@ export default function InternationalNews() {
                                     content="মবের মুল্লুকে আপনাকে স্বাগত। মব রুল বা মবোক্রেসিতে দেশাক্রান্ত। ঘটছে একের পর এক মবকাণ্ড। এটাই এখন বাস্তবতা। আইনের শাসনে ভরসা নেই। "
                                     time="১ মিনিট আগে"
                                     href="/singledetails"
-                                    titleMb={12}
-                                    timeMt={16}
+                                    titleMb={"12"}
+                                    timeMt={"16"}
                                 />
                             </div>
                             <div className="pr-4">
@@ -124,8 +119,8 @@ export default function InternationalNews() {
                                     content="মবের মুল্লুকে আপনাকে স্বাগত। মব রুল বা মবোক্রেসিতে দেশাক্রান্ত। ঘটছে একের পর এক মবকাণ্ড। এটাই এখন বাস্তবতা। আইনের শাসনে ভরসা নেই। "
                                     time="১ মিনিট আগে"
                                     href="/singledetails"
-                                    titleMb={12}
-                                    timeMt={16}
+                                    titleMb={"12"}
+                                    timeMt={"16"}
                                 />
                             </div>
                             <div className="pr-4">
@@ -134,8 +129,8 @@ export default function InternationalNews() {
                                     content="মবের মুল্লুকে আপনাকে স্বাগত। মব রুল বা মবোক্রেসিতে দেশাক্রান্ত। ঘটছে একের পর এক মবকাণ্ড। এটাই এখন বাস্তবতা। আইনের শাসনে ভরসা নেই। "
                                     time="১ মিনিট আগে"
                                     href="/singledetails"
-                                    titleMb={12}
-                                    timeMt={16}
+                                    titleMb={"12"}
+                                    timeMt={"16"}
                                 />
                             </div>
                             

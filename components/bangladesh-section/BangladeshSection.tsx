@@ -43,49 +43,12 @@ export default function BangldeshNews (){
                     <div className="w-full lg:max-w-[32.031%] lg:pr-5 mt-4 lg:mt-0 flex flex-col gap-2.5 lg:gap-5 divide-y divide-[#D4D4D4] order-2 lg:order-1">
                         <div className="pb-3 lg:pb-5">
                             <NewsItem 
-                                image={HeroSideberImage}
                                 imageWidth={140}
                                 imageHeight={104}
                                 title={"ইতিহাস গড়ল ভারত! দক্ষিণ আফ্রিকাকে হারিয়ে নারী বিশ্বকাপ জয়"}
                                 time={"১ মিনিট আগে"}
                                 href="/singledetails"
-                                timeMt={16}
-                                imageWrap="max-w-[104px]"
-                                />
-                        </div>
-                        <div className="pb-3 lg:pb-5">
-                            <NewsItem 
-                                image={HeroSideberImage}
-                                imageWidth={140}
-                                imageHeight={104}
-                                title={"কুমিল্লায় ট্রেনে আতশবাজি বিস্ফোরণ: শতাধিক যাত্রী বড় দুর্ঘটনা থেকে রক্ষা পেলেন"}
-                                time={"১ মিনিট আগে"}
-                                href="/singledetails"
-                                timeMt={16}
-                                imageWrap="max-w-[104px]"
-                                />
-                        </div>
-                        <div className="pb-3 lg:pb-5">
-                            <NewsItem 
-                                image={HeroSideberImage}
-                                imageWidth={140}
-                                imageHeight={104}
-                                title={"চূড়ান্ত প্রার্থী তালিকা সময়মতো জানাবে জামায়াত: আমির ডা. শফিকুর রহমান"}
-                                time={"১ মিনিট আগে"}
-                                href="/singledetails"
-                                timeMt={16}
-                                imageWrap="max-w-[104px]"
-                                />
-                        </div>
-                        <div className="pb-3 lg:pb-5">
-                            <NewsItem 
-                                image={HeroSideberImage}
-                                imageWidth={140}
-                                imageHeight={104}
-                                title={"কুমিল্লায় ট্রেনে আতশবাজি বিস্ফোরণ: শতাধিক যাত্রী বড় দুর্ঘটনা থেকে রক্ষা পেলেন"}
-                                time={"১ মিনিট আগে"}
-                                href="/singledetails"
-                                timeMt={16}
+                                timeMt={"16"}
                                 imageWrap="max-w-[104px]"
                                 />
                         </div>
@@ -105,9 +68,31 @@ export default function BangldeshNews (){
                     </div>
                     <div className="w-full lg:max-w-[25.391%] lg:pl-5 mt-4 lg:mt-0 flex flex-col gap-3 lg:gap-5 divide-y divide-[#D4D4D4] order-3 lg:order-3">
                         <div className="item">
+
                             <div className="pb-2.5">
+                                <NewsItem
+                                imageWidth={96}
+                                imageHeight={72}
+                                title={"চূড়ান্ত প্রার্থী তালিকা সময়মতো জানাবে জামায়াত: আমির ডা. শফিকুর রহমান"}
+                                href="/singledetails"
+                                imageWrap="max-w-[104px]"
+                                /> 
+                            </div>
+
+                            <div className="pb-3 lg:pb-5">
                                 <NewsItem 
-                                image={HeroSideberImage}
+                                    content={"আসন্ন ত্রয়োদশ জাতীয় সংসদ নির্বাচনে চূড়ান্ত প্রার্থী ঘোষণা প্রসঙ্গে বাংলাদেশ জামায়াতে ইসলামীর আমির ডা. শফিকুর রহমান জানিয়েছেন..."}
+                                    href="/singledetails"
+                                    time="১ মিনিট আগে"
+                                    timeMt={"10"}
+                                    imageWrap="max-w-[104px]"
+                                    />
+                            </div>
+
+                        </div>
+                        <div className="item">
+                            <div className="pb-2.5">
+                                <NewsItem
                                 imageWidth={96}
                                 imageHeight={72}
                                 title={"চূড়ান্ত প্রার্থী তালিকা সময়মতো জানাবে জামায়াত: আমির ডা. শফিকুর রহমান"}
@@ -120,15 +105,14 @@ export default function BangldeshNews (){
                                     content={"আসন্ন ত্রয়োদশ জাতীয় সংসদ নির্বাচনে চূড়ান্ত প্রার্থী ঘোষণা প্রসঙ্গে বাংলাদেশ জামায়াতে ইসলামীর আমির ডা. শফিকুর রহমান জানিয়েছেন..."}
                                     href="/singledetails"
                                     time="১ মিনিট আগে"
-                                    timeMt={10}
+                                    timeMt={"10"}
                                     imageWrap="max-w-[104px]"
                                     />
                             </div>
                         </div>
                         <div className="item">
                             <div className="pb-2.5">
-                                <NewsItem 
-                                image={HeroSideberImage}
+                                <NewsItem
                                 imageWidth={96}
                                 imageHeight={72}
                                 title={"চূড়ান্ত প্রার্থী তালিকা সময়মতো জানাবে জামায়াত: আমির ডা. শফিকুর রহমান"}
@@ -141,28 +125,7 @@ export default function BangldeshNews (){
                                     content={"আসন্ন ত্রয়োদশ জাতীয় সংসদ নির্বাচনে চূড়ান্ত প্রার্থী ঘোষণা প্রসঙ্গে বাংলাদেশ জামায়াতে ইসলামীর আমির ডা. শফিকুর রহমান জানিয়েছেন..."}
                                     href="/singledetails"
                                     time="১ মিনিট আগে"
-                                    timeMt={10}
-                                    imageWrap="max-w-[104px]"
-                                    />
-                            </div>
-                        </div>
-                        <div className="item">
-                            <div className="pb-2.5">
-                                <NewsItem 
-                                image={HeroSideberImage}
-                                imageWidth={96}
-                                imageHeight={72}
-                                title={"চূড়ান্ত প্রার্থী তালিকা সময়মতো জানাবে জামায়াত: আমির ডা. শফিকুর রহমান"}
-                                href="/singledetails"
-                                imageWrap="max-w-[104px]"
-                                /> 
-                            </div>
-                            <div className="pb-3 lg:pb-5">
-                                <NewsItem 
-                                    content={"আসন্ন ত্রয়োদশ জাতীয় সংসদ নির্বাচনে চূড়ান্ত প্রার্থী ঘোষণা প্রসঙ্গে বাংলাদেশ জামায়াতে ইসলামীর আমির ডা. শফিকুর রহমান জানিয়েছেন..."}
-                                    href="/singledetails"
-                                    time="১ মিনিট আগে"
-                                    timeMt={10}
+                                    timeMt={"10"}
                                     imageWrap="max-w-[104px]"
                                     />
                             </div>

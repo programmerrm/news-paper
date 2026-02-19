@@ -49,47 +49,43 @@ export default function NationalSection (){
                                 <div className="divide-y divide-[#D4D4D4] space-y-4">
                                     <div className="pb-4 last:pb-0">
                                         <NewsItem 
-                                        image={updesthaImage}
                                         imageWidth={104}
                                         imageHeight={78}
                                         title={"চূড়ান্ত প্রার্থী তালিকা সময়মতো জানাবে জামায়াত: আমির ডা. শফিকুর রহমান"}
                                         href="/singledetails"
                                         time="১ মিনিট আগে"
-                                        timeMt={10}
+                                        timeMt={"10"}
                                         /> 
                                     </div>
                                     <div className="pb-4 last:pb-0">
                                         <NewsItem 
-                                        image={HeroSideberImage}
                                         imageWidth={104}
                                         imageHeight={78}
                                         title={"চূড়ান্ত প্রার্থী তালিকা সময়মতো জানাবে জামায়াত: আমির ডা. শফিকুর রহমান"}
                                         href="/singledetails"
                                         time="১ মিনিট আগে"
-                                        timeMt={10}
+                                        timeMt={"10"}
                                         /> 
                                     </div>
                                     <div className="pb-4 last:pb-0">
                                         <NewsItem 
-                                        image={HeroSideberImage}
                                         imageWidth={104}
                                         imageHeight={78}
                                         title={"চূড়ান্ত প্রার্থী তালিকা সময়মতো জানাবে জামায়াত: আমির ডা. শফিকুর রহমান"}
                                         href="/singledetails"
                                         time="১ মিনিট আগে"
-                                        timeMt={10}
+                                        timeMt={"10"}
                                         isLive={true}
                                         /> 
                                     </div>
                                     <div className="pb-4 last:pb-0">
                                         <NewsItem 
-                                        image={HeroSideberImage}
                                         imageWidth={104}
                                         imageHeight={78}
                                         title={"চূড়ান্ত প্রার্থী তালিকা সময়মতো জানাবে জামায়াত: আমির ডা. শফিকুর রহমান"}
                                         href="/singledetails"
                                         time="১ মিনিট আগে"
-                                        timeMt={10}
+                                        timeMt={"10"}
                                         /> 
                                     </div>
                                 </div>

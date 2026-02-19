@@ -30,37 +30,34 @@ export default function SocialDiscourseSection() {
                         />
                         <div className="pb-3 lg:pb-5">
                             <NewsItem
-                                image={RiverImage}
                                 imageWidth={140}
                                 imageHeight={104}
                                 title={"জোটে অংশ নিলেও নিজ দলের প্রতীকে ভোট বাধ্যতামূলক"}
                                 time={"১ মিনিট আগে"}
                                 href="/singledetails"
-                                timeMt={16}
+                                timeMt={"16"}
                                 imageWrap="max-w-[104px]"
                             />
                         </div>
                         <div className="pb-3 lg:pb-5">
                             <NewsItem
-                                image={RiverImage}
                                 imageWidth={140}
                                 imageHeight={104}
                                 title={"জোটে অংশ নিলেও নিজ দলের প্রতীকে ভোট বাধ্যতামূলক"}
                                 time={"১ মিনিট আগে"}
                                 href="/singledetails"
-                                timeMt={16}
+                                timeMt={"16"}
                                 imageWrap="max-w-[104px]"
                             />
                         </div>
                         <div className="pb-3 lg:pb-5">
                             <NewsItem
-                                image={RiverImage}
                                 imageWidth={140}
                                 imageHeight={104}
                                 title={"জোটে অংশ নিলেও নিজ দলের প্রতীকে ভোট বাধ্যতামূলক"}
                                 time={"১ মিনিট আগে"}
                                 href="/singledetails"
-                                timeMt={16}
+                                timeMt={"16"}
                                 imageWrap="max-w-[104px]"
                             />
                         </div>
@@ -73,37 +70,34 @@ export default function SocialDiscourseSection() {
                         />
                         <div className="pb-3 lg:pb-5">
                             <NewsItem
-                                image={RiverImage}
                                 imageWidth={140}
                                 imageHeight={104}
                                 title={"জোটে অংশ নিলেও নিজ দলের প্রতীকে ভোট বাধ্যতামূলক"}
                                 time={"১ মিনিট আগে"}
                                 href="/singledetails"
-                                timeMt={16}
+                                timeMt={"16"}
                                 imageWrap="max-w-[104px]"
                             />
                         </div>
                         <div className="pb-3 lg:pb-5">
                             <NewsItem
-                                image={RiverImage}
                                 imageWidth={140}
                                 imageHeight={104}
                                 title={"জোটে অংশ নিলেও নিজ দলের প্রতীকে ভোট বাধ্যতামূলক"}
                                 time={"১ মিনিট আগে"}
                                 href="/singledetails"
-                                timeMt={16}
+                                timeMt={"16"}
                                 imageWrap="max-w-[104px]"
                             />
                         </div>
                         <div className="pb-3 lg:pb-5">
                             <NewsItem
-                                image={RiverImage}
                                 imageWidth={140}
                                 imageHeight={104}
                                 title={"জোটে অংশ নিলেও নিজ দলের প্রতীকে ভোট বাধ্যতামূলক"}
                                 time={"১ মিনিট আগে"}
                                 href="/singledetails"
-                                timeMt={16}
+                                timeMt={"16"}
                                 imageWrap="max-w-[104px]"
                             />
                         </div>
@@ -115,37 +109,34 @@ export default function SocialDiscourseSection() {
                         />
                         <div className="pb-3 lg:pb-5">
                             <NewsItem
-                                image={RiverImage}
                                 imageWidth={140}
                                 imageHeight={104}
                                 title={"জোটে অংশ নিলেও নিজ দলের প্রতীকে ভোট বাধ্যতামূলক"}
                                 time={"১ মিনিট আগে"}
                                 href="/singledetails"
-                                timeMt={16}
+                                timeMt={"16"}
                                 imageWrap="max-w-[104px]"
                             />
                         </div>
                         <div className="pb-3 lg:pb-5">
                             <NewsItem
-                                image={RiverImage}
                                 imageWidth={140}
                                 imageHeight={104}
                                 title={"জোটে অংশ নিলেও নিজ দলের প্রতীকে ভোট বাধ্যতামূলক"}
                                 time={"১ মিনিট আগে"}
                                 href="/singledetails"
-                                timeMt={16}
+                                timeMt={"16"}
                                 imageWrap="max-w-[104px]"
                             />
                         </div>
                         <div className="pb-3 lg:pb-5">
                             <NewsItem
-                                image={RiverImage}
                                 imageWidth={140}
                                 imageHeight={104}
                                 title={"জোটে অংশ নিলেও নিজ দলের প্রতীকে ভোট বাধ্যতামূলক"}
                                 time={"১ মিনিট আগে"}
                                 href="/singledetails"
-                                timeMt={16}
+                                timeMt={"16"}
                                 imageWrap="max-w-[104px]"
                             />
                         </div>

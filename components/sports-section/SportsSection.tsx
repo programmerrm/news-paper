@@ -1,10 +1,8 @@
 import NewsItem from "../news-items/newsItem";
 import SectionTitle from "../section-title/SectionTitle";
-import HeroSideberImage from "../../assets/image/hero-sidebar.png"
 import LedNews from "../led-news/LedNews";
 import sportsImage from "../../assets/image/sports-image.jpg"
 import Image from "next/image";
-import sportImage from "../../assets/image/sports-image.jpg"
 import sportAddImage from "../../assets/image/sports-add.png"
 
 export default function SportsSection(){
@@ -19,49 +17,45 @@ export default function SportsSection(){
                     <div className="w-full lg:max-w-[32.031%] lg:pr-5 space-y-3 lg:space-y-5 divide-y divide-[#D4D4D4] order-2 lg:order-1 mt-5 lg:mt-0">
                         <div className="pb-3 lg:pb-5">
                             <NewsItem
-                                image={HeroSideberImage}
                                 imageWidth={140}
                                 imageHeight={104}
                                 title={"জোটে অংশ নিলেও নিজ দলের প্রতীকে ভোট বাধ্যতামূলক"}
                                 time={"১ মিনিট আগে"}
                                 href="/singledetails"
-                                timeMt={16}
+                                timeMt={"16"}
                                 imageWrap="max-w-[104px]"
                                 />
                         </div>
                         <div className="pb-3 lg:pb-5">
                             <NewsItem
-                                image={HeroSideberImage}
                                 imageWidth={140}
                                 imageHeight={104}
                                 title={"জোটে অংশ নিলেও নিজ দলের প্রতীকে ভোট বাধ্যতামূলক"}
                                 time={"১ মিনিট আগে"}
                                 href="/singledetails"
-                                timeMt={16}
+                                timeMt={"16"}
                                 imageWrap="max-w-[104px]"
                                 />
                         </div>
                         <div className="pb-3 lg:pb-5">
                             <NewsItem
-                                image={HeroSideberImage}
                                 imageWidth={140}
                                 imageHeight={104}
                                 title={"জোটে অংশ নিলেও নিজ দলের প্রতীকে ভোট বাধ্যতামূলক"}
                                 time={"১ মিনিট আগে"}
                                 href="/singledetails"
-                                timeMt={16}
+                                timeMt={"16"}
                                 imageWrap="max-w-[104px]"
                                 />
                         </div>
                         <div className="pb-3 lg:pb-5">
                             <NewsItem
-                                image={HeroSideberImage}
                                 imageWidth={140}
                                 imageHeight={104}
                                 title={"জোটে অংশ নিলেও নিজ দলের প্রতীকে ভোট বাধ্যতামূলক"}
                                 time={"১ মিনিট আগে"}
                                 href="/singledetails"
-                                timeMt={16}
+                                timeMt={"16"}
                                 imageWrap="max-w-[104px]"
                                 />
                         </div>
@@ -97,7 +91,7 @@ export default function SportsSection(){
                                         title="যুদ্ধবিরতি ভঙ্গ! ইসরায়েলের বিরুদ্ধে ১৯৪ বার চুক্তি লঙ্ঘনের অভিযোগ"
                                         time={"১ মিনিট আগে"}
                                         href="/singledetails"
-                                        timeMt={10}
+                                        timeMt={"10"}
                                         />
                                 </div>
                                 <div className="pb-3 lg:pb-5">
@@ -105,7 +99,7 @@ export default function SportsSection(){
                                         title="যুদ্ধবিরতি ভঙ্গ! ইসরায়েলের বিরুদ্ধে ১৯৪ বার চুক্তি লঙ্ঘনের অভিযোগ"
                                         time={"১ মিনিট আগে"}
                                         href="/singledetails"
-                                        timeMt={10}
+                                        timeMt={"10"}
                                         />
                                 </div>
                                 <div className="pb-3 lg:pb-5">
@@ -113,7 +107,7 @@ export default function SportsSection(){
                                         title="যুদ্ধবিরতি ভঙ্গ! ইসরায়েলের বিরুদ্ধে ১৯৪ বার চুক্তি লঙ্ঘনের অভিযোগ"
                                         time={"১ মিনিট আগে"}
                                         href="/singledetails"
-                                        timeMt={10}
+                                        timeMt={"10"}
                                         />
                                 </div>
                             </div>

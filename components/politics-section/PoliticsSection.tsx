@@ -2,9 +2,7 @@ import SectionTitle from "../section-title/SectionTitle";
 import LedNews from "../led-news/LedNews";
 import NationalNews from "../national-section/NationalNews";
 import NewsItem from "../news-items/newsItem";
-
 import politicsImage from "../../assets/image/politics-image-1.jpg";
-import politicsImage2 from "../../assets/image/politics-image-2.jpg";
 
 export default function PoliticsSection() {
     return (
@@ -66,12 +64,11 @@ export default function PoliticsSection() {
                             {[1, 2, 3, 4, 5].map((_, index) => (
                                 <div key={index} className="pb-5 last:pb-0">
                                     <NewsItem
-                                        image={politicsImage2}
                                         imageWidth={140}
                                         imageHeight={104}
                                         title="চূড়ান্ত প্রার্থী তালিকা সময়মতো জানাবে জামায়াত"
                                         time="১ মিনিট আগে"
-                                        timeMt={16}
+                                        timeMt={"16"}
                                         href="/singledetails"
                                     />
                                 </div>

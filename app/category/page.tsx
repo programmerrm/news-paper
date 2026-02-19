@@ -1,6 +1,5 @@
 import NewsItem from "@/components/news-items/newsItem";
 import LedNews from "@/components/led-news/LedNews";
-import HeroSideberImage from "../../assets/image/hero-sidebar.png";
 import ledImage from "../../assets/image/led-image.png";
 import Add from "@/components/add/Add";
 import RiverImage from "../../assets/image/river-image.png"
@@ -30,43 +29,12 @@ export default function CategoryNewspage() {
                         {/* Left column - small news items */}
                         <div className="w-full lg:max-w-[30.469%] flex flex-col divide-y divide-[#D4D4D4] order-2 lg:order-1">
                             <NewsItem
-                                image={HeroSideberImage}
                                 imageWidth={140}
                                 imageHeight={104}
                                 title="ইতিহাস গড়ল ভারত! দক্ষিণ আফ্রিকাকে হারিয়ে নারী বিশ্বকাপ জয়"
                                 time="১ মিনিট আগে"
                                 href="/singledetails"
-                                timeMt={16}
-                                imageWrap="max-w-[104px]"
-                            />
-                            <NewsItem
-                                image={HeroSideberImage}
-                                imageWidth={140}
-                                imageHeight={104}
-                                title="কুমিল্লায় ট্রেনে আতশবাজি বিস্ফোরণ: শতাধিক যাত্রী বড় দুর্ঘটনা থেকে রক্ষা পেলেন"
-                                time="১ মিনিট আগে"
-                                href="/singledetails"
-                                timeMt={16}
-                                imageWrap="max-w-[104px]"
-                            />
-                            <NewsItem
-                                image={HeroSideberImage}
-                                imageWidth={140}
-                                imageHeight={104}
-                                title="চূড়ান্ত প্রার্থী তালিকা সময়মতো জানাবে জামায়াত: আমির ডা. শফিকুর রহমান"
-                                time="১ মিনিট আগে"
-                                href="/singledetails"
-                                timeMt={16}
-                                imageWrap="max-w-[104px]"
-                            />
-                            <NewsItem
-                                image={HeroSideberImage}
-                                imageWidth={140}
-                                imageHeight={104}
-                                title="কুমিল্লায় ট্রেনে আতশবাজি বিস্ফোরণ: শতাধিক যাত্রী বড় দুর্ঘটনা থেকে রক্ষা পেলেন"
-                                time="১ মিনিট আগে"
-                                href="/singledetails"
-                                timeMt={16}
+                                timeMt={"16"}
                                 imageWrap="max-w-[104px]"
                             />
                         </div>
@@ -93,57 +61,11 @@ export default function CategoryNewspage() {
                             />
                             <div className="flex flex-col divide-y divide-[#D4D4D4] mt-6">
                                 <NewsItem
-                                    image={HeroSideberImage}
                                     title="খালেদা জিয়া ৩ আসনে, তারেক রহমান বগুড়া-৬ এ বিএনপির প্রার্থী"
                                     imageWidth={88}
                                     imageHeight={66}
                                     imageWrap="max-w-[88px]"
-                                    titleFontWeight={500}
-                                    href="/singledetails"
-                                />
-                                <NewsItem
-                                    image={HeroSideberImage}
-                                    title="খালেদা জিয়া ৩ আসনে, তারেক রহমান বগুড়া-৬ এ বিএনপির প্রার্থী"
-                                    imageWidth={88}
-                                    imageHeight={66}
-                                    imageWrap="max-w-[88px]"
-                                    titleFontWeight={500}
-                                    href="/singledetails"
-                                />
-                                <NewsItem
-                                    image={HeroSideberImage}
-                                    title="খালেদা জিয়া ৩ আসনে, তারেক রহমান বগুড়া-৬ এ বিএনপির প্রার্থী"
-                                    imageWidth={88}
-                                    imageHeight={66}
-                                    imageWrap="max-w-[88px]"
-                                    titleFontWeight={500}
-                                    href="/singledetails"
-                                />
-                                <NewsItem
-                                    image={HeroSideberImage}
-                                    title="খালেদা জিয়া ৩ আসনে, তারেক রহমান বগুড়া-৬ এ বিএনপির প্রার্থী"
-                                    imageWidth={88}
-                                    imageHeight={66}
-                                    imageWrap="max-w-[88px]"
-                                    titleFontWeight={500}
-                                    href="/singledetails"
-                                />
-                                <NewsItem
-                                    image={HeroSideberImage}
-                                    title="খালেদা জিয়া ৩ আসনে, তারেক রহমান বগুড়া-৬ এ বিএনপির প্রার্থী"
-                                    imageWidth={88}
-                                    imageHeight={66}
-                                    imageWrap="max-w-[88px]"
-                                    titleFontWeight={500}
-                                    href="/singledetails"
-                                />
-                                <NewsItem
-                                    image={HeroSideberImage}
-                                    title="খালেদা জিয়া ৩ আসনে, তারেক রহমান বগুড়া-৬ এ বিএনপির প্রার্থী"
-                                    imageWidth={88}
-                                    imageHeight={66}
-                                    imageWrap="max-w-[88px]"
-                                    titleFontWeight={500}
+                                    titleFontWeight={"500"}
                                     href="/singledetails"
                                 />
                             </div>
