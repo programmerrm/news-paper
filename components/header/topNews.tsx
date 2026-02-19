@@ -10,7 +10,7 @@ export default async function TopNews() {
     <div className="py-5">
       <div className="container">
         <div className="grid grid-cols-4 items-center justify-between gap-5">
-          {news.map((item) => (
+          {news.map((item: any) => (
             <div key={item.post_id} className="flex gap-3 w-full lg:w-auto">
               <Link
                 href={item.post_slug}
