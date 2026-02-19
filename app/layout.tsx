@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Noto_Serif_Bengali, Inter } from "next/font/google";
+export const dynamic = 'force-dynamic';
 import "./globals.css";
 
 const notoSerifBengali = Noto_Serif_Bengali({
