@@ -1,20 +1,20 @@
 import { StaticImageData } from "next/image";
 import Logo from "../../assets/logo/logo.svg";
-import TopImage from "../../assets/image/top-image.jpg";
 import hamburgerIcon from "../../assets/logo/hambuger-icon.svg";
 import closeIcon from "../../assets/icon/close.png";
 import globeIcon from "../../assets/logo/globe.svg";
 import searchIcon from "../../assets/logo/search.svg";
 import userIcon from "../../assets/logo/user.svg";
 import TopMenu from "../mega-menu/TopMenu";
-import TopNews, { TopNewsItem } from "./topNews";
 import TopHeader from "./topHeader";
+import TopNews from "./topNews";
+import { SERVER_API_URL } from "@/utils/api";
 
 type IconLink = {
-  icon: StaticImageData;
-  label: string;
-  href: string;
-  showOn?: "all" | "md";
+    icon: StaticImageData;
+    label: string;
+    href: string;
+    showOn?: "all" | "md";
 };
 
 const socialLinks = [
@@ -68,14 +68,7 @@ const socialLinks = [
     },
 ];
 
-const topNewsData: TopNewsItem[] = [
-  { image: TopImage, title: "খালেদা জিয়া ৩ আসনে, তারেক রহমান বগুড়া-৬ এ বিএনপির প্রার্থী", href: "/singledetails" },
-  { image: TopImage, title: "খালেদা জিয়া ৩ আসনে, তারেক রহমান বগুড়া-৬ এ বিএনপির প্রার্থী", href: "/singledetails" },
-  { image: TopImage, title: "খালেদা জিয়া ৩ আসনে, তারেক রহমান বগুড়া-৬ এ বিএনপির প্রার্থী", href: "/singledetails" },
-  { image: TopImage, title: "খালেদা জিয়া ৩ আসনে, তারেক রহমান বগুড়া-৬ এ বিএনপির প্রার্থী", href: "/singledetails" },
-];
-
-  const navItems = [
+const navItems = [
     { label: "হোম", href: "/" },
     { label: "সর্বশেষ", href: "/latest" },
     { label: "জাতীয়", href: "/category" },
@@ -87,40 +80,40 @@ const topNewsData: TopNewsItem[] = [
     { label: "খেলা", href: "/category" },
     { label: "বিনোদন", href: "/category" },
     { label: "মিডিয়া", href: "/category" },
-  ];
-
-const iconLinks: IconLink[] = [
-  { icon: globeIcon, label: "Bangla", href: "#", showOn: "all" }, 
-  { icon: searchIcon, label: "সার্চ করুন", href: "/search", showOn: "md" }, 
-  { icon: userIcon, label: "Profile", href: "/auth/login", showOn: "md" },  
 ];
 
+const iconLinks: IconLink[] = [
+    { icon: globeIcon, label: "Bangla", href: "#", showOn: "all" },
+    { icon: searchIcon, label: "সার্চ করুন", href: "/search", showOn: "md" },
+    { icon: userIcon, label: "Profile", href: "/auth/login", showOn: "md" },
+];
 
 export default function Header() {
+    console.log('SERVER URL -- ', SERVER_API_URL);
     return (
         <header className="relative">
-            
+
             <div className=" border-b border-[#D4D4D4] py-5">
-              <div className="container">
-                  <TopHeader
-                  dateText="রবিবার, ২৮ অক্টোবর ২০২৫, ৩০ আশ্বিন ১৪৩২"
-                  updateText="আপডেট ২৭ মিনিট আগে"
-                  logo={Logo}
-                  socialLinks={socialLinks}
-              />
-              </div>
+                <div className="container">
+                    <TopHeader
+                        dateText="রবিবার, ২৮ অক্টোবর ২০২৫, ৩০ আশ্বিন ১৪৩২"
+                        updateText="আপডেট ২৭ মিনিট আগে"
+                        logo={Logo}
+                        socialLinks={socialLinks}
+                    />
+                </div>
             </div>
 
-            <TopNews  news={topNewsData}/>
-            
-            <TopMenu 
-                navItems={navItems} 
-                iconLinks={iconLinks} 
-                logo={Logo}       
+            <TopNews />
+
+            <TopMenu
+                navItems={navItems}
+                iconLinks={iconLinks}
+                logo={Logo}
                 closeIcon={closeIcon}
                 hamburgerIcon={hamburgerIcon}
-                socialLinks={socialLinks} 
-                />
+                socialLinks={socialLinks}
+            />
 
         </header>
     );
