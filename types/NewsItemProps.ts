@@ -1,4 +1,5 @@
 import { StaticImageData } from "next/image";
+
 export interface NewsItemProps {
   image?: StaticImageData;
   title?: string;

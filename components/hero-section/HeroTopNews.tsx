@@ -1,3 +1,4 @@
+import { formatBanglaTimeAgo } from "@/utils/formatBanglaTimeAgo";
 import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 
@@ -35,7 +36,7 @@ export default function HeroTopNews({
         </Link>
 
         <span className="text-xs sm:text-[13px] text-black/50 mt-4 block">
-          {time}
+          {formatBanglaTimeAgo(time)}
         </span>
       </div>
 

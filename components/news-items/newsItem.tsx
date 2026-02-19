@@ -1,54 +1,36 @@
-import Image, { StaticImageData } from "next/image";
+import { NewsItemsProps } from "@/types/NewsItemsProps";
+import { formatBanglaTimeAgo } from "@/utils/formatBanglaTimeAgo";
+import Image from "next/image";
 import Link from "next/link";
-import React from "react";
-
-export interface NewsItemProps {
-  image?: string | StaticImageData;
-  title?: string;
-  content?: string;
-  time?: string;
-  href?: string;
-
-  imageWidth?: number;
-  imageHeight?: number;
-  headingTag?: React.ElementType;
-  wrapperClass?: string;
-  imageWrap?: string;
-
-  titleMb?: number;
-  timeMt?: number;
-  titleFontWeight?: number;
-  isLive?: boolean;
-}
 
 export default function NewsItem({
   image,
   title,
   content,
   time,
-  href = "#",
+  href = "/",
   imageWidth = 104,
   imageHeight = 78,
-  titleMb = 4,
-  timeMt = 4,
-  titleFontWeight = 600,
+  titleMb = "4",
+  timeMt = "4",
+  titleFontWeight = "600",
   isLive = false,
   imageWrap = "w-full max-w-[104px]",
   wrapperClass = "flex gap-3 py-5 first:pt-0 last:pb-0",
   headingTag: HeadingTag = "h5",
-}: NewsItemProps) {
+}: NewsItemsProps) {
   return (
     <div className={wrapperClass}>
       {/* Image */}
       {image && (
         <Link href={href} className={`block overflow-hidden ${imageWrap}`}>
-            <Image
-              src={image}
-              alt={title || "News image"}
-              width={imageWidth}
-              height={imageHeight}
-              className="object-cover transition-transform duration-500 hover:scale-105"
-            />
+          <Image
+            src={image}
+            alt={title || "News image"}
+            width={imageWidth}
+            height={imageHeight}
+            className="object-cover transition-transform duration-500 hover:scale-105"
+          />
         </Link>
       )}
       <div className="flex-1">
@@ -88,11 +70,10 @@ export default function NewsItem({
             className="text-xs sm:text-[13px] text-black/50 block"
             style={{ marginTop: `${timeMt}px` }}
           >
-            {time}
+            {formatBanglaTimeAgo(time)}
           </span>
         )}
       </div>
-
 
     </div>
   );
