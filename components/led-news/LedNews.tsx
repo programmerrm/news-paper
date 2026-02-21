@@ -1,3 +1,4 @@
+import { formatBanglaTimeAgo } from "@/utils/formatBanglaTimeAgo";
 import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 import { ReactNode } from "react";
@@ -11,8 +12,8 @@ type LedNewsProps = {
   href?: string;
   imageWidth?: number;
   imageHeight?: number;
-  contentMt?: number;
-  timeMt?: number;
+  contentMt?: string;
+  timeMt?: string;
   gap?: string;
 };
 
@@ -25,8 +26,8 @@ export default function LedNews({
   href = "#",
   imageWidth = 503,
   imageHeight = 377,
-  contentMt = 12,
-  timeMt = 16,
+  contentMt = "12",
+  timeMt = "16",
   gap = "gap-6",
 }: LedNewsProps) {
   const HeadingTag = headingLevel;
@@ -67,7 +68,7 @@ export default function LedNews({
             className="text-xs leading-3.75 text-gray inline-block"
             style={{ marginTop: `${timeMt}px` }}
           >
-            {time}
+            {formatBanglaTimeAgo(time)}
           </span>
         )}
       </div>

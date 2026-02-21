@@ -1,3 +1,4 @@
+import { formatBanglaTimeAgo } from "@/utils/formatBanglaTimeAgo";
 import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 
@@ -35,7 +36,7 @@ export default function NationalLedNews({
         </Link>
 
         <span className="text-white text-xs leading-3.75 mt-2.5 inline-block">
-          {time}
+          {formatBanglaTimeAgo(time)}
         </span>
       </div>
     </div>

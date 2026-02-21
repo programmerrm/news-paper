@@ -1,4 +1,3 @@
-
 import VideoNewsItem from "./VideoNewsItem";
 import videoItemImage from "../../assets/image/video-item-image.png";
 import Link from "next/link";
@@ -31,11 +30,11 @@ const videoList = [
   },
 ];
 
-
 export default function VideoSection() {
   return (
     <section className="bg-[#171717] py-8 lg:py-16">
       <div className="container">
+        
         <div className="pb-3">
           <h3 className="text-white! mb-2 sm:mb-3">ভিডিও</h3>
           <div className="flex gap-3">
@@ -54,6 +53,7 @@ export default function VideoSection() {
             </Link>
           </div>
         </div>
+
         <div className="mt-4 sm:mt-6 flex flex-col md:flex-row gap-6 ">
           <div className="w-full md:max-w-[55.938%] bg-body">
             <div className="overflow-hidden max-w-179">
@@ -90,9 +90,11 @@ export default function VideoSection() {
             ))}
           </div>
         </div>
+
         <div className="w-full flex items-center justify-center mt-5 lg:mt-10">
             <button type="submit" className="w-full max-w-60 bg-red p-2 lg:p-3 text-sm leading-6 text-white font-medium cursor-pointer ">সব দেখুন</button>
         </div>
+
       </div>
     </section>
   );

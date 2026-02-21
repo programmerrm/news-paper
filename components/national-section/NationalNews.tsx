@@ -11,7 +11,7 @@ export default function NationalNews({
   imageWidth = 503,
   imageHeight = 377,
   contentMt = 12,
-  timeMt = 16,
+  timeMt = "16",
   imageWrap
 }: LedNewsProps) {
   return (

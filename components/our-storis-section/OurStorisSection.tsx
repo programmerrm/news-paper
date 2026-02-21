@@ -1,46 +1,11 @@
-import SectionTitle from "../section-title/SectionTitle";
 import StorisCard from "./StorisCard";
-import storisImage from "../../assets/image/storis-image.png";
+import SectionTitle from "../section-title/SectionTitle";
+import { getFetchData } from "@/utils/getFetchData";
 
-const storisData = [
-  {
-    image: storisImage,
-    title: "১৯ বছরের ছোট, ডায়মন্ড ব্যবসায়ীর সঙ্গে প্রেমে..",
-    href: "/webstoris",
-  },
-  {
-    image: storisImage,
-    title: "নতুন ছবিতে আলোচনায় জনপ্রিয় অভিনেত্রী",
-    href: "/webstoris",
-  },
-  {
-    image: storisImage,
-    title: "নতুন ছবিতে আলোচনায় জনপ্রিয় অভিনেত্রী",
-    href: "/webstoris",
-  },
-  {
-    image: storisImage,
-    title: "নতুন ছবিতে আলোচনায় জনপ্রিয় অভিনেত্রী",
-    href: "/webstoris",
-  },
-  {
-    image: storisImage,
-    title: "নতুন ছবিতে আলোচনায় জনপ্রিয় অভিনেত্রী",
-    href: "/webstoris",
-  },
-  {
-    image: storisImage,
-    title: "নতুন ছবিতে আলোচনায় জনপ্রিয় অভিনেত্রী",
-    href: "/webstoris",
-  },
-  {
-    image: storisImage,
-    title: "নতুন ছবিতে আলোচনায় জনপ্রিয় অভিনেত্রী",
-    href: "/webstoris",
-  },
-];
-
-export default function OurStorisSection() {
+export default async function OurStorisSection() {
+  const webStoriesData = await getFetchData('/web/stories');
+  const webStories = webStoriesData?.webStories;
+  if (!webStories) return null;
   return (
     <section className="bg-linear-to-b from-[#F0F5F4] to-[#FFFFFF] py-8 lg:py-16">
         <div className="container">
@@ -49,12 +14,12 @@ export default function OurStorisSection() {
               href="/webstoris"
           />
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7 gap-4 mt-7">
-            {storisData.map((item, index) => (
+            {webStories.map((item: any) => (
                 <StorisCard
-                  key={index}
-                  image={item.image}
-                  title={item.title}
-                  href={item.href}
+                  key={item.post_id}
+                  image={item.post_thumbnail}
+                  title={item.post_title}
+                  href={item.post_slug}
                 />
               ))}
           </div>

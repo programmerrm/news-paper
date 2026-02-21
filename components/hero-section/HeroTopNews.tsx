@@ -31,7 +31,7 @@ export default function HeroTopNews({
           </Link>
         </h2>
 
-        <Link href="#" className="text-xs sm:text-sm leading-5.5 mt-3">
+        <Link href="#" className="text-xs sm:text-sm leading-5.5 mt-3 line-clamp-3">
           {description}
         </Link>
 

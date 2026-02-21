@@ -8,6 +8,6 @@ export interface LedNewsProps {
   imageWidth?: number;
   imageHeight?: number;
   contentMt?: number;
-  timeMt?: number;
+  timeMt?: string;
   imageWrap?: "max-w-[80px]" | "max-w-[104px]";
 };

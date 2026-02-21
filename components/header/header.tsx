@@ -8,7 +8,6 @@ import userIcon from "../../assets/logo/user.svg";
 import TopMenu from "../mega-menu/TopMenu";
 import TopHeader from "./topHeader";
 import TopNews from "./topNews";
-import { SERVER_API_URL } from "@/utils/api";
 
 type IconLink = {
     icon: StaticImageData;
@@ -89,7 +88,6 @@ const iconLinks: IconLink[] = [
 ];
 
 export default function Header() {
-    console.log('SERVER URL -- ', SERVER_API_URL);
     return (
         <header className="relative">
 
@@ -98,8 +96,6 @@ export default function Header() {
                     <TopHeader
                         dateText="রবিবার, ২৮ অক্টোবর ২০২৫, ৩০ আশ্বিন ১৪৩২"
                         updateText="আপডেট ২৭ মিনিট আগে"
-                        logo={Logo}
-                        socialLinks={socialLinks}
                     />
                 </div>
             </div>

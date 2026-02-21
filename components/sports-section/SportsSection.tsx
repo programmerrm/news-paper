@@ -4,8 +4,13 @@ import LedNews from "../led-news/LedNews";
 import sportsImage from "../../assets/image/sports-image.jpg"
 import Image from "next/image";
 import sportAddImage from "../../assets/image/sports-add.png"
+import { getFetchData } from "@/utils/getFetchData";
 
-export default function SportsSection(){
+export default async function SportsSection(){
+    const sectionSevenData = await getFetchData('/section/seven');
+    const sectionSevenLeadNews = sectionSevenData?.sectionSevenLeadNews;
+    const sectionSevenSubleadNews = sectionSevenData?.sectionSevenSubleadNews;
+    const sectionSevenRightSide = sectionSevenData?.sectionSevenRightSide;
     return(
         <section className="py-8 lg:py-16 bg-linear-to-b from-[#F0F5F4] to-[#FFFFFF]">
             <div className="container">
@@ -69,8 +74,8 @@ export default function SportsSection(){
                             content="আসন্ন ত্রয়োদশ জাতীয় সংসদ নির্বাচনে চূড়ান্ত প্রার্থী ঘোষণা প্রসঙ্গে বাংলাদেশ জামায়াতে ইসলামীর আমির ডা. শফিকুর রহমান জানিয়েছেন, “সময়মতো আমরা চূড়ান্ত তালিকা জানিয়ে দেব।” মঙ্গলবার (৪ নভেম্বর) বিদেশ সফর শেষে দেশে ফিরে সকাল ৬টার দিকে হযরত শাহজালাল আন্তর্জাতিক বিমানবন্দরে আয়োজিত এক সংক্ষিপ্ত প্রেস ব্রিফিংয়ে তিনি এ কথা বলেন।"
                             time="১ মিনিট আগে"
                             href="/singledetails"
-                            contentMt={12}
-                            timeMt={16}
+                            contentMt={"12"}
+                            timeMt={"16"}
                         />
                     </div>
                     <div className="w-full lg:max-w-[25.390%] lg:pl-5 order-3 lg:order-3 mt-5 lg:mt-0">
