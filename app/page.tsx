@@ -15,11 +15,13 @@ import LifeStyleSection from "@/components/information-section/LifeStyleSection"
 import Header from "@/components/header/header";
 import Footer from "@/components/footer/footer";
 import Add from "@/components/add/Add";
+import AdPopup from "@/components/poopup/poopup";
 
 export default function Home() {
     return (
         <>
             <Header />
+            <AdPopup />
             <Add />
             <HeroSection />
             <OurStoris />

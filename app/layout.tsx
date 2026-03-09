@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Noto_Serif_Bengali, Inter } from "next/font/google";
 export const dynamic = 'force-dynamic';
 import "./globals.css";
+import AdPopup from "@/components/poopup/poopup";
 
 const notoSerifBengali = Noto_Serif_Bengali({
     variable: "--font-noto-serif-bengali",

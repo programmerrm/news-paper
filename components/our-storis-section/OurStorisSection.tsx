@@ -1,6 +1,10 @@
 import StorisCard from "./StorisCard";
+<<<<<<< HEAD
 import SectionTitle from "../section-title/SectionTitle";
 import { getFetchData } from "@/utils/getFetchData";
+=======
+import storisImage from "../../assets/image/image-1.jpg";
+>>>>>>> 3e0014c (update user profile)
 
 export default async function OurStorisSection() {
   const webStoriesData = await getFetchData('/web/stories');
